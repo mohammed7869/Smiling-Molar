@@ -1,0 +1,338 @@
+"use client";
+
+import React, { useState } from "react";
+import Image from "next/image";
+import { CheckCircle } from "lucide-react";
+import BookCallBtn from "@/app/services/book-call-btn";
+import { Bounce, Fade, Zoom } from "react-awesome-reveal";
+import BookCallBtnForServiceAreas from "@/app/services/book-call-btn-for-serviceAreas";
+import { useWorkingHours } from "@/lib/hooks/useWorkingHours";
+
+export default function PlainfieldServiceAreaClient() {
+  const { workingHours, loading } = useWorkingHours();
+  const locations = [
+    {
+      id: "plainfield",
+      name: "Plainfield, NJ",
+      address: "1024 Park Ave Suite 6C, Plainfield, NJ 07060",
+      phone: "(908) 264-2357",
+      hours: [
+        "Monday: 9:00 AM - 6:00 PM",
+        "Tuesday: 9:00 AM - 6:00 PM",
+        "Wednesday: 9:00 AM - 6:00 PM",
+        "Thursday: 9:00 AM - 6:00 PM",
+        "Friday: 9:00 AM - 6:00 PM",
+        "Saturday: 9:00 AM - 3:30 PM",
+        "Sunday: Closed",
+      ],
+      mapUrl:
+        // "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1234567890123!2d-74.27123456789012!3d40.73123456789012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a8b123456789%3A0x1234567890abcdef!2sMaplewood%2C%20NJ!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.7997524427874!2d-74.4075!3d40.6176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3acfa57f6c787%3A0x1b55d762a76534d7!2s1024%20Park%20Ave%20Suite%206C%2C%20Plainfield%2C%20NJ%2007060%2C%20USA!5e0!3m2!1sen!2sin!4v1755590103689!5m2!1sen!2sin",
+    },
+  ];
+
+  const [selected, setSelected] = useState(locations[0]);
+
+  return (
+    <div>
+      {/* Header Section */}
+      <div className="details-page-header-section ">
+        <h1>Family & Cosmetic Dentist in Maplewood, NJ 07040 </h1>
+      </div>
+
+      {/* Main Content Section */}
+      <div className="max-w-7xl mx-auto px-4 py-12 flex flex-col gap-16">
+        {/* Top Section: Image + Intro */}
+        <div className="details-page-desc-section">
+          {/* Image Section */}
+          <div className="image_section">
+            <div className="image_section-cover">
+              {/* <Zoom cascade damping={0.3} duration={800}> */}
+              <div className="main-image">
+                <img
+                  src="/Images/maplewood.webp"
+                  alt="Family & Cosmetic Dentist in Plainfield, NJ 07060"
+                  className="rounded-xl"
+                />
+              </div>
+              {/* </Zoom> */}
+            </div>
+          </div>
+
+          {/* Text Section with Fade-in after delay */}
+          <div className="desc-text-section">
+            {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
+              Complete Dental Care in Plainfield | Smiling Molar Dental |
+              Trusted Dentist Near You
+            </h2>
+            <p>
+              At Smiling Molar Dental, we're proud to provide high-quality,
+              family-friendly dental care to residents of Plainfield, NJ 07060,
+              and surrounding communities. Whether you're new to the area or
+              searching for a dependable "dentist near me," we're right in your
+              neighborhood with modern treatments for every smile.
+            </p>
+            <p>
+              Our compassionate team treats patients of all ages, offering
+              preventive, cosmetic, and restorative dentistry in a comfortable,
+              welcoming setting.
+            </p>
+            {/* </Fade> */}
+          </div>
+        </div>
+
+        {/* Comprehensive Dental Care Section */}
+        <div className="flex flex-col gap-4 p-6 md:p-0">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
+            Quality Dental Care for Every Stage of Life
+          </h2>
+          {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
+          <p>
+            Our centrally located Plainfield office is equipped with advanced
+            dental technology and amenities designed for your comfort. We offer
+            a complete range of dental services under one roof, including:
+          </p>
+
+          <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
+            <li>
+              <h3 className="text-lg font-semibold">
+                <a
+                  href="/services/emergency-dentistry-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Emergency Dentistry
+                </a>
+              </h3>
+              <p>
+                {" "}
+                Same-day care for tooth pain, injuries, or urgent dental needs.
+              </p>
+            </li>
+
+            <li>
+              <h3 className="text-lg font-semibold">Preventive Dentistry</h3>
+              <p>
+                {" "}
+                Routine cleanings, exams, and guidance for long-term oral
+                health.
+              </p>
+            </li>
+
+            <li>
+              <h3 className="text-lg font-semibold">
+                <a
+                  href="/services/cosmetic-dentistry-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Cosmetic Dentistry
+                </a>
+              </h3>
+              <p>
+                {" "}
+                Professional{" "}
+                <a
+                  href="/services/teeth-whitening-and-veneers-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  teeth whitening
+                </a>
+                ,{" "}
+                <a
+                  href="/services/teeth-whitening-and-veneers-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  veneers
+                </a>
+                , and smile enhancements.
+              </p>
+            </li>
+
+            <li>
+              <h3 className="text-lg font-semibold">
+                <a
+                  href="/services/crowns-and-bridges-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Restorative Dentistry
+                </a>
+              </h3>
+              <p>
+                {" "}
+                <a
+                  href="/services/crowns-and-bridges-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Crowns
+                </a>
+                ,{" "}
+                <a
+                  href="/services/crowns-and-bridges-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  bridges
+                </a>
+                , and{" "}
+                <a
+                  href="/services/dental-implants-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  dental implants
+                </a>{" "}
+                for function and aesthetics.
+              </p>
+            </li>
+
+            <li>
+              <h3 className="text-lg font-semibold">
+                <a
+                  href="/services/kids-and-children-dentistry-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Pediatric Dentistry
+                </a>
+              </h3>
+              <p> Gentle, fun, and stress-free visits for kids and teens.</p>
+            </li>
+          </ul>
+          {/* </Fade> */}
+        </div>
+
+        {/* Why Choose Us Section */}
+        <div className="wcu-section">
+          <div className="wcu-text-section">
+            {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
+            <div className="wcu-title">
+              <h2>Why Maplewood Families Choose Tulip Dental</h2>
+            </div>
+            <div className="wcu-desc">
+              Families across Maplewood (07040) and nearby South Orange (07079),
+              Vauxhall (07088), Irvington (07111), and Newark (07106, 07112)
+              trust us because:
+            </div>
+            <div className="wcu-points-section">
+              <ul className="wcu-points space-y-3">
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
+                  <span>We provide personalized, patient-first care</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
+                  <span>
+                    Our technology ensures accurate, comfortable treatments
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
+                  <span>
+                    We offer flexible scheduling, including{" "}
+                    <a
+                      href="/services/same-day-dentistry-maplewood-nj"
+                      className="text-blue-600 hover:text-blue-800 hover:underline"
+                    >
+                      same-day visits
+                    </a>
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
+                  <span>
+                    We’re insurance-friendly and provide payment plan options
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
+                  <span>Our location is convenient and easy to access</span>
+                </li>
+              </ul>
+            </div>
+            {/* </Fade> */}
+          </div>
+          <div className="wcu-img-section">
+            {/* <Zoom cascade damping={0.3} duration={800}> */}
+            <img
+              src="/Images/maplewood-1.webp"
+              alt="Tulip Dental in Maplewood"
+              className="rounded-xl"
+            />
+            {/* </Zoom> */}
+          </div>
+        </div>
+
+        {/* Schedule Appointment Section */}
+        <div className="features-section">
+          {/* <Fade direction="up" duration={1000}> */}
+          <h2 className="features-heading">
+            Schedule Your Appointment in Maplewood Today
+          </h2>
+          <p className="features-description">
+            Whether you’re in the heart of Maplewood or nearby neighborhoods,
+            Tulip Dental is just minutes away. If you’ve been looking for a
+            “dentist near me” who blends compassion with expertise, your search
+            ends here.
+          </p>
+
+          <BookCallBtnForServiceAreas />
+          {/* </Fade> */}
+        </div>
+
+        {/* Map Section */}
+        <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+          {/* Info Block */}
+          <div className="flex-1 h-[400px] text-center relative bg-[#0087ce] rounded-lg p-8 text-white shadow-lg overflow-hidden space-y-4">
+            <Bounce>
+              <h2 className="text-2xl font-bold">{selected.name}</h2>
+            </Bounce>
+            <p className="whitespace-pre-line text-center text-white">
+              {selected.address}
+            </p>
+
+            <h3 className="text-md font-medium mt-4">Hours of Operation:</h3>
+            {/* <Fade delay={400}> */}
+            {loading ? (
+              <ul className="text-sm text-gray-700">
+                {[...Array(7)].map((_, i) => (
+                  <li key={i} className="text-white">
+                    <div className="h-4 bg-white/20 rounded animate-pulse mb-1"></div>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <ul className="text-sm text-gray-700">
+                {workingHours.map((hour, i) => {
+                  const isToday = new Date().getDay() === hour.dayOfWeek;
+                  return (
+                    <li
+                      key={i}
+                      className={`text-white ${
+                        isToday
+                          ? "bg-white/10 rounded-md border-2 border-secondary"
+                          : ""
+                      }`}
+                    >
+                      {hour.day}: {hour.time}
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
+            {/* </Fade> */}
+          </div>
+
+          {/* Single Map */}
+          <div className="flex-1 w-full h-[400px] rounded-xl overflow-hidden shadow">
+            <iframe
+              src={selected.mapUrl}
+              width="100%"
+              height="100%"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="border-0"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
