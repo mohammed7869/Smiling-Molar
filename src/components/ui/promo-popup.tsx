@@ -57,7 +57,7 @@ export default function FloatingPromo() {
             {/* Icon */}
             <div className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 flex items-center justify-center">
               <img
-                src="/Images/tulip.webp"
+                src="/Images/Smiling Molar.png"
                 alt="Whitening Icon"
                 className="w-auto h-auto"
               />

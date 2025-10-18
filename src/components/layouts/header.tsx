@@ -62,8 +62,8 @@ export default function Header() {
           <Image
             src="/Images/Smiling Molar Header.png"
             alt="Smiling Molar Dental Logo"
-            width={isScrolled ? 180 : 220}
-            height={isScrolled ? 90 : 110}
+            width={isScrolled ? 130 : 150}
+            height={isScrolled ? 80 : 100}
             className="hidden lg:block transition-all duration-300"
             priority
             sizes="(max-width: 1024px) 0px, 220px"

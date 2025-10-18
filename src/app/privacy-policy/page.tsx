@@ -35,13 +35,13 @@ const privacySections = [
 ];
 
 const sectionIcons = [
-  "/Images/tulip.webp",
-  "/Images/tulip.webp",
-  "/Images/tulip.webp",
-  "/Images/tulip.webp",
-  "/Images/tulip.webp",
-  "/Images/tulip.webp",
-  "/Images/tulip.webp",
+  "/Images/Smiling Molar.png",
+  "/Images/Smiling Molar.png",
+  "/Images/Smiling Molar.png",
+  "/Images/Smiling Molar.png",
+  "/Images/Smiling Molar.png",
+  "/Images/Smiling Molar.png",
+  "/Images/Smiling Molar.png",
 ];
 
 export default function PrivacyPolicy() {

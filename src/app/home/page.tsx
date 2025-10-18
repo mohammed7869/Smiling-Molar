@@ -241,7 +241,7 @@ export default function HomePage() {
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="text-secondary md:w-16 md:h-16"
+                  className="text-primary md:w-16 md:h-16"
                 >
                   <path
                     d="M19 3H18V1H16V3H8V1H6V3H5C3.89 3 3.01 3.9 3.01 5L3 19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V8H19V19Z"
@@ -256,7 +256,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl md:text-3xl font-bold text-secondary mb-1 md:mb-2">
+                <h3 className="text-2xl md:text-3xl font-bold text-primary mb-1 md:mb-2">
                   Accessible
                 </h3>
                 <p className="text-sm md:text-base font-bold">DENTAL CARE</p>
@@ -272,7 +272,7 @@ export default function HomePage() {
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="text-secondary md:w-16 md:h-16"
+                  className="text-primary md:w-16 md:h-16"
                 >
                   <path
                     d="M19 3H18V1H16V3H8V1H6V3H5C3.89 3 3.01 3.9 3.01 5L3 19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V8H19V19Z"
@@ -287,7 +287,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl md:text-3xl font-bold text-secondary mb-1 md:mb-2">
+                <h3 className="text-2xl md:text-3xl font-bold text-primary mb-1 md:mb-2">
                   Affordable
                 </h3>
                 <p className="text-sm md:text-base font-bold">PAYMENT PLANS</p>
@@ -303,7 +303,7 @@ export default function HomePage() {
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="text-secondary md:w-16 md:h-16"
+                  className="text-primary md:w-16 md:h-16"
                 >
                   <path
                     d="M19 3H18V1H16V3H8V1H6V3H5C3.89 3 3.01 3.9 3.01 5L3 19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V8H19V19Z"
@@ -318,7 +318,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl md:text-3xl font-bold text-secondary mb-1 md:mb-2">
+                <h3 className="text-2xl md:text-3xl font-bold text-primary mb-1 md:mb-2">
                   Convenient
                 </h3>
                 <p className="text-sm md:text-base font-bold">
@@ -548,25 +548,25 @@ function HomepageSections() {
     {
       label: "About Us",
       icon: <InfoIcon />,
-      bg: "bg-[#0087CE]",
+      bg: "bg-primary",
       href: "/about-tulip-dental-maplewood-nj",
     },
     {
       label: "Our Providers",
       icon: <User />,
-      bg: "bg-[#0087CE]/70",
+      bg: "bg-primary/70",
       href: "/providers",
     },
     {
       label: "Our Services",
       icon: <Stethoscope />,
-      bg: "bg-[#ff5722]",
+      bg: "bg-secondary",
       href: "/services",
     },
     {
       label: "Contact Us",
       icon: <MessageCircle />,
-      bg: "bg-[#ff5722]/70",
+      bg: "bg-secondary/70",
       href: "/contact-tulip-dental-maplewood-nj",
     },
   ];
