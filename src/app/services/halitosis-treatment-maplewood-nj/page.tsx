@@ -220,7 +220,7 @@ export default function Page() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li

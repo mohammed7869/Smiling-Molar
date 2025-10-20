@@ -192,7 +192,7 @@
 
   .details-page-header-section {
     width: 100%;
-    background-color: #0087ce;
+    background-color: var(--primary);
     color: #fff;
     padding-left: 2rem;
     padding-right: 2rem;

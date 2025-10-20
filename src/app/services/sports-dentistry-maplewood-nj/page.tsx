@@ -73,8 +73,8 @@ export default function SportsDentistryPage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Sports Dentistry.webp"
-                    alt="Sports Dentistry at Tulip Dental Maplewood"
+                    src="/Images/sports-dentistry.avif"
+                    alt="Sports Dentistry at Smiling Molar Dental in Plainfield, NJ"
                   />
                 </div>
                 {/* <img
@@ -192,7 +192,7 @@ export default function SportsDentistryPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li

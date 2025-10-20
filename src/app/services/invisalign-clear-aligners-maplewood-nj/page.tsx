@@ -73,8 +73,8 @@ export default function InvisilinePage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Invisalign.webp"
-                    alt="Invisalign treatment at Tulip Dental Maplewood"
+                    src="/Images/invisalign.avif"
+                    alt="Invisalign treatment at Smiling Molar Dental in Plainfield, NJ"
                   />
                 </div>
                 {/* <img
@@ -188,7 +188,7 @@ export default function InvisilinePage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li

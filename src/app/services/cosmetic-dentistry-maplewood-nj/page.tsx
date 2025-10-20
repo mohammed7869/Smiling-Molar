@@ -10,11 +10,11 @@ import { Fade, Zoom } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
 import { generateServiceMetadata } from "@/lib/metadata";
-import Link from "next/link";
+// import Link from "next/link";
 
 export const metadata: Metadata = generateServiceMetadata(
   "cosmetic-dentistry-maplewood-nj",
-  "/Images/Cosmetic Dentistry.webp"
+  "/Images/cosmetic-dentistry.avif"
 );
 
 export default function CosmeticDentistryPage() {
@@ -79,8 +79,8 @@ export default function CosmeticDentistryPage() {
               <div className="image_section-cover">
                 <div className="main-image">
                   <img
-                    src="/Images/Cosmetic Dentistry.webp"
-                    alt="Cosmetic Dentistry at Tulip Dental Maplewood"
+                    src="/Images/cosmetic-dentistry.avif"
+                    alt="Cosmetic Dentistry at Smiling Molar Dental in Plainfield"
                   />
                 </div>
                 {/* <img
@@ -100,7 +100,7 @@ export default function CosmeticDentistryPage() {
               <p>
                 A confident smile can transform the way you look and feel. At
                 Smiling Molar Dental, we offer comprehensive cosmetic dentistry
-                to help you achieve the radiant, natural-looking smile you've
+                to help you achieve the radiant, natural-looking smile you’ve
                 always wanted.
               </p>
               <p>
@@ -112,8 +112,8 @@ export default function CosmeticDentistryPage() {
               <p>
                 We proudly serve patients from Plainfield (07060), North
                 Plainfield (07062, 07063), South Plainfield (07080), Scotch
-                Plains (07076), and nearby communities. If you're searching for
-                a "cosmetic dentist near me" in the Plainfield area, we're here
+                Plains (07076), and nearby communities. If you’re searching for
+                a “cosmetic dentist near me” in the Plainfield area, we’re here
                 to make your dream smile a reality.
               </p>
             </div>
@@ -164,23 +164,19 @@ export default function CosmeticDentistryPage() {
                 <img
                   className="bdr-doctor-img"
                   src="/Images/top-reasons.webp"
-                  alt="Expert Dentist at Tulip Dental Maplewood"
+                  alt="Expert Cosmetic Dentist at Smiling Molar Dental in Plainfield"
                 />
               </Zoom>
             </div>
           </div>
           <div className="features-section">
             <h2 className="features-heading">
-              Cosmetic Dentistry Services That Make You Smile
+              Cosmetic Dentistry Services at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              Cosmetic dentistry isn’t just about looks-it’s about how you feel.
-              We take a conservative yet artistic approach to every procedure,
-              ensuring natural results that boost your self-esteem and oral
-              health.
-              <br />
-              <br />
-              Here’s what we offer at Tulip Dental:
+              Our goal is to provide cosmetic treatments that are safe,
+              effective, and long-lasting, giving you a smile that boosts both
+              your confidence and your oral health.
             </p>
 
             <div className="features-grid">
@@ -194,7 +190,7 @@ export default function CosmeticDentistryPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li
@@ -216,20 +212,14 @@ export default function CosmeticDentistryPage() {
               <Accordion type="single" className="w-full space-y-5">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">What is cosmetic dentistry?</h3>
+                    <h3 className="text-lg">
+                      What dental concerns can cosmetic dentistry fix?
+                    </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Cosmetic dentistry focuses on improving the appearance of
-                      your teeth, gums, and overall smile. It includes
-                      treatments like{" "}
-                      <Link
-                        href="/services/teeth-whitening-and-veneers-maplewood-nj"
-                        className="text-primary mr-2 hover:underline font-medium"
-                      >
-                        whitening
-                      </Link>
-                      , veneers, bonding, and more.
+                      Cosmetic treatments can address discoloration, chips,
+                      gaps, misshapen teeth, uneven alignment, and more.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -237,32 +227,18 @@ export default function CosmeticDentistryPage() {
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How do I know which cosmetic treatment is right for me?
+                      Is cosmetic dentistry only for adults?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      We’ll begin with a personalized consultation to assess
-                      your goals and discuss which treatments best fit your
-                      needs, lifestyle, and budget.
+                      No. Many teens and adults benefit from cosmetic procedures
+                      like whitening, bonding, or Invisalign®.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
-                  <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Is cosmetic dentistry painful?</h3>
-                  </AccordionTrigger>
-                  <AccordionContent className="faq-ans">
-                    <p>
-                      Not at all. Most cosmetic procedures are minimally
-                      invasive and require little to no recovery time. We ensure
-                      your comfort every step of the way.
-                    </p>
-                  </AccordionContent>
-                </AccordionItem>
-
-                <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
                       How long do cosmetic results last?
@@ -270,10 +246,24 @@ export default function CosmeticDentistryPage() {
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      It depends on the treatment and your oral care routine.
-                      Veneers can last 10–15 years or more, while whitening may
-                      need occasional touch-ups. We’ll guide you on how to
-                      maintain your results.
+                      With good oral care and regular checkups, veneers and
+                      crowns can last 10–15 years or longer. Whitening results
+                      can be maintained with touch-ups.
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="q4" className="faq-acc">
+                  <AccordionTrigger className="faq-qn">
+                    <h3 className="text-lg">
+                      Are cosmetic dental treatments painful?
+                    </h3>
+                  </AccordionTrigger>
+                  <AccordionContent className="faq-ans">
+                    <p>
+                      Most procedures are minimally invasive. We use gentle
+                      techniques and offer anesthesia or sedation if needed for
+                      your comfort.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -281,14 +271,14 @@ export default function CosmeticDentistryPage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Can cosmetic dentistry fix crooked teeth?
+                      Will my insurance cover cosmetic procedures?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Yes! Mild alignment issues can often be corrected with
-                      veneers or bonding. For more advanced cases, we may
-                      recommend Invisalign or orthodontic options.
+                      Most cosmetic treatments aren’t covered, but we provide
+                      transparent pricing and flexible financing to make your
+                      new smile achievable.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -296,14 +286,22 @@ export default function CosmeticDentistryPage() {
             </div>
           </div>
 
+          {/* Post-FAQ CTA Section */}
           <div className="features-section">
             <h2 className="features-heading">
-              Ready to Love Your Smile Again?
+              Ready to Transform Your Smile with Cosmetic Dentistry in
+              Plainfield?
             </h2>
             <p className="features-description">
-              If you’re tired of hiding your smile, Tulip Dental is here to
-              help. From subtle enhancements to full smile makeovers, we offer
-              compassionate, expert care in a comfortable setting.
+              If you’re ready to enhance your smile with safe, modern, and
+              personalized cosmetic treatments, Smiling Molar Dental is here to
+              help.
+              <br />
+              <br />
+              From whitening and veneers to complete smile makeovers, our
+              skilled team helps patients from Plainfield, North Plainfield,
+              South Plainfield, Scotch Plains, and surrounding communities
+              achieve results that look stunning and feel natural.
             </p>
           </div>
 

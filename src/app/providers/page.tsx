@@ -8,14 +8,14 @@ const providers = [
   {
     name: "Dr. Neetu Bhanushali, DDS",
     image: "/Images/Team/Neetu Bhanushali.png",
-    link: "/providers/neetu-bhanushali-plainfield-nj-dentist",
-    alt: "Dr. Neetu Bhanushali, DDS at Community Smiles Dental in Plainfield",
+    link: "/providers/dr-neetu-bhanushali-plainfield-nj-dentist",
+    alt: "Dr. Neetu Bhanushali, DDS at Smiling Molar Dental in Plainfield",
   },
   {
     name: "Dr. Steven Reff, DDS",
     image: "/Images/Team/Steven Reff.png",
-    link: "/providers/steven-reff-plainfield-nj-dentist",
-    alt: "Dr. Steven Reff, DDS at Community Smiles Dental in Plainfield",
+    link: "/providers/dr-steven-reff-plainfield-nj-dentist",
+    alt: "Dr. Steven Reff, DDS at Smiling Molar Dental in Plainfield",
   },
 ];
 
@@ -24,7 +24,7 @@ export default function ProvidersPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white pb-12">
       {/* Header Section with blue background */}
       <div className="details-page-header-section">
-        <h1>Meet Our Dentists at Community Smiles </h1>
+        <h1>Meet Our Dentists at Smiling Molar Dental </h1>
         <h2>Compassionate, Experienced Care for Children & Adults</h2>
       </div>
       <div className="max-w-7xl mt-6 mx-auto px-2 sm:px-4 md:px-8">

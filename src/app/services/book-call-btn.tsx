@@ -15,10 +15,8 @@ const BookCallBtn: React.FC = () => {
             href="tel:9082642357"
             className="w-full flex flex-col bg-secondary/90 hover:bg-primary text-white text-center rounded-lg px-2 md:px-4 py-3 text-sm font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
           >
-            <span className="text-[12px] md:text-base">
-              Call Now to Schedule
-            </span>
-            (908) 264-2357
+            <span className="text-[12px] md:text-base">Call Us Today</span>
+            +1 (908) 264-2357
           </a>
           <button
             onClick={() => setIsBookingOpen(true)}

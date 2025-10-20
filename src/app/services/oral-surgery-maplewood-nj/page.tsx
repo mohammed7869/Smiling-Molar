@@ -74,8 +74,8 @@ export default function OralSurgeryPage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Oral Surgery.webp"
-                    alt="Oral Surgery at Tulip Dental Maplewood"
+                    src="/Images/oral-surgery.avif"
+                    alt="Oral Surgery at Smiling Molar Dental in Plainfield, New Jersey"
                   />
                 </div>
                 {/* <img
@@ -192,7 +192,7 @@ export default function OralSurgeryPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li

@@ -73,8 +73,8 @@ export default function PainlessTreatmentPage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Painless Treatment.webp"
-                    alt="Painless Dentistry at Tulip Dental Maplewood"
+                    src="/Images/painless-treatment.avif"
+                    alt="Painless Dentistry at Smiling Molar Dental in Plainfield"
                   />
                 </div>
                 {/* <img
@@ -192,7 +192,7 @@ export default function PainlessTreatmentPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li

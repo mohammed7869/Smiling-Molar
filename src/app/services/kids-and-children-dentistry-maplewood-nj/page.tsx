@@ -73,8 +73,8 @@ export default function KidsAndChildrenPage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Kids Dentistry.webp"
-                    alt="Kids & Children’s Dentistry at Tulip Dental Maplewood"
+                    src="/Images/kids-dentistry.avif"
+                    alt="Kids & Children’s Dentistry at Smiling Molar Dental in Plainfield"
                   />
                 </div>
                 {/* <img
@@ -199,7 +199,7 @@ export default function KidsAndChildrenPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li

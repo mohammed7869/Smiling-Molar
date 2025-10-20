@@ -74,8 +74,8 @@ export default function OrthodonticsPage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Orthodontics.webp"
-                    alt="Orthodontics treatment at Tulip Dental Maplewood"
+                    src="/Images/orthodontics.avif"
+                    alt="Orthodontics treatment at Smiling Molar Dental in Plainfield"
                   />
                 </div>
                 {/* <img
@@ -189,7 +189,7 @@ export default function OrthodonticsPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li
@@ -292,10 +292,10 @@ export default function OrthodonticsPage() {
             <p className="features-description">
               At Smiling Molar Dental, we make orthodontic care comfortable and
               customized for every patient - whether you're a child starting
-              early treatment or an adult ready for Invisalign®. Patients from
-              Plainfield, North Plainfield, South Plainfield, Scotch Plains, and
-              surrounding communities trust us to deliver exceptional
-              orthodontic results with a caring touch.
+              early treatment or an adult ready for Invisalign®. <br />
+              <br /> Patients from Plainfield, North Plainfield, South
+              Plainfield, Scotch Plains, and surrounding communities trust us to
+              deliver exceptional orthodontic results with a caring touch.
             </p>
             {/* </Fade> */}
           </div>

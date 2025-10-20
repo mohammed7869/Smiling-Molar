@@ -73,8 +73,8 @@ export default function DentalFillingPage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/dental-fillings.webp"
-                    alt="Dental Fillings at Tulip Dental Maplewood"
+                    src="/Images/dental-filling.avif"
+                    alt="Dental Fillings at Smiling Molar Dental in Plainfield, NJ"
                   />
                 </div>
                 {/* <img
@@ -189,7 +189,7 @@ export default function DentalFillingPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li
@@ -286,11 +286,12 @@ export default function DentalFillingPage() {
             <p className="features-description">
               At Smiling Molar Dental, we specialize in aesthetic, durable
               fillings that restore the strength and appearance of your teeth
-              with care and precision. Whether it's your child's first cavity or
-              replacing old restorations, our friendly team provides
-              high-quality, personalized care for patients from Plainfield,
-              North Plainfield, South Plainfield, Scotch Plains, and surrounding
-              communities.
+              with care and precision. <br />
+              <br />
+              Whether it's your child's first cavity or replacing old
+              restorations, our friendly team provides high-quality,
+              personalized care for patients from Plainfield, North Plainfield,
+              South Plainfield, Scotch Plains, and surrounding communities.
             </p>
             {/* </Fade> */}
           </div>

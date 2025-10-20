@@ -69,8 +69,8 @@ export default function CrownsPage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Dental Crown Bridge.webp"
-                    alt="Dental crowns & bridges at Tulip Dental Maplewood"
+                    src="/Images/dental crown n bridge.avif"
+                    alt="Dental Crowns & Bridges at Smiling Molar Dental in Plainfield, NJ"
                   />
                 </div>
                 {/* <img
@@ -186,7 +186,7 @@ export default function CrownsPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li
@@ -286,10 +286,10 @@ export default function CrownsPage() {
             <p className="features-description">
               At Smiling Molar Dental, we specialize in custom crowns and
               bridges that strengthen damaged teeth and replace missing ones
-              with durable, natural-looking results. Patients from Plainfield,
-              North Plainfield, South Plainfield, Scotch Plains, and surrounding
-              areas trust our team for restorative solutions that look great and
-              last.
+              with durable, natural-looking results. <br />
+              <br /> Patients from Plainfield, North Plainfield, South
+              Plainfield, Scotch Plains, and surrounding areas trust our team
+              for restorative solutions that look great and last.
             </p>
           </div>
 

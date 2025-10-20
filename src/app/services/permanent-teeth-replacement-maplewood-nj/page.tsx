@@ -73,8 +73,8 @@ export default function Page() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Teeth Replacement.webp"
-                    alt="Permanent Teeth Replacement at Tulip Dental Maplewood"
+                    src="/Images/permanenet-teeth-replacement.avif"
+                    alt="Permanent Teeth Replacement at Smiling Molar Dental in Plainfield, NJ"
                   />
                 </div>
                 {/* <img
@@ -196,7 +196,7 @@ export default function Page() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li

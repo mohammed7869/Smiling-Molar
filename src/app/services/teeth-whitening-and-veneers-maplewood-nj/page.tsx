@@ -7,9 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import Link from "next/link";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
 
@@ -18,37 +16,31 @@ export default function WhiteningVeneersPage() {
     {
       icon: "/Images/icons/Immediate Pain Relief.png",
       title: "Professional Teeth Whitening",
-      description:
-        "Our professional whitening treatments are designed to safely and effectively lift years of stains caused by coffee, tea, wine, smoking, and everyday life. With both in-office and take-home options, you can choose the method that best fits your schedule and preferences.",
       points: [
-        "In-Office Whitening – See a noticeably brighter smile in under an hour",
-        "Take-Home Whitening Kits – Professional strength with the comfort of home",
-        "Safe, enamel-protecting formulas",
-        "Long-lasting results with easy maintenance",
+        "Fast, in-office whitening for immediate results",
+        "Custom take-home whitening trays for gradual brightening",
+        "Safe techniques that protect enamel and minimize sensitivity",
+        "Long-lasting outcomes with simple aftercare",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Porcelain Veneers",
-      description:
-        "Veneers are a popular choice for patients who want a dramatic yet natural-looking smile upgrade. Crafted from ultra-thin porcelain, veneers cover imperfections and instantly improve the color, shape, and alignment of your teeth.",
+      title: "Custom Porcelain Veneers",
       points: [
-        "Custom-designed to match your smile’s shape and shade",
-        "Ideal for correcting discoloration, chips, gaps, or uneven teeth",
-        "Durable, stain-resistant, and natural-looking finish",
-        "Minimal tooth preparation for maximum preservation",
+        "Conceal chips, stains, gaps, and irregularities",
+        "Designed for a precise, natural look",
+        "Made with durable, stain-resistant materials",
+        "Long-lasting cosmetic enhancement with proper care",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Smile Makeover Consultations",
-      description:
-        "If you’re considering multiple cosmetic treatments, our smile makeover consultations allow us to create a personalized plan for your dream smile.",
+      title: "Complete Smile Makeovers",
       points: [
-        "Comprehensive evaluation of your goals and dental health",
-        "Digital smile previews so you can see results before treatment",
-        "Step-by-step planning to fit your budget and schedule",
-        "Tailored treatment combinations for the best results",
+        "Combination of whitening, veneers, and other cosmetic treatments",
+        "Personalized plans to match your goals and facial aesthetics",
+        "Balanced improvements in both appearance and function",
+        "A boost of confidence that shines through every smile",
       ],
     },
   ];
@@ -59,12 +51,11 @@ export default function WhiteningVeneersPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Teeth Whitening & Veneers in Maplewood, NJ</h1>
+              <h1>Teeth Whitening & Veneers in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Brighten Your Smile with Teeth Whitening in Maplewood | Tulip
-                Dental | Family & Cosmetic Dentist{" "}
+                Achieve a Radiant, Flawless Smile | Smiling Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -73,19 +64,12 @@ export default function WhiteningVeneersPage() {
             {/* Image Section */}
             <div className="image_section">
               <div className="image_section-cover">
-                {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Whitening Veneers.webp"
-                    alt="Teeth Whitening & Veneers at Tulip Dental Maplewood"
+                    src="/Images/whiteningveneers.avif"
+                    alt="Teeth Whitening & Veneers at Smiling Molar Dental in Plainfield"
                   />
                 </div>
-                {/* <img
-              src="/Images/s1.webp"
-              className="overlay-image"
-              alt="Overlay"
-            /> */}
-                {/* </Zoom> */}
               </div>
             </div>
 
@@ -94,30 +78,28 @@ export default function WhiteningVeneersPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Whitening & Veneers</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Teeth Whitening
+                Understanding Teeth Whitening & Veneers
               </h2>
               <p>
-                A bright, white smile can instantly boost your confidence and
-                leave a lasting impression. At Tulip Dental in{" "}
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  Maplewood
-                </Link>
-                , NJ, we offer professional teeth whitening treatments designed
-                to safely and effectively remove stains caused by coffee, tea,
-                wine, smoking, and everyday wear. Whether you want a quick
-                in-office whitening before a big event or a take-home kit for
-                gradual results, our expert team will customize a plan to fit
-                your goals and lifestyle.{" "}
+                A bright, attractive smile can make all the difference in how
+                you look and feel. At Smiling Molar Dental, we offer
+                professional teeth whitening and custom veneers to help you
+                achieve the smile of your dreams - safely, effectively, and with
+                lasting results.
               </p>
               <p>
-                We proudly serve patients from Maplewood (07040), South Orange
-                (07079), Vauxhall (07088), Irvington (07111), and nearby Newark
-                (07106 and 07112). Searching for “teeth whitening near me”?
-                You’ve just found a local dentist who truly cares about your
-                smile.{" "}
+                Our experienced cosmetic dental team uses advanced technology to
+                design treatments that enhance both the appearance and health of
+                your teeth. Whether you want to whiten away years of stains or
+                transform your smile with veneers, we’re here to create a
+                personalized plan that fits your goals.
+              </p>
+              <p>
+                We proudly serve patients from Plainfield (07060), North
+                Plainfield (07062, 07063), South Plainfield (07080), Scotch
+                Plains (07076), and surrounding communities. If you’ve been
+                searching for “teeth whitening near me” or “veneers dentist near
+                me”, your trusted local cosmetic dental experts are right here.
               </p>
               {/* </Fade> */}
             </div>
@@ -127,39 +109,40 @@ export default function WhiteningVeneersPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
                 <h2>
-                  Top Reasons to Choose Tulip Dental for Whitening & Veneers
+                  Why Patients Choose Smiling Molar Dental for Whitening &
+                  Veneers
                 </h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Noticeable
-                      Results in Just One Visit
+                      <CheckCircle className="service-point-icon" /> Safe &
+                      Effective Professional Whitening
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Customized
-                      Veneers for a Perfect Fit
+                      <CheckCircle className="service-point-icon" /> Custom
+                      Veneers for a Natural Finish
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" />{" "}
-                      Long-Lasting Whitening Solutions
+                      <CheckCircle className="service-point-icon" /> Experienced
+                      Cosmetic Team
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" /> Flexible
-                      Payment & Financing Options
+                      Financing & Transparent Pricing
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" /> Convenient
-                      Location in Maplewood, NJ
+                      Plainfield Location
                     </h3>
                   </li>
                 </ul>
@@ -172,7 +155,7 @@ export default function WhiteningVeneersPage() {
               <img
                 className="bdr-doctor-img"
                 src="/Images/top-reasons.webp"
-                alt="Expert Dentist at Tulip Dental Maplewood"
+                alt="Expert Cosmetic Dentist at Smiling Molar Dental in Plainfield"
               />
               {/* </Zoom> */}
             </div>
@@ -180,32 +163,11 @@ export default function WhiteningVeneersPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Our Whitening & Veneer Services
+              Whitening & Veneer Services at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              At Tulip Dental, we believe cosmetic dental care is about more
-              than just appearance-it’s about creating a smile that makes you
-              feel confident, comfortable, and{" "}
-              <Link
-                href="/patient-reviews-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                proud
-              </Link>
-              every single day. Whether you’re looking for a quick enhancement
-              or a complete smile transformation, we use advanced techniques and
-              high-quality materials to deliver natural, lasting results. Every
-              treatment is customized to your needs, lifestyle, and goals,
-              ensuring you get a smile you’ll truly love.
-              <br /> <br />
-              Here’s how we can enhance your{" "}
-              <Link
-                href="/services/cosmetic-dentistry-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                smile
-              </Link>
-              at Tulip Dental:
+              We offer a range of cosmetic solutions to help you achieve your
+              ideal smile.
             </p>
             {/* </Fade> */}
 
@@ -220,7 +182,7 @@ export default function WhiteningVeneersPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li
@@ -237,55 +199,58 @@ export default function WhiteningVeneersPage() {
             </div>
           </div>
           <div className="faq-section">
-            <h2 className="faq-heading">Whitening & Veneers FAQs</h2>
+            <h2 className="faq-heading">Teeth Whitening & Veneers FAQs</h2>
             <div className="faq-acc-container">
               <Accordion type="single" className="w-full space-y-5">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How long does teeth whitening last?
+                      Is professional whitening better than drugstore kits?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      With proper care and avoiding stain-causing foods/drinks,
-                      whitening results can last 1–3 years.
+                      Yes. Professional whitening delivers faster, safer, and
+                      more noticeable results without damaging your enamel.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Are veneers permanent?</h3>
+                    <h3 className="text-lg">How long do veneers last?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Veneers are a long-term solution, typically lasting 10–15
-                      years with proper maintenance.
+                      Porcelain veneers typically last 10-15 years or more with
+                      good oral hygiene and routine dental visits.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Does whitening damage enamel?</h3>
+                    <h3 className="text-lg">Are veneers permanent?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Not when done professionally. Our treatments are safe,
-                      gentle, and enamel-friendly.
+                      Yes. Veneers require slight reshaping of the natural
+                      tooth, making the treatment a long-term cosmetic
+                      investment.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Can veneers fix crooked teeth?</h3>
+                    <h3 className="text-lg">
+                      Can I combine whitening and veneers?
+                    </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Yes—veneers can mask mild misalignment for a
-                      straighter-looking smile without braces.
+                      Absolutely. Whitening is often performed first, followed
+                      by veneer placement to ensure a perfect shade match.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -293,13 +258,14 @@ export default function WhiteningVeneersPage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What’s the process for getting veneers?
+                      Does insurance cover these treatments?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      We begin with a consultation, take precise impressions,
-                      and place your custom veneers in just 2 visits.
+                      Most cosmetic treatments like whitening and veneers are
+                      not covered by insurance, but we offer flexible payment
+                      and financing options to make treatment more affordable.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -310,12 +276,17 @@ export default function WhiteningVeneersPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Ready to Brighten & Perfect Your Smile?
+              Ready to Transform Your Smile with Whitening or Veneers in
+              Plainfield, NJ?
             </h2>
             <p className="features-description">
-              At Tulip Dental, we make getting your dream smile simple,
-              comfortable, and affordable. From same-day whitening to custom
-              veneer transformations, we’ll help you love your smile again.
+              If you’re ready to brighten your smile or correct imperfections
+              with custom veneers, the team at Smiling Molar Dental is here to
+              help. Our cosmetic treatments are designed to be natural-looking,
+              safe, and long-lasting, giving you a smile you’ll love to share.
+              <br /> <br />
+              We proudly serve Plainfield, North Plainfield, South Plainfield,
+              Scotch Plains, and nearby communities.
             </p>
             {/* </Fade> */}
           </div>

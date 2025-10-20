@@ -61,14 +61,14 @@ export interface AppointmentBooking {
   source: string;
   reason: string;
   status:
-  | "Requested"
-  | "Booked"
-  | "Cancelled"
-  | "No-Show"
-  | "Rescheduled"
-  | "Invalid"
-  | "Archived"
-  | "Booked in EMR";
+    | "Requested"
+    | "Booked"
+    | "Cancelled"
+    | "No-Show"
+    | "Rescheduled"
+    | "Invalid"
+    | "Archived"
+    | "Booked in EMR";
   isNewClient: boolean;
   insuranceInfo?: {
     provider: string;
@@ -87,10 +87,10 @@ export interface AppointmentBooking {
     gender?: string;
   };
   reminderStatus?:
-  | "Patient Confirmed"
-  | "Patient Not Confirmed"
-  | "Reminder Sent"
-  | "Reminder Not Sent";
+    | "Patient Confirmed"
+    | "Patient Not Confirmed"
+    | "Reminder Sent"
+    | "Reminder Not Sent";
   appointmentOrigin?: "PatientPop" | "Intelpation" | "Yelp" | "Online";
   createdAt: Date;
   updatedAt: Date;
@@ -135,7 +135,7 @@ export interface TimeSlotWithAvailability {
 
 class ApiService {
   private readonly baseUrl = "https://api.baawancrm.com/api/1";
-  private readonly tenantId = "6"; // X-Tenant-ID header value
+  private readonly tenantId = "9"; // X-Tenant-ID header value
 
   private async makeRequest<T>(
     endpoint: string,
@@ -361,9 +361,9 @@ class ApiService {
       .getHours()
       .toString()
       .padStart(2, "0")}:${endDateTime
-        .getMinutes()
-        .toString()
-        .padStart(2, "0")}:00`;
+      .getMinutes()
+      .toString()
+      .padStart(2, "0")}:00`;
 
     // Map insurance information
     const hasInsurance = !!bookingData.insuranceInfo;
@@ -578,10 +578,10 @@ class ApiService {
       return result.success
         ? result
         : {
-          success: true,
-          message: "Message sent successfully! We'll get back to you soon.",
-          id: result.id,
-        };
+            success: true,
+            message: "Message sent successfully! We'll get back to you soon.",
+            id: result.id,
+          };
     } catch (error) {
       console.error("Error submitting contact form:", error);
       throw new Error(

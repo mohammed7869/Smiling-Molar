@@ -23,8 +23,8 @@ export default function ServicesSection() {
       id: 0,
       title: "Cosmetic Dentistry",
       description: "Cosmetic dentistry services",
-      image: "/Images/Cosmetic Dentistry.webp",
-      alt: "Cosmetic Dentistry at Tulip Dental Maplewood",
+      image: "/Images/cosmetic-dentistry.avif",
+      alt: "Cosmetic Dentistry at Smiling Molar Dental in Plainfield",
       icon: "/Images/icons/Cosmetic dentistry.png",
       iconAlt: "Cosmetic dentistry icon",
       href: "/services/cosmetic-dentistry-maplewood-nj",
@@ -33,7 +33,7 @@ export default function ServicesSection() {
       id: 1,
       title: "Emergency Dentistry",
       description: "Urgent oral care services",
-      image: "/Images/Emergency Dentistry.webp",
+      image: "/Images/emergency-dentistry.avif",
       alt: "Emergency dental care services for urgent oral health issues and dental emergencies",
       icon: "/Images/icons/emergency denstiry.png",
       iconAlt: "Emergency dentistry icon",
@@ -43,7 +43,7 @@ export default function ServicesSection() {
       id: 2,
       title: "Teeth Whitening",
       description: "Brighten your smile",
-      image: "/Images/Whitening Veneers.webp",
+      image: "/Images/whiteningveneers.avif",
       alt: "Teeth Whitening & Veneers at Tulip Dental Maplewood",
       icon: "/Images/icons/teeth-whitening.png",
       iconAlt: "Teeth whitening icon",
@@ -53,8 +53,8 @@ export default function ServicesSection() {
       id: 3,
       title: "Orthodontics",
       description: "Orthodontic correction",
-      image: "/Images/Orthodontics.webp",
-      alt: "Orthodontics treatment at Tulip Dental Maplewood",
+      image: "/Images/orthodontics.avif",
+      alt: "Orthodontics treatment at Smiling Molar Dental in Plainfield",
       icon: "/Images/icons/braces1.png",
       iconAlt: "Orthodontics braces icon",
       href: "/services/orthodontics-maplewood-nj",
@@ -63,8 +63,8 @@ export default function ServicesSection() {
       id: 4,
       title: "Root Canal",
       description: "Save infected teeth",
-      image: "/Images/root-canal.webp",
-      alt: "Root Canal Specialists at Tulip Dental Maplewood",
+      image: "/Images/root-canal.avif",
+      alt: "Root Canal Specialists at Smiling Molar Dental in Plainfield",
       icon: "/Images/icons/root-canal.png",
       iconAlt: "Root canal treatment icon",
       href: "/services/root-canal-treatment-maplewood-nj",
@@ -73,8 +73,8 @@ export default function ServicesSection() {
       id: 5,
       title: "Dental Implants",
       description: "Permanent tooth replacement",
-      image: "/Images/Dental Implants.webp",
-      alt: "Dental Implants at Tulip Dental Maplewood",
+      image: "/Images/dental-implant.avif",
+      alt: "Dental Implants at Smiling Molar Dental in Plainfield, NJ",
       icon: "/Images/icons/tooth-implant.png",
       iconAlt: "Dental implant icon",
       href: "/services/dental-implants-maplewood-nj",
@@ -83,8 +83,8 @@ export default function ServicesSection() {
       id: 6,
       title: "Oral Surgery",
       description: "Advanced procedures",
-      image: "/Images/Oral Surgery.webp",
-      alt: "Oral Surgery at Tulip Dental Maplewood",
+      image: "/Images/oral-surgery.avif",
+      alt: "Oral Surgery at Smiling Molar Dental in Plainfield, New Jersey",
       icon: "/Images/icons/oral surgery.png",
       iconAlt: "Oral surgery icon",
       href: "/services/oral-surgery-maplewood-nj",
@@ -93,8 +93,8 @@ export default function ServicesSection() {
       id: 12,
       title: "Tooth Extraction",
       description: "Safe tooth removal",
-      image: "/Images/Tooth Extraction.webp",
-      alt: "Tooth extractions at Tulip Dental Maplewood",
+      image: "/Images/tooth-extraction.avif",
+      alt: "Tooth extractions at Smiling Molar Dental in Plainfield, New Jersey",
       icon: "/Images/icons/tooth-extraction.png",
       iconAlt: "Tooth extraction icon",
       href: "/services/tooth-extraction-maplewood-nj",
@@ -103,8 +103,8 @@ export default function ServicesSection() {
       id: 14,
       title: "Crowns and Bridges",
       description: "Restore damaged teeth",
-      image: "/Images/Dental Crown Bridge.webp",
-      alt: "Dental crowns & bridges at Tulip Dental Maplewood",
+      image: "/Images/dental crown n bridge.avif",
+      alt: "Dental Crowns & Bridges at Smiling Molar Dental in Plainfield, NJ",
       icon: "/Images/icons/dental-crown.png",
       iconAlt: "Dental crown icon",
       href: "/services/crowns-and-bridges-maplewood-nj",
@@ -113,8 +113,8 @@ export default function ServicesSection() {
       id: 16,
       title: "Dental Fillings",
       description: "Repair cavities",
-      image: "/Images/dental-fillings.webp",
-      alt: "Dental Fillings at Tulip Dental Maplewood",
+      image: "/Images/dental-filling.avif",
+      alt: "Dental Fillings at Smiling Molar Dental in Plainfield, NJ",
       icon: "/Images/icons/tooth-filling.png",
       iconAlt: "Dental filling icon",
       href: "/services/dental-fillings-maplewood-nj",
@@ -373,22 +373,17 @@ export default function ServicesSection() {
         }
       `}</style>
 
-      <Fade delay={200}>
-        <h2 className="text-center text-3xl md:text-5xl font-extrabold my-10">
-          Emergency Dentistry - Same-Day Care
-        </h2>
-      </Fade>
-      <Fade delay={500}>
-        <h3 className="text-center text-md md:text-2xl font-bold mb-5">
-          <span className="font-medium">Here When You Need Us Most -</span> Book
-          an appointment with us!
-        </h3>
-      </Fade>
-      {/* <Fade delay={600}>
-        
-          <Button onClick={() => setIsBookingOpen(true)} size={'lg'}>Book Appointment</Button>
-        </div>
-      </Fade> */}
+      <h2 className="text-center text-3xl md:text-5xl font-extrabold my-7">
+        Emergency Dentist in Plainfield, NJ
+      </h2>
+
+      <p className="max-w-5xl mx-auto mb-4">
+        Dental emergencies can happen when you least expect them - whether it’s
+        a sudden toothache, a chipped tooth, or a broken crown. At Smiling Molar
+        Dental, we offer same-day emergency dental appointments in Plainfield,
+        NJ, so you can get fast, effective relief without the long wait.
+      </p>
+
       <div className="flex justify-center">
         <button
           className="group bg-primary hover:bg-secondary/80 text-white px-4 py-2.5 md:px-6 md:py-3 lg:px-8 lg:py-4 rounded-lg md:rounded-xl font-semibold text-sm md:text-base lg:text-lg hover:from-blue-700 hover:to-cyan-700 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105 flex items-center gap-2"

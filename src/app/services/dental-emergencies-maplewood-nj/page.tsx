@@ -73,8 +73,8 @@ export default function DentalEmergencyPage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Dental Emergencies.webp"
-                    alt="Dental emergencies at Tulip Dental Maplewood"
+                    src="/Images/dental emergencies.avif"
+                    alt="Dental emergencies at Smiling Molar Dental in Plainfield"
                   />
                 </div>
                 {/* </Zoom> */}
@@ -185,7 +185,7 @@ export default function DentalEmergencyPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li

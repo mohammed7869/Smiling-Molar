@@ -6,16 +6,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import Link from "next/link";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
 import { generateServiceMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = generateServiceMetadata(
   "dental-implants-maplewood-nj",
-  "/Images/Dental Implants.webp"
+  "/Images/dental-implant.avif"
 );
 
 export default function DentalImplantsPage() {
@@ -81,8 +79,8 @@ export default function DentalImplantsPage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Dental Implants.webp"
-                    alt="Dental Implants at Tulip Dental Maplewood"
+                    src="/Images/dental-implant.avif"
+                    alt="Dental Implants at Smiling Molar Dental in Plainfield, NJ"
                   />
                 </div>
                 {/* <img
@@ -195,7 +193,7 @@ export default function DentalImplantsPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li
@@ -217,13 +215,13 @@ export default function DentalImplantsPage() {
               <Accordion type="single" className="w-full space-y-5">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">What are dental implants?</h3>
+                    <h3 className="text-lg">Are dental implants permanent?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Dental implants are artificial tooth roots made from
-                      titanium that are surgically placed into the jawbone to
-                      support a crown, bridge, or denture.
+                      Yes. With proper care, implants can last for decades,
+                      making them one of the most durable tooth replacement
+                      options.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -231,14 +229,14 @@ export default function DentalImplantsPage() {
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How long do dental implants last?
+                      Am I a good candidate for dental implants?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      With proper care, dental implants can last 15+ years or
-                      even a lifetime. They’re one of the most durable and
-                      long-term solutions in restorative dentistry.
+                      Most healthy adults with sufficient bone structure
+                      qualify. A consultation and exam will help determine the
+                      best approach for your needs.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -246,14 +244,14 @@ export default function DentalImplantsPage() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Am I a candidate for dental implants?
+                      How long does the implant process take?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Most healthy adults with sufficient jawbone density are
-                      good candidates. We’ll perform a full evaluation to ensure
-                      you're eligible and discuss any preparation needed.
+                      The process typically takes several months to allow the
+                      implant to fuse with the bone. However, the end result is
+                      a stable, permanent solution.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -261,14 +259,14 @@ export default function DentalImplantsPage() {
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Are implants better than dentures?
+                      Do implants look like natural teeth?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Implants are more stable and function like natural teeth.
-                      Unlike dentures, they don’t slip or require adhesives and
-                      help prevent bone loss in the jaw.
+                      Absolutely. Each restoration is custom-designed to match
+                      the shape, size, and color of your existing teeth for a
+                      seamless appearance.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -276,15 +274,14 @@ export default function DentalImplantsPage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Is the dental implant procedure painful?
+                      Will insurance cover my dental implants?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      The procedure is done under anesthesia, so you’ll be
-                      comfortable throughout. Most patients report minimal
-                      discomfort afterward and are surprised by how easy the
-                      process feels.
+                      Some insurance plans may cover part of the cost. We also
+                      offer flexible financing to make treatment more
+                      accessible.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -295,13 +292,18 @@ export default function DentalImplantsPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Ready to Restore Your Smile with Dental Implants in Maplewood, NJ?
+              Considering Dental Implants in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              Let Tulip Dental help you smile confidently again with
-              high-quality, long-lasting dental implants. We’re here to guide
-              you from consultation to complete restoration—compassionately and
-              expertly.
+              If you’re ready to replace missing teeth with a solution that’s
+              strong, natural-looking, and long-lasting, dental implants may be
+              right for you.
+              <br />
+              <br />
+              At Smiling Molar Dental, we help patients from Plainfield, North
+              Plainfield, South Plainfield, Scotch Plains, and surrounding
+              communities restore their smiles with precision, care, and lasting
+              results.
             </p>
             {/* </Fade> */}
           </div>

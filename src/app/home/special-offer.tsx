@@ -16,7 +16,7 @@ const SpecialOffersSection = () => {
   const offers = [
     {
       id: 1,
-      title: "Dental Emergency",
+      title: "Emergency Dental Exam",
       price: "$55",
       originalPrice: "$120",
       features: [
@@ -31,7 +31,7 @@ const SpecialOffersSection = () => {
     },
     {
       id: 2,
-      title: "New Patient Special",
+      title: "Welcome Special for New Patients",
       price: "$79",
       originalPrice: "$280",
       features: [
@@ -164,7 +164,7 @@ const SpecialOffersSection = () => {
               <Globe className="w-8 h-8 text-white" />
             </div> */}
             <h3 className="text-2xl font-bold text-white mb-4">
-              Our staff speak 6 languages!
+              Multilingual Care for Every Patient
             </h3>
 
             {/* Language Tags */}
@@ -180,7 +180,9 @@ const SpecialOffersSection = () => {
             </div>
 
             <p className="text-lg mb-8 text-center text-white">
-              We are here to help you in your preferred language. Call us today!
+              No matter which language you speak, you can expect clear
+              communication and a stress-free dental experience from start to
+              finish.{" "}
             </p>
 
             {/* Call to Action */}

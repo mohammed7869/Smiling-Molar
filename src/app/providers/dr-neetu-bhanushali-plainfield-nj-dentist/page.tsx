@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { generatePageMetadata } from "@/lib/metadata";
-import ClientPage from "./bhargavi-gogineni-client";
+import ClientPage from "./dr-neetu-bhanushali-client";
 
 export const metadata: Metadata = generatePageMetadata(
-  "bhargavi-gogineni-trenton-nj-dentist",
-  "/Images/Team/Dr. Bhargavi Gogineni, DDS.avif"
+  "dr-neetu-bhanushali-plainfield-nj-dentist",
+  "/Images/Team/Dr. Neetu Bhanushali, DDS.avif"
 );
 
 export default function Page() {

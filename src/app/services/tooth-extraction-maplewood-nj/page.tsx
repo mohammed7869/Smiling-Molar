@@ -73,8 +73,8 @@ export default function ToothExtractionPage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Tooth Extraction.webp"
-                    alt="Tooth extractions at Tulip Dental Maplewood"
+                    src="/Images/tooth-extraction.avif"
+                    alt="Tooth extractions at Smiling Molar Dental in Plainfield, New Jersey"
                   />
                 </div>
                 {/* <img
@@ -193,7 +193,7 @@ export default function ToothExtractionPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li
@@ -296,9 +296,10 @@ export default function ToothExtractionPage() {
               tooth extractions for patients of all ages. Whether you need a
               routine removal, wisdom tooth extraction, or emergency care, our
               experienced team is here to help you protect your oral health and
-              feel comfortable throughout the process. We proudly serve patients
-              from Plainfield, North Plainfield, South Plainfield, Scotch
-              Plains, and surrounding communities.
+              feel comfortable throughout the process. <br />
+              <br /> We proudly serve patients from Plainfield, North
+              Plainfield, South Plainfield, Scotch Plains, and surrounding
+              communities.
             </p>
             {/* </Fade> */}
           </div>

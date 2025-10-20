@@ -45,12 +45,12 @@ const features = [
     desc: "From preventive cleanings to cosmetic dentistry and advanced restorative procedures, we offer everything you need for a healthy smile.",
   },
   {
-    icon: "/Images/icons/dental-chair.png",
+    icon: "/Images/icons/Immediate Pain Relief.png",
     title: "Modern & Comfortable Office",
     desc: "Our welcoming environment and advanced equipment make every visit more pleasant and efficient.",
   },
   {
-    icon: "/Images/icons/dental-chair.png",
+    icon: "/Images/icons/orthodontics.png",
     title: "Deep Community Roots",
     desc: "We're proud to serve Plainfield, North Plainfield, South Plainfield, Scotch Plains, and nearby neighborhoods with trusted, compassionate care.",
   },
@@ -58,7 +58,7 @@ const features = [
 
 const team = [
   {
-    img: "/Images/Dr Urvashi Banerjee DMD.webp",
+    img: "/Images/Team/Neetu Bhanushali.png",
     name: "Dr. Neetu Bhanushali",
     role: "Doctor of Dental Surgery",
     time: "11 am - 03 pm",
@@ -66,7 +66,7 @@ const team = [
     slug: "providers/neetu-bhanushali-plainfield-nj-dentist",
   },
   {
-    img: "/Images/Dr Urvashi Banerjee DMD.webp",
+    img: "/Images/Team/Steven Reff.png",
     name: "Dr. Steven Reff, DDS",
     role: "Doctor of Dental Surgery",
     time: "11 am - 03 pm",
@@ -254,18 +254,13 @@ export default function AboutUsClient() {
 
       {/* Call to Action Section */}
       <section className="py-8 sm:py-12 lg:py-16 px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto">
-        <div className="text-center mb-8">
-          <h3 className="text-2xl font-bold text-primary mb-4">
-            Call Us Today: +1 (908) 264-2357
-          </h3>
-        </div>
         <div className="flex text-center flex-col sm:flex-row gap-8 sm:gap-4">
           <a
             href="tel:9082642357"
             className="w-full flex flex-col bg-secondary/90 hover:bg-primary text-white rounded-lg px-2 py-3 hover:from-blue-700 hover:to-cyan-700 text-xs sm:text-sm font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
           >
-            <span className="text-sm sm:text-base">Call us for Booking</span>
-            (908) 264-2357
+            <span className="text-sm sm:text-base">Call us Today</span>
+            +1 (908) 264-2357
           </a>
           <button
             onClick={() => setIsBookingOpen(true)}

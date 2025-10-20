@@ -75,8 +75,8 @@ export default function Page() {
                 {/* </Fade> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Endodontics.webp"
-                    alt="Endodontics at Tulip Dental Maplewood"
+                    src="/Images/endodontics.avif"
+                    alt="Endodontics at Smiling Molar Dental in Plainfield, New Jersey"
                   />
                 </div>
                 {/* <img
@@ -196,7 +196,7 @@ export default function Page() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li

@@ -13,7 +13,7 @@ import { generateServiceMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = generateServiceMetadata(
   "emergency-dentistry-plainfield-nj",
-  "/Images/Emergency Dentistry.webp"
+  "/Images/emergency-dentistry.avif"
 );
 
 export default function EmergencyDentistryPage() {
@@ -79,7 +79,7 @@ export default function EmergencyDentistryPage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Emergency Dentistry.webp"
+                    src="/Images/emergency-dentistry.avif"
                     alt="Emergency Dentistry at Tulip Dental Maplewood"
                   />
                 </div>
@@ -198,7 +198,7 @@ export default function EmergencyDentistryPage() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li

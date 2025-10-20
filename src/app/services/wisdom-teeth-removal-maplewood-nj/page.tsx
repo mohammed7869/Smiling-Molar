@@ -7,9 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import Link from "next/link";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
 
@@ -17,41 +15,35 @@ export default function Page() {
   const features = [
     {
       icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "Comprehensive Evaluation & Digital Imaging",
-      description:
-        "Before recommending extraction, we perform a thorough examination using advanced 3D imaging to assess your wisdom teeth position, root development, and potential complications.",
+      title: "Thorough Wisdom Tooth Evaluations",
+      description: "",
       points: [
-        "3D panoramic X-rays for complete visualization",
-        "Detailed assessment of tooth position and impaction",
-        "Evaluation of nerve proximity and potential risks",
-        "Personalized treatment planning for optimal outcomes",
-        "Clear explanation of findings and treatment options",
+        "Digital X-rays to identify impacted or misaligned teeth",
+        "Assessing jaw space and eruption patterns early",
+        "Monitoring growth during teenage years",
+        "Preventive recommendations to avoid complications",
       ],
     },
     {
       icon: "/Images/icons/tooth-extraction.png",
-      title: "Safe & Comfortable Extraction Procedures",
-      description:
-        "Whether you need a simple extraction or complex surgical removal, we prioritize your safety and comfort above all else.",
+      title: "Simple & Surgical Extractions",
+      description: "",
       points: [
-        "Multiple sedation options (local, nitrous oxide, IV sedation)",
-        "Minimally invasive surgical techniques",
-        "Advanced pain management protocols",
-        "Real-time monitoring for patient safety",
-        "Efficient procedures to minimize treatment time",
+        "Gentle removal of erupted wisdom teeth",
+        "Safe, precise surgical extractions for impacted teeth",
+        "Local anesthesia or sedation options to keep you relaxed",
+        "Techniques designed to minimize swelling and recovery time",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Complete Recovery Support & Follow-Up Care",
-      description:
-        "We provide comprehensive post-operative instructions, 24/7 emergency support, and scheduled follow-up appointments to ensure proper healing and address any concerns.",
+      title: "Recovery Guidance & Support",
+      description: "",
       points: [
-        "Detailed post-op instructions and care kit",
-        "24/7 emergency contact for urgent concerns",
-        "Prescription medications for pain and swelling management",
-        "Scheduled follow-up appointments to monitor healing",
-        "Nutritional guidance for optimal recovery",
+        "Clear instructions for at-home healing",
+        "Pain management and medication guidance if needed",
+        "Follow-up visits to monitor healing progress",
+        "Continued care to maintain oral health post-extraction",
       ],
     },
   ];
@@ -78,8 +70,8 @@ export default function Page() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Wisdom Teeth.webp"
-                    alt="Wisdom teeth removal at Tulip Dental Maplewood"
+                    src="/Images/wisdom-tooth.avif"
+                    alt="Wisdom Teeth Removal at Smiling Molar Dental in Plainfield"
                   />
                 </div>
                 {/* <img
@@ -172,7 +164,7 @@ export default function Page() {
               <img
                 className="bdr-doctor-img"
                 src="/Images/top-reasons.webp"
-                alt="Expert Dentist at Tulip Dental Maplewood"
+                alt="Expert Oral Surgery Team at Smiling Molar Dental in Plainfield"
               />
               {/* </Zoom> */}
             </div>
@@ -180,17 +172,12 @@ export default function Page() {
 
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
-            <h2 className="features-heading">Our Wisdom Teeth Process </h2>
+            <h2 className="features-heading">
+              Wisdom Tooth Services at Smiling Molar Dental
+            </h2>
             <p className="features-description">
-              At Tulip Dental, we understand that wisdom teeth removal can feel
-              overwhelming, which is why we've developed a comprehensive
-              approach that prioritizes your comfort, safety, and peace of mind.
-              From your initial consultation through complete recovery, our
-              experienced team guides you through every step with clear
-              communication and gentle care.
-              <br />
-              <br />
-              Here's how we handle wisdom teeth care at Tulip Dental:
+              We provide comprehensive care for patients before, during, and
+              after wisdom tooth removal.
             </p>
             {/* </Fade> */}
 
@@ -205,7 +192,7 @@ export default function Page() {
                     />
                     <h3>{service.title}</h3>
                   </div>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <ul className="feature-list">
                     {service.points.map((point, i) => (
                       <li
@@ -233,10 +220,8 @@ export default function Page() {
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Wisdom teeth should be removed if they're impacted,
-                      causing crowding, difficult to clean, or causing pain and
-                      inflammation. Early removal (late teens/early twenties)
-                      typically leads to easier healing.
+                      Most wisdom teeth are extracted in the late teens or early
+                      20s, before they cause pain, infection, or crowding.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -244,30 +229,26 @@ export default function Page() {
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How long is the recovery period?
+                      Do all wisdom teeth need to be taken out?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Most patients return to normal activities within 3-5 days,
-                      with complete healing occurring over 1-2 weeks. Following
-                      post-op instructions significantly improves recovery time.
+                      No. If they’re healthy, fully erupted, and don’t affect
+                      your bite, they may not require extraction. We evaluate
+                      each case individually.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">
-                      Will I be awake during the procedure?
-                    </h3>
+                    <h3 className="text-lg">Will the procedure hurt?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      We offer multiple sedation options including IV sedation
-                      where you'll be completely relaxed and comfortable. Local
-                      anesthesia ensures you won't feel any pain during the
-                      procedure.
+                      With local anesthesia and sedation options, most patients
+                      feel little to no discomfort during the procedure.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -275,15 +256,14 @@ export default function Page() {
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What can I eat after wisdom teeth removal?
+                      How long is the recovery period?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Stick to soft foods like smoothies, soup, yogurt, and
-                      mashed potatoes for the first few days. Avoid hard,
-                      crunchy, or spicy foods that could irritate the extraction
-                      sites.
+                      Simple extractions typically heal within a few days.
+                      Surgical extractions may take about a week, depending on
+                      complexity.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -291,15 +271,14 @@ export default function Page() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Are there risks with wisdom teeth removal?
+                      Does insurance cover wisdom tooth extraction?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      While complications are rare, potential risks include dry
-                      socket, infection, or temporary numbness. Our experienced
-                      surgeons minimize these risks through careful planning and
-                      technique.
+                      Many dental insurance plans offer partial or full
+                      coverage. We’ll review your benefits and help you
+                      understand your options.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -310,13 +289,14 @@ export default function Page() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Ready for Expert Wisdom Teeth Care?
+              Considering Wisdom Tooth Removal in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              At Tulip Dental, we make wisdom teeth removal as comfortable and
-              stress-free as possible. From advanced planning to complete
-              recovery support, we're here to guide you through every step of
-              the process.
+              At Smiling Molar Dental, we make wisdom tooth care simple, safe,
+              and stress-free. From digital evaluations to gentle surgical
+              removal and supportive aftercare, our team helps patients from
+              Plainfield, North Plainfield, South Plainfield, and Scotch Plains
+              get back to smiling comfortably.
             </p>
             {/*</Fade> */}
           </div>
