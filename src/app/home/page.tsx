@@ -82,7 +82,7 @@ export default function HomePage() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/Images/Banner-1.webp"
+            src="/Images/banner-1.avif"
             alt="Dental treatment at Tulip Dental Maplewood"
             fill
             className="object-cover"
@@ -326,7 +326,7 @@ export default function HomePage() {
           {/* Left Side - Image */}
           <div className="w-full md:w-1/2 h-64 md:h-120">
             <Image
-              src="/Images/About-Tulip-Dental.webp"
+              src="/Images/homepage-dentist.avif"
               alt="Happy patient & dentist at Tulip Dental Maplewood"
               width={600}
               height={400}
@@ -452,7 +452,7 @@ export default function HomePage() {
           {/* Left Side - Image */}
           <div className="w-full md:w-1/2 h-64 md:h-80">
             <Image
-              src="/Images/Insurance.webp"
+              src="/Images/homepage-affordable.avif"
               alt="Affordable dental treatments at Tulip Dental Maplewood"
               width={600}
               height={400}

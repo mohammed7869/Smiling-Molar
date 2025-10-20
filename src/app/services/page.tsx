@@ -129,7 +129,7 @@ const services = [
   },
   {
     title: "Halitosis",
-    image: "/Images/Halitosis.webp",
+    image: "/Images/halitosis.avif",
     alt: "Halitosis treatment at Tulip Dental Maplewood",
     link: "/services/halitosis-treatment-maplewood-nj",
   },

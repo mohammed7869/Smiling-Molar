@@ -162,7 +162,7 @@ export default function Footer() {
               {/* <li><Link href="/accessibility" className="hover:underline">Accessibility</Link></li> */}
               <li>
                 <Link
-                  href="/contact-smiling-molar-dental-plainfield-nj"
+                  href="/contact-community-smiles-plainfield-nj"
                   className="hover:underline"
                 >
                   Contact Us
@@ -254,7 +254,7 @@ export default function Footer() {
             Accessibility
           </Link>
           <Link
-            href="/contact-smiling-molar-dental-plainfield-nj"
+            href="/contact-community-smiles-plainfield-nj"
             className="hover:underline"
           >
             Contact Us

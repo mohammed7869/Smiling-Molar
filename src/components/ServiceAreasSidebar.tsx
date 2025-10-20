@@ -17,29 +17,24 @@ interface ServiceAreasSidebarProps {
 // Service areas data
 const serviceAreas: ServiceArea[] = [
   {
-    name: "Maplewood, NJ",
+    name: "Plainfield, NJ",
     icon: "/Images/icons/map.png",
-    link: "/service-areas/maplewood-nj-dentist-near-you",
+    link: "/service-areas/plainfield-nj-dentist-near-you",
   },
   {
-    name: "South Orange, NJ",
+    name: "North Plainfield, NJ",
     icon: "/Images/icons/map.png",
-    link: "/service-areas/south-orange-nj-dentist-near-you",
+    link: "/service-areas/north-plainfield-nj-dentist-near-you",
   },
   {
-    name: "Irvington, NJ",
+    name: "South Plainfield, NJ",
     icon: "/Images/icons/map.png",
-    link: "/service-areas/irvington-nj-dentist-near-you",
+    link: "/service-areas/south-plainfield-nj-dentist-near-you",
   },
   {
-    name: "Vauxhall, NJ",
+    name: "Scotch Plains, NJ",
     icon: "/Images/icons/map.png",
-    link: "/service-areas/vauxhall-nj-dentist-near-you",
-  },
-  {
-    name: "Newark, NJ",
-    icon: "/Images/icons/map.png",
-    link: "/service-areas/newark-nj-dentist-near-you",
+    link: "/service-areas/scotch-plains-nj-dentist-near-you",
   },
 ];
 

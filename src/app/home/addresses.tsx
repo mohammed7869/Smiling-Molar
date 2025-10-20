@@ -22,7 +22,7 @@ const locations = [
     ],
 
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.7997524427874!2d-74.25858312546795!3d40.72242453697971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3acfa57f6c787%3A0x1b55d762a76534d7!2s1024%20Park%20Ave%20Suite%206C%2C%20Plainfield%2C%20NJ%2007060%2C%20USA!5e0!3m2!1sen!2sin!4v1755590103689!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.88156681386!2d-74.4101914!3d40.6104366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b94a401bb39b%3A0xab3665a251b45a35!2sSmiling%20Molar%20Dental!5e0!3m2!1sen!2sin!4v1760968474950!5m2!1sen!2sin",
   },
 ];
 

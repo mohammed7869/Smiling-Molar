@@ -25,14 +25,14 @@ const reviews = [
     name: "Priya S.",
     date: "Dec 05, 2024",
     rating: 5,
-    text: "My 7-year-old needed a small filling, and the entire team made the experience positive for her. Dr. Neetu was patient, gentle, and explained the steps in a way my daughter could understand. She left the appointment smiling and unafraid. As a parent, that means everything.",
+    text: "My 7-year-old needed a small filling, and the entire team made the experience positive for her. Dr. Neetu was patient, gentle, and explained the steps in a way my daughter could understand. She left the appointment smiling and unafraid. ",
     image: "/Images/836.webp",
   },
   {
     name: "Michael L.",
     date: "Nov 28, 2024",
     rating: 5,
-    text: "From the moment I walked in, I noticed how modern, clean, and welcoming the office was. The front desk staff was efficient, and my hygienist was incredibly thorough. Dr. Reff gave me a detailed treatment plan and answered all my questions without rushing. I highly recommend them to anyone in the Plainfield area.",
+    text: "From the moment I walked in, I noticed how modern, clean, and welcoming the office was. The front desk staff was efficient, and my hygienist was incredibly thorough. Dr. Reff gave me a detailed treatment plan and answered all my questions without rushing.",
     image: "/Images/837.webp",
   },
   {
@@ -98,8 +98,7 @@ export default function ReviewsPage() {
                   {review.text}
                 </p>
                 <div className="mt-auto text-xs sm:text-sm text-gray-500 text-center w-full">
-                  <span className="font-semibold">{review.name}</span> |{" "}
-                  {review.date}
+                  <span className="font-semibold">{review.name}</span>
                 </div>
               </div>
             </div>

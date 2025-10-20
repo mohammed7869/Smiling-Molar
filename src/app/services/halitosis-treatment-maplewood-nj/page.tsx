@@ -6,54 +6,49 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import Link from "next/link";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
 import { generateServiceMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = generateServiceMetadata(
   "halitosis-treatment-maplewood-nj",
-  "/Images/Halitosis.webp"
+  "/Images/halitosis.avif"
 );
 
 export default function Page() {
   const features = [
     {
       icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "Comprehensive Oral Evaluation",
-      description:
-        "Our dentists will perform a detailed exam to identify the root cause of your bad breath.",
+      title: "Professional Cleanings & Hygiene Support",
+      description: "",
       points: [
-        "Review of oral hygiene habits and health history",
-        "Gum health assessment for signs of periodontal disease",
-        "Screening for dry mouth and other contributing factors",
-        "Personalized recommendations for improvement",
+        "Deep removal of plaque and odor-causing bacteria",
+        "Prevents gum irritation and buildup",
+        "Helps maintain fresh breath between visits",
+        "Strengthens your daily hygiene routine",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Professional Cleanings & Gum Therapy",
-      description:
-        "Removing plaque, tartar, and bacteria from the teeth and gums is key to reducing odors.",
+      title: "Gum Disease & Periodontal Therapy",
+      description: "",
       points: [
-        "Deep cleaning (scaling and root planing) for gum disease",
-        "Targeted antibacterial rinses and treatments",
-        "Gentle, thorough plaque removal",
-        "Regular maintenance to keep bacteria under control",
+        "Treatment for gingivitis and periodontal infection",
+        "Scaling and root planing to clean below the gums",
+        "Reduces inflammation and bacterial activity",
+        "Prevents future oral health issues that cause bad breath",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Personalized Fresh Breath Plan",
-      description:
-        "We’ll help you maintain long-term oral freshness with simple, effective steps.",
+      title: "Restorative & Preventive Dental Care",
+      description: "",
       points: [
-        "Recommendations for at-home care products",
-        "Diet and hydration guidance to reduce odor",
-        "Specialized rinses or mouth sprays for ongoing freshness",
-        "Follow-up visits to ensure lasting results",
+        "Repair of cavities and tooth decay contributing to odor",
+        "Replacement of old or leaking fillings and crowns",
+        "Preventive education for brushing, flossing, and diet",
+        "Strategies to stop halitosis from recurring",
       ],
     },
   ];
@@ -64,12 +59,11 @@ export default function Page() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Halitosis Treatment in Maplewood, NJ</h1>
+              <h1>Halitosis Treatment in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Fresh Breath & Renewed Confidence with Halitosis Care in
-                Maplewood | Tulip Dental | Family & Cosmetic Dentistry
+                Long-Lasting Fresh Breath Starts Here | Smiling Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -81,8 +75,8 @@ export default function Page() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/Halitosis.webp"
-                    alt="Halitosis treatment at Tulip Dental Maplewood"
+                    src="/Images/halitosis.avif"
+                    alt="Halitosis treatment at Smiling Molar Dental in Plainfield"
                   />
                 </div>
                 {/* <img
@@ -99,42 +93,21 @@ export default function Page() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Halitosis</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Halitosis
+                Understanding Halitosis
               </h2>
               <p>
-                Bad breath (halitosis) can be embarrassing, affect
-                relationships, and lower self-confidence. At Tulip Dental in
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary ml-2 hover:underline font-medium"
-                >
-                  Maplewood
-                </Link>
-                , NJ, we go beyond just masking odors - we identify the root
-                cause, whether it’s gum disease, dry mouth, poor oral hygiene,
-                dietary factors, or other medical conditions. With professional
-                cleanings, gum treatments, and personalized hygiene plans, we’ll
-                help{" "}
-                <Link
-                  href="/services/cosmetic-dentistry-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  restore fresh breath
-                </Link>
-                and peace of mind.
+                Chronic bad breath, also known as halitosis, can affect your
+                confidence and may signal underlying oral health problems. While
+                mouthwash or breath mints offer temporary relief, they don’t
+                address the root cause. At Smiling Molar Dental, we offer
+                targeted halitosis treatments to eliminate odor-causing
+                bacteria, treat gum disease, and restore a clean, healthy mouth.
               </p>
               <p>
-                We proudly serve{" "}
-                <Link
-                  href="/patient-reviews-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  patients
-                </Link>{" "}
-                from Maplewood (07040), South Orange (07079), Vauxhall (07088),
-                Irvington (07111), and nearby Newark (07106 and 07112).
-                Searching for “bad breath dentist near me”? You’ve found a
-                compassionate, local team ready to help.
+                Patients from Plainfield (07060), North Plainfield (07062,
+                07063), South Plainfield (07080), Scotch Plains (07076), and
+                nearby communities trust our experienced team when searching for
+                “bad breath dentist near me” for solutions that truly work.
               </p>
               {/* </Fade> */}
             </div>
@@ -143,40 +116,38 @@ export default function Page() {
             <div className="wcu-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
-                <h2>
-                  Top Reasons to Choose Tulip Dental for Halitosis Treatment
-                </h2>
+                <h2>Why Choose Smiling Molar Dental for Halitosis Care</h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" /> Thorough
-                      Diagnosis of Underlying Causes
+                      Diagnostic Approach
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Targeted
-                      Treatments for Lasting Freshness
+                      <CheckCircle className="service-point-icon" />{" "}
+                      Personalized Treatment Plans
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Gentle Care
-                      in a Judgment-Free Environment
+                      <CheckCircle className="service-point-icon" /> Solutions
+                      That Go Beyond Masking Odor
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Education
-                      for Better At-Home Oral Hygiene
+                      <CheckCircle className="service-point-icon" /> Affordable,
+                      Insurance-Friendly Options
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" /> Convenient
-                      Location in Maplewood, NJ
+                      Plainfield Location
                     </h3>
                   </li>
                 </ul>
@@ -189,7 +160,7 @@ export default function Page() {
               <img
                 className="bdr-doctor-img"
                 src="/Images/top-reasons.webp"
-                alt="Expert Dentist at Tulip Dental Maplewood"
+                alt="Expert Team at Smiling Molar Dental in Plainfield"
               />
               {/* </Zoom> */}
             </div>
@@ -198,15 +169,12 @@ export default function Page() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Our Halitosis Treatment Services{" "}
+              Halitosis Treatment Options at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              At Tulip Dental, we understand that halitosis isn’t just about
-              breath - it’s about confidence and quality of life. We take a
-              personalized approach to address both the symptoms and the
-              underlying cause, ensuring you get real, lasting results.
+              We combine professional in-office care with at-home strategies to
+              ensure your breath stays fresh and your mouth stays healthy.
             </p>
-            <p className="features-description">Here’s how we can help: </p>
             {/* </Fade> */}
 
             <div className="features-grid">
@@ -242,13 +210,15 @@ export default function Page() {
               <Accordion type="single" className="w-full space-y-5">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">What causes bad breath?</h3>
+                    <h3 className="text-lg">
+                      What are the most common causes of halitosis?
+                    </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Common causes include poor oral hygiene, gum disease, dry
-                      mouth, certain foods, smoking, and underlying medical
-                      conditions.
+                      Gum disease, bacterial buildup on the tongue, tooth decay,
+                      dry mouth, and poor oral hygiene are the most frequent
+                      causes.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -256,13 +226,13 @@ export default function Page() {
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Can gum disease cause bad breath?
+                      Can halitosis go away on its own?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Yes – bacteria from gum infections produce strong odors,
-                      making gum treatment a key part of halitosis care.
+                      No - persistent bad breath typically requires professional
+                      dental treatment to address the root cause.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -270,14 +240,14 @@ export default function Page() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Will mouthwash alone fix bad breath?
+                      How do dentists treat halitosis?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      No – while mouthwash can temporarily mask odors,
-                      professional treatment addresses the source for lasting
-                      results.
+                      Depending on the cause, treatment may involve deep
+                      cleanings, gum therapy, cavity repair, or replacing old
+                      dental work.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -285,13 +255,13 @@ export default function Page() {
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How soon will I notice improvement?
+                      Does bad breath always mean gum disease?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Many patients notice fresher breath immediately after
-                      treatment, especially following a deep cleaning.
+                      Not always. While gum issues are common culprits, dry
+                      mouth, diet, or oral infections may also play a role.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -299,14 +269,14 @@ export default function Page() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Is halitosis a sign of a bigger health problem?
+                      Will insurance cover halitosis treatment?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Sometimes – persistent bad breath can be linked to sinus
-                      issues, digestive problems, or other conditions. We’ll
-                      help identify if further medical evaluation is needed.
+                      If halitosis is linked to gum disease or tooth decay, many
+                      insurance plans cover related procedures. We’ll review
+                      your benefits before treatment begins.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -317,20 +287,17 @@ export default function Page() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Ready for Fresh Breath & Renewed Confidence?
+              Struggling with Bad Breath in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              At Tulip Dental, we make halitosis treatment comfortable,
-              discreet, and effective. Whether your bad breath is occasional or
-              persistent, we’ll help you get to the root of the problem and keep
-              your{" "}
-              <Link
-                href="/patient-reviews-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                smile
-              </Link>
-              fresh every day.
+              Don’t let halitosis hold you back from speaking, laughing, or
+              smiling with confidence. At Smiling Molar Dental, we offer
+              comprehensive bad breath treatment to restore freshness and
+              protect your oral health for the long run.
+              <br />
+              Patients from Plainfield, North Plainfield, South Plainfield,
+              Scotch Plains, and surrounding neighborhoods rely on our team for
+              compassionate, effective care that delivers real results.
             </p>
             {/* </Fade> */}
           </div>

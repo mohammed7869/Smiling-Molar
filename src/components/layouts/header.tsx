@@ -217,7 +217,7 @@ export default function Header() {
             Blogs
           </Link>
           <Link
-            href="/contact-smiling-molar-dental-plainfield-nj"
+            href="/contact-community-smiles-plainfield-nj"
             className="hover:text-primary transition"
           >
             Contact
@@ -244,28 +244,24 @@ export default function Header() {
             <div className="absolute -left-5 mt-2 w-80 max-w-5xl bg-white border shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-40 rounded-lg">
               <div className="grid grid-cols-1 gap-6 p-6 text-sm">
                 {[
-                  "Maplewood, NJ",
-                  "South Orange, NJ",
-                  "Irvington, NJ",
-                  "Vauxhall, NJ",
-                  "Newark, NJ",
+                  "Plainfield, NJ",
+                  "North Plainfield, NJ",
+                  "South Plainfield, NJ",
+                  "Scotch Plains, NJ",
                 ].map((service, index) => {
                   let slug = "";
-                  if (service === "Maplewood, NJ") {
-                    slug = "maplewood-nj-dentist-near-you";
-                  } else if (service === "South Orange, NJ") {
-                    slug = "south-orange-nj-dentist-near-you";
+                  if (service === "Plainfield, NJ") {
+                    slug = "plainfield-nj-dentist-near-you";
                   }
-                  if (service === "Irvington, NJ") {
-                    slug = "irvington-nj-dentist-near-you";
+                  if (service === "North Plainfield, NJ") {
+                    slug = "north-plainfield-nj-dentist-near-you";
                   }
-                  if (service === "Vauxhall, NJ") {
-                    slug = "vauxhall-nj-dentist-near-you";
+                  if (service === "South Plainfield, NJ") {
+                    slug = "south-plainfield-nj-dentist-near-you";
                   }
-                  if (service === "Newark, NJ") {
-                    slug = "newark-nj-dentist-near-you";
+                  if (service === "Scotch Plains, NJ") {
+                    slug = "scotch-plains-nj-dentist-near-you";
                   }
-
                   return slug ? (
                     <Link
                       key={index}
@@ -559,7 +555,7 @@ export default function Header() {
                 Blogs
               </Link>
               <Link
-                href="/contact-smiling-molar-dental-plainfield-nj"
+                href="/contact-community-smiles-plainfield-nj"
                 className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-primary transition border-b"
                 onClick={closeMobileMenu}
               >
@@ -593,26 +589,14 @@ export default function Header() {
                   <div className="bg-gray-50 px-4 py-2">
                     <div className="grid grid-cols-2 gap-3 mt-2 text-sm">
                       {[
-                        "Maplewood, NJ",
-                        "South Orange, NJ",
-                        "Irvington, NJ",
-                        "Vauxhall, NJ",
-                        "Newark, NJ",
+                        "Plainfield, NJ",
+                        "North Plainfield, NJ",
+                        "South Plainfield, NJ",
+                        "Scotch Plains, NJ",
                       ].map((service, index) => {
                         let slug = "";
-                        if (service === "Maplewood, NJ") {
-                          slug = "maplewood-nj-dentist-near-you";
-                        } else if (service === "South Orange, NJ") {
-                          slug = "south-orange-nj-dentist-near-you";
-                        }
-                        if (service === "Irvington, NJ") {
-                          slug = "irvington-nj-dentist-near-you";
-                        }
-                        if (service === "Vauxhall, NJ") {
-                          slug = "vauxhall-nj-dentist-near-you";
-                        }
-                        if (service === "Newark, NJ") {
-                          slug = "newark-nj-dentist-near-you";
+                        if (service === "Plainfield, NJ") {
+                          slug = "plainfield-nj-dentist-near-you";
                         }
                         return slug ? (
                           <Link

@@ -1,21 +1,19 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
 import { CheckCircle } from "lucide-react";
-import BookCallBtn from "@/app/services/book-call-btn";
-import { Bounce, Fade, Zoom } from "react-awesome-reveal";
+import { Bounce } from "react-awesome-reveal";
 import BookCallBtnForServiceAreas from "@/app/services/book-call-btn-for-serviceAreas";
 import { useWorkingHours } from "@/lib/hooks/useWorkingHours";
 
-export default function VauxhallServiceAreaClient() {
+export default function ScotchPlainsServiceAreaClient() {
   const { workingHours, loading } = useWorkingHours();
   const locations = [
     {
-      id: "vauxhall",
-      name: "Vauxhall, NJ",
-      address: "1585 Springfield Avenue, Store #1, Maplewood, NJ 07040",
-      phone: "973-671-5500",
+      id: "scotch-plains",
+      name: "Scotch Plains, NJ",
+      address: "1024 Park Ave Suite 6C, Plainfield, NJ 07060",
+      phone: "(908) 264-2357",
       hours: [
         "Monday: 9:00 AM - 6:00 PM",
         "Tuesday: 9:00 AM - 6:00 PM",
@@ -26,17 +24,17 @@ export default function VauxhallServiceAreaClient() {
         "Sunday: Closed",
       ],
       mapUrl:
-        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6047.5999171140365!2d-74.256008!3d40.72242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3acfa56220c03%3A0x4ed24acaf264373a!2s1585%20Springfield%20Ave%2C%20Maplewood%2C%20NJ%2007040%2C%20USA!5e0!3m2!1sen!2sin!4v1755873013308!5m2!1sen!2sin",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.88156681386!2d-74.4101914!3d40.6104366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b94a401bb39b%3A0xab3665a251b45a35!2sSmiling%20Molar%20Dental!5e0!3m2!1sen!2sin!4v1760968474950!5m2!1sen!2sin",
     },
   ];
 
-  const [selected, setSelected] = useState(locations[0]);
+  const [selected] = useState(locations[0]);
 
   return (
     <div>
       {/* Header Section */}
       <div className="details-page-header-section ">
-        <h1>Family & Cosmetic Dentist in Vauxhall, NJ 07088 </h1>
+        <h1>Compassionate Dental Care for Scotch Plains, NJ Families </h1>
       </div>
 
       {/* Main Content Section */}
@@ -49,8 +47,8 @@ export default function VauxhallServiceAreaClient() {
               {/* <Zoom cascade damping={0.3} duration={800}> */}
               <div className="main-image">
                 <img
-                  src="/Images/vauxhall.webp"
-                  alt="Family & Cosmetic Dentist in Vauxhall, NJ 07088"
+                  src="/Images/newark.webp"
+                  alt="Family & Cosmetic Dentist in Scotch Plains, NJ 07076"
                   className="rounded-xl"
                 />
               </div>
@@ -62,20 +60,20 @@ export default function VauxhallServiceAreaClient() {
           <div className="desc-text-section">
             {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
-              Comprehensive Dental Services in Vauxhall | Tulip Dental | Trusted
-              Dentist Near You
+              Personalized Dentistry in Scotch Plains, NJ | Smiling Molar Dental
             </h2>
             <p>
-              At Tulip Dental, we proudly serve the residents of Vauxhall, NJ
-              07088, with compassionate, high-quality dental care. Whether
-              you’re searching for a reliable “dentist near me” or are new to
-              the area, our skilled team provides complete care for patients of
-              all ages in a modern, welcoming environment.
+              At Smiling Molar Dental, we're proud to serve families in Scotch
+              Plains, NJ (07076) with a full range of modern dental services.
+              Whether you're due for a routine checkup, want to explore cosmetic
+              dentistry, or need urgent dental care, our experienced team is
+              here to help you achieve and maintain a healthy, confident smile.
             </p>
             <p>
-              From preventive cleanings to advanced cosmetic treatments, our
-              goal is to help you achieve a healthy, beautiful smile that lasts
-              a lifetime.
+              Patients from Scotch Plains, Plainfield (07060), South Plainfield
+              (07080), and North Plainfield (07062, 07063) rely on our warm
+              environment, advanced technology, and personalized treatment plans
+              designed to make every visit smooth and stress-free.
             </p>
             {/* </Fade> */}
           </div>
@@ -84,105 +82,29 @@ export default function VauxhallServiceAreaClient() {
         {/* Comprehensive Dental Care Section */}
         <div className="flex flex-col gap-4 p-6 md:p-0">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
-            Complete Dental Care for Every Stage of Life
+            Dental Services We Offer in Scotch Plains, NJ
           </h2>
           {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
           <p>
-            Our conveniently located office near Vauxhall offers the latest
-            dental technology and amenities for your comfort. We provide a full
-            spectrum of dental services, including:
+            We offer a complete selection of preventive, restorative, cosmetic,
+            and emergency dental treatments - all under one roof.
           </p>
 
-          <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
+          <ul className="list-disc pl-6 space-y-4 text-sm md:text-lg">
             <li>
               <h3 className="text-lg font-semibold">
                 <a
                   href="/services/emergency-dentistry-maplewood-nj"
                   className="text-blue-600 hover:text-blue-800 hover:underline"
                 >
-                  Emergency Dentistry
+                  Emergency Dental Appointments
                 </a>
               </h3>
               <p>
-                Same-day appointments for urgent pain, dental injuries, or
-                emergencies.
-              </p>
-            </li>
-
-            <li>
-              <h3 className="text-lg font-semibold">Preventive Dentistry</h3>
-              <p>
-                Routine exams, professional cleanings, and proactive oral health
-                guidance.
-              </p>
-            </li>
-
-            <li>
-              <h3 className="text-lg font-semibold">
-                <a
-                  href="/services/cosmetic-dentistry-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  Cosmetic Dentistry
-                </a>
-              </h3>
-              <p>
-                Professional{" "}
-                <a
-                  href="/services/teeth-whitening-and-veneers-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  whitening
-                </a>
-                ,{" "}
-                <a
-                  href="/services/teeth-whitening-and-veneers-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  veneers
-                </a>
-                , and smile makeover treatments.
-              </p>
-            </li>
-
-            <li>
-              <h3 className="text-lg font-semibold">
-                <a
-                  href="/services/crowns-and-bridges-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  Restorative Dentistry
-                </a>
-              </h3>
-              <p>
-                <a
-                  href="/services/crowns-and-bridges-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  Crowns
-                </a>
-                ,{" "}
-                <a
-                  href="/services/crowns-and-bridges-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  bridges
-                </a>
-                ,{" "}
-                <a
-                  href="/services/permanent-teeth-replacement-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  dentures
-                </a>
-                , and{" "}
-                <a
-                  href="/services/dental-implants-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  dental implants
-                </a>{" "}
-                to restore function and appearance.
+                We understand dental emergencies can happen at any time. Our
+                team provides same-day appointments for severe toothaches,
+                broken teeth, knocked-out teeth, or sudden infections, so you
+                get the relief you need right away.
               </p>
             </li>
 
@@ -192,10 +114,65 @@ export default function VauxhallServiceAreaClient() {
                   href="/services/kids-and-children-dentistry-maplewood-nj"
                   className="text-blue-600 hover:text-blue-800 hover:underline"
                 >
-                  Pediatric Dentistry
+                  Pediatric & Family Dentistry
                 </a>
               </h3>
-              <p>Gentle, kid-friendly care for infants, children, and teens</p>
+              <p>
+                We create positive dental experiences for kids, teens, and
+                families. From gentle cleanings and fluoride treatments to
+                sealants and cavity prevention, our approach helps children
+                build healthy habits that last a lifetime.
+              </p>
+            </li>
+
+            <li>
+              <h3 className="text-lg font-semibold">
+                <a
+                  href="/services/invisalign-clear-aligners-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Invisalign® & Orthodontic Options
+                </a>
+              </h3>
+              <p>
+                Straighten your smile with Invisalign® clear aligners, a
+                comfortable and discreet alternative to braces that fits easily
+                into your lifestyle. Ideal for both teens and adults in Scotch
+                Plains.
+              </p>
+            </li>
+
+            <li>
+              <h3 className="text-lg font-semibold">
+                <a
+                  href="/services/dental-implants-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Dental Implants & Restorative Solutions
+                </a>
+              </h3>
+              <p>
+                For missing or damaged teeth, we offer dental implants, crowns,
+                and bridges to restore strength, function, and aesthetics. Each
+                restoration is custom-designed for a natural, lasting result.
+              </p>
+            </li>
+
+            <li>
+              <h3 className="text-lg font-semibold">
+                <a
+                  href="/services/cosmetic-dentistry-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Cosmetic Dentistry & Whitening
+                </a>
+              </h3>
+              <p>
+                Enhance your smile with veneers, bonding, and professional teeth
+                whitening. Whether you want to correct chips, close gaps, or
+                brighten discoloration, our cosmetic services deliver radiant
+                results.
+              </p>
             </li>
           </ul>
           {/* </Fade> */}
@@ -206,36 +183,44 @@ export default function VauxhallServiceAreaClient() {
           <div className="wcu-text-section">
             {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
             <div className="wcu-title">
-              <h2>Why Vauxhall Families Choose Tulip Dental</h2>
+              <h2>Why Families in Scotch Plains Choose Smiling Molar Dental</h2>
             </div>
             <div className="wcu-desc">
-              Patients from Vauxhall (07088) and nearby Maplewood (07040), South
-              Orange (07079), Irvington (07111), and Newark (07106, 07112) trust
-              Tulip Dental because:
+              Patients from Scotch Plains (07076) and surrounding areas trust
+              our practice for several key reasons:
             </div>
             <div className="wcu-points-section">
               <ul className="wcu-points space-y-3">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="service-point-icon mt-1 shrink-0" />
-                  <span>Personalized, patient-first dental care</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
-                  <span>Advanced technology for precision and comfort</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
-                  <span>Same-day emergency visits available</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
-                  <span>Insurance-friendly with payment plans offered</span>
+                  <span>
+                    Comprehensive dental care for children, teens, and adults
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="service-point-icon mt-1 shrink-0" />
                   <span>
-                    Convenient location serving the entire Union &amp; Essex
-                    County area
+                    Gentle, patient-centered approach for maximum comfort
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
+                  <span>
+                    Same-day appointments and flexible scheduling options
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
+                  <span>
+                    Affordable care with insurance acceptance and financing
+                    solutions
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
+                  <span>
+                    Convenient location near Scotch Plains and nearby Plainfield
+                    communities
                   </span>
                 </li>
               </ul>
@@ -246,7 +231,7 @@ export default function VauxhallServiceAreaClient() {
             {/* <Zoom cascade damping={0.3} duration={800}> */}
             <img
               src="/Images/maplewood-1.webp"
-              alt="Tulip Dental in Vauxhall"
+              alt="Smiling Molar Dental in Scotch Plains"
               className="rounded-xl"
             />
             {/* </Zoom> */}
@@ -257,13 +242,17 @@ export default function VauxhallServiceAreaClient() {
         <div className="features-section">
           {/* <Fade direction="up" duration={1000}> */}
           <h2 className="features-heading">
-            Schedule Your Appointment in Vauxhall Today{" "}
+            Book Your Dental Appointment in Scotch Plains, NJ Today
           </h2>
           <p className="features-description">
-            Whether you’re right in Vauxhall or just minutes away in a
-            neighboring town, Tulip Dental is here to provide exceptional care
-            for your smile. If you’ve been looking for a “dentist near me” who
-            combines expertise with compassion, your search ends here.
+            Whether you're searching for a family dentist near you, planning a
+            cosmetic upgrade, or dealing with a dental emergency, Smiling Molar
+            Dental is here to help.
+            <br />
+            <br />
+            Our experienced team proudly serves Scotch Plains (07076) and nearby
+            communities with compassionate, high-quality dental care designed
+            for every age and every smile.
           </p>
 
           <BookCallBtnForServiceAreas />

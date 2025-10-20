@@ -9,7 +9,7 @@ import { generatePageMetadata } from "@/lib/metadata";
 // import NewsletterSection from './components/NewsletterSection'
 
 export const metadata: Metadata = generatePageMetadata(
-  "contact-smiling-molar-dental-plainfield-nj",
+  "contact-community-smiles-plainfield-nj",
   "/Images/Smiling Molar Header.png"
 );
 

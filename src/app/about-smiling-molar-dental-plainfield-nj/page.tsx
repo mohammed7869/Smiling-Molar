@@ -147,8 +147,8 @@ export default function AboutUsClient() {
         <div className="flex-1 flex justify-center lg:justify-end order-1 lg:order-2 w-full">
           {/* <Slide direction="right"> */}
           <img
-            src="/Images/about-us-1.webp"
-            alt="Dental checkup at Tulip Dental Maplewood"
+            src="/Images/about-us.avif"
+            alt="Dental checkup at Smiling Molar Dental in Plainfield, NJ"
             className="rounded-xl shadow-lg w-full max-w-sm sm:max-w-md lg:max-w-lg object-cover"
             loading="lazy"
           />
@@ -160,8 +160,8 @@ export default function AboutUsClient() {
       <section className="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-8 py-8 sm:py-12 lg:py-16 px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto">
         <div className="flex-1 flex justify-center lg:justify-start mb-6 lg:mb-0 order-2 lg:order-1 w-full">
           <img
-            src="/Images/why-patients-choose (1).webp"
-            alt="Trusted dental care at Tulip Dental Maplewood"
+            src="/Images/about-us-1.avif"
+            alt="Trusted dental care at Smiling Molar Dental in Plainfield, New Jersey"
             className="rounded-xl shadow-lg w-full max-w-sm sm:max-w-md lg:max-w-lg object-cover"
             loading="lazy"
           />
