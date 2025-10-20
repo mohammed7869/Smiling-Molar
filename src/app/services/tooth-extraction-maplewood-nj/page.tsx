@@ -7,48 +7,46 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
-import Link from "next/link";
 
 export default function ToothExtractionPage() {
   const features = [
     {
       icon: "/Images/icons/tooth-extraction.png",
-      title: "Severe Decay or Irreversible Damage",
+      title: "Simple Extractions",
       description:
-        "When a tooth is beyond repair due to deep decay or fractures, removing it prevents infection from spreading to surrounding teeth and gums.",
+        "We make tooth removal as smooth and painless as possible, whether it's part of a planned procedure or an urgent need.",
       points: [
-        "Comprehensive exam and X-rays to assess the extent of damage.",
-        "Gentle extraction technique to preserve bone and gum tissue.",
-        "Immediate infection control and cleaning of the extraction site.",
-        "Planning for future restoration options like implants or bridges.",
+        "Safe removal of severely decayed or damaged teeth",
+        "Local anesthesia for a comfortable, pain-free experience",
+        "Same-day appointments available for urgent cases",
+        "Detailed aftercare to support healthy healing",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Advanced Gum Disease (Periodontal Damage)",
+      title: "Wisdom Teeth Removal",
       description:
-        "Periodontal disease can weaken the bone and tissue supporting a tooth, making extraction necessary to protect nearby healthy teeth.",
+        "We make tooth removal as smooth and painless as possible, whether it's part of a planned procedure or an urgent need.",
       points: [
-        "Assessment of bone loss through periodontal charting and imaging.",
-        "Removal of loose or severely compromised teeth.",
-        "Thorough cleaning of the area to reduce bacteria and inflammation.",
-        "Referral for periodontal therapy or restorative planning as needed.",
+        "Thorough evaluation to determine if removal is needed",
+        "Surgical extractions for impacted or problematic wisdom teeth",
+        "Sedation options to keep you relaxed during the procedure",
+        "Personalized instructions to minimize swelling and complications",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Impacted or Problematic Wisdom Teeth",
+      title: "Emergency Tooth Extractions",
       description:
-        "Wisdom teeth that grow in at the wrong angle or fail to emerge fully can cause pain, infection, and crowding of other teeth.",
+        "We make tooth removal as smooth and painless as possible, whether it's part of a planned procedure or an urgent need.",
       points: [
-        "Panoramic X-rays to check position and root formation.",
-        "Surgical or simple extraction depending on tooth location.",
-        "Pain management with local anesthesia or sedation options.",
-        "Post-op instructions for smooth healing and swelling control.",
+        "Fast relief for severe pain or infection",
+        "Safe extraction to prevent further oral health issues",
+        "Temporary and long-term solutions based on your situation",
+        "Follow-up care to ensure proper healing and recovery",
       ],
     },
   ];
@@ -59,12 +57,11 @@ export default function ToothExtractionPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Tooth Extractions in Maplewood, NJ</h1>
+              <h1>Tooth Extractions in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Gentle & Precise Tooth Removal in Maplewood | Tulip Dental |
-                Family & Cosmetic Dentist{" "}
+                Gentle & Stress-Free Tooth Removal | Smiling Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -94,40 +91,27 @@ export default function ToothExtractionPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Tooth Extractions</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                {" "}
-                About Tooth Extractions
+                Understanding Tooth Extractions
               </h2>
               <p>
-                Sometimes, the best way to{" "}
-                <Link
-                  href="/services/perio-protect-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  protect your oral health
-                </Link>
-                is to remove a tooth that’s too damaged, decayed, or impacted to
-                save. At
-                <Link
-                  href="/services/tooth-extraction-maplewood-nj"
-                  className="text-primary ml-2 mr-2 hover:underline font-medium"
-                >
-                  extractions
-                </Link>
-                with precision, care, and a Tulip Dental, we perform extractions
-                with precision, care, and a focus on keeping you comfortable
-                throughout the process.Whether it’s a badly infected tooth, a
-                wisdom tooth causing pain, or preparation for{" "}
-                <Link
-                  href="/services/orthodontics-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  orthodontic treatment
-                </Link>
-                , we ensure your procedure is as stress-free as possible.{" "}
+                Sometimes, removing a tooth is the best way to protect your
+                long-term oral health. At Smiling Molar Dental, we perform
+                gentle tooth extractions in a comfortable, stress-free
+                environment, ensuring that your experience is smooth from start
+                to finish.
               </p>
               <p>
-                We serve Maplewood (07040), South Orange (07079), Vauxhall
-                (07088), Irvington (07111), and Newark (07106, 07112).{" "}
+                Whether you need a simple extraction, wisdom tooth removal, or
+                an emergency extraction, our experienced team uses modern
+                techniques and precise care to keep you comfortable every step
+                of the way.
+              </p>
+              <p>
+                We proudly serve patients from Plainfield (07060), North
+                Plainfield (07062, 07063), South Plainfield (07080), Scotch
+                Plains (07076), and surrounding communities. If you're searching
+                for a "tooth extraction near me" or "wisdom tooth removal near
+                me", you can trust our team for safe, efficient treatment.
               </p>
               {/* </Fade> */}
             </div>
@@ -137,39 +121,39 @@ export default function ToothExtractionPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
                 <h2>
-                  Top Reasons to Choose Tulip Dental for Tooth Extractions
+                  Why Patients Choose Smiling Molar Dental for Tooth Extractions
                 </h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Gentle
-                      Techniques &amp; Pain Management
+                      <CheckCircle className="service-point-icon" />
+                      Gentle Techniques & Patient Comfort First
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Advanced
-                      Digital Imaging for Accuracy
+                      <CheckCircle className="service-point-icon" />
+                      Simple & Surgical Extractions Available
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Same-Day
-                      Emergency Extractions Available
+                      <CheckCircle className="service-point-icon" />
+                      Experienced Team for Children & Adults
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Sedation
-                      Options for Nervous Patients
+                      <CheckCircle className="service-point-icon" />
+                      Affordable Care & Insurance Accepted
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Flexible
-                      Payment &amp; Insurance-Friendly Care
+                      <CheckCircle className="service-point-icon" />
+                      Convenient Plainfield Location
                     </h3>
                   </li>
                 </ul>
@@ -190,25 +174,11 @@ export default function ToothExtractionPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              When Tooth Extraction Becomes the Best Option{" "}
+              Tooth Extraction Services at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              Sometimes a tooth is too damaged, decayed, or compromised to be
-              saved, and in these cases, extraction is the{" "}
-              <Link
-                href="/patient-reviews-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                healthiest choice for
-              </Link>
-              your smile and overall oral health. At Tulip Dental, we perform
-              extractions with precision, care, and a focus on minimizing
-              discomfort while planning the next steps to restore your function
-              and aesthetics.
-              <br />
-              <br />
-              Here are the Most Common Situations Where We Recommend Tooth
-              Extraction at Tulip Dental:{" "}
+              We make tooth removal as smooth and painless as possible, whether
+              it's part of a planned procedure or an urgent need.
             </p>
             {/* </Fade> */}
 
@@ -245,28 +215,25 @@ export default function ToothExtractionPage() {
               <Accordion type="single" className="w-full space-y-5">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Is tooth extraction painful?</h3>
+                    <h3 className="text-lg">Does a tooth extraction hurt?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      No—our gentle techniques and anesthesia options make the
-                      process virtually painless, with only mild soreness
-                      afterward.
+                      With local anesthesia and gentle techniques, most patients
+                      experience little to no discomfort during the procedure.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">
-                      When is a tooth extraction necessary?
-                    </h3>
+                    <h3 className="text-lg">How long does recovery take?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      We recommend extractions for severe decay, advanced gum
-                      disease, broken teeth beyond repair, impacted wisdom
-                      teeth, or overcrowding before orthodontics.
+                      Most patients recover within a few days. Surgical
+                      extractions, like wisdom teeth removal, may take a bit
+                      longer, but we'll guide you every step of the way.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -274,14 +241,14 @@ export default function ToothExtractionPage() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How long is recovery after an extraction?
+                      Do all wisdom teeth need to be removed?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Most patients feel better within a few days, with complete
-                      healing in 1–2 weeks depending on the complexity of the
-                      case.
+                      Not always. If wisdom teeth are impacted, infected, or
+                      causing overcrowding, removal is recommended to prevent
+                      complications.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -289,13 +256,29 @@ export default function ToothExtractionPage() {
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Can I replace my tooth after extraction?
+                      What can I eat after an extraction?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Yes—dental implants, bridges, or partial dentures can
-                      restore your smile and prevent shifting of nearby teeth.
+                      Stick to soft foods for the first 24-48 hours, then
+                      gradually return to your normal diet as healing
+                      progresses.
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="q5" className="faq-acc">
+                  <AccordionTrigger className="faq-qn">
+                    <h3 className="text-lg">
+                      Is extraction covered by insurance?
+                    </h3>
+                  </AccordionTrigger>
+                  <AccordionContent className="faq-ans">
+                    <p>
+                      Most dental insurance plans cover extractions. Our team
+                      will help you understand your coverage and payment
+                      options.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -306,12 +289,16 @@ export default function ToothExtractionPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Need a Tooth Extraction in Maplewood, NJ?
+              Looking for Gentle Tooth Extractions in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              If you’re in pain or think you may need a tooth removed, Tulip
-              Dental offers safe, gentle extractions to protect your oral
-              health. We welcome both scheduled and same-day appointments.
+              At Smiling Molar Dental, we provide gentle, safe, and precise
+              tooth extractions for patients of all ages. Whether you need a
+              routine removal, wisdom tooth extraction, or emergency care, our
+              experienced team is here to help you protect your oral health and
+              feel comfortable throughout the process. We proudly serve patients
+              from Plainfield, North Plainfield, South Plainfield, Scotch
+              Plains, and surrounding communities.
             </p>
             {/* </Fade> */}
           </div>

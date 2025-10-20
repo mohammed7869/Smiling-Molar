@@ -62,12 +62,11 @@ export default function Page() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Wisdom Teeth Removal & Extraction in Maplewood, NJ</h1>
+              <h1>Wisdom Tooth Extractions in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Expert Wisdom Teeth Removal in Maplewood | Tulip Dental | Family
-                & Cosmetic Dentist
+                Gentle Wisdom Tooth Removal Near You | Smiling Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -96,60 +95,29 @@ export default function Page() {
             <div className="desc-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Wisdom Teeth Removal</div>
-              <h3 className="desc-text-title">About Wisdom Teeth </h3>
+              <h3 className="desc-text-title">
+                Understanding Wisdom Tooth Extractions
+              </h3>
               <p>
-                Wisdom teeth, also known as third molars, typically emerge
-                between ages 17-25 when there's often insufficient space in the
-                mouth. At Tulip Dental in{" "}
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary hover:underline font-medium"
-                >
-                  Maplewood
-                </Link>
-                , NJ, we specialize in safe, comfortable wisdom teeth removal
-                using advanced techniques and sedation options to ensure a
-                smooth experience. Our experienced oral surgeons carefully
-                evaluate each case to determine if extraction is necessary and
-                provide comprehensive care from consultation through complete
-                healing.
+                Wisdom teeth typically make their appearance between the ages of
+                17 and 25, but not everyone has enough space in their mouth to
+                accommodate them comfortably. When these third molars erupt
+                incorrectly, become impacted, or cause crowding, they can lead
+                to pain, infection, and misalignment.
               </p>
               <p>
-                We proudly serve patients from{" "}
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary hover:underline font-medium"
-                >
-                  Maplewood (07040),{" "}
-                  <Link
-                    href="/service-areas/south-orange-nj-dentist-near-you"
-                    className="text-primary hover:underline font-medium"
-                  >
-                    South Orange (07079)
-                  </Link>
-                </Link>
-                ,{" "}
-                <Link
-                  href="/service-areas/vauxhall-nj-dentist-near-you"
-                  className="text-primary hover:underline font-medium"
-                >
-                  Vauxhall (07088),{" "}
-                  <Link
-                    href="/service-areas/irvington-nj-dentist-near-you"
-                    className="text-primary hover:underline font-medium"
-                  >
-                    Irvington (07111), and nearby{" "}
-                    <Link
-                      href="/service-areas/newark-nj-dentist-near-you"
-                      className="text-primary hover:underline font-medium"
-                    >
-                      Newark (07106 and 07112)
-                    </Link>
-                  </Link>
-                </Link>
-                . Searching for "wisdom teeth removal near me" or experiencing
-                wisdom tooth pain? You've found local experts who prioritize
-                your comfort and safety throughout the entire process.
+                At Smiling Molar Dental in Plainfield, NJ, our experienced team
+                offers comprehensive evaluations and gentle extractions to keep
+                your smile healthy. We provide treatment in a calm, supportive
+                environment, using advanced imaging and modern surgical
+                techniques to ensure safe, predictable results.
+              </p>
+              <p>
+                Patients from Plainfield (07060), North Plainfield (07062,
+                07063), South Plainfield (07080), Scotch Plains (07076), and
+                nearby communities trust us when searching for "wisdom tooth
+                removal near me" - because we make the process clear,
+                comfortable, and stress-free.
               </p>
               {/* </Fade> */}
             </div>
@@ -158,38 +126,40 @@ export default function Page() {
             <div className="wcu-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
-                <h2>Top Reasons to Choose Tulip Dental for Wisdom Teeth</h2>
+                <h2>
+                  Why Choose Smiling Molar Dental for Wisdom Tooth Extractions
+                </h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Advanced
-                      Imaging Technology for Precise Planning
+                      <CheckCircle className="service-point-icon" /> Detailed
+                      Evaluations & Digital Imaging
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Multiple
-                      Sedation Options for Maximum Comfort
+                      <CheckCircle className="service-point-icon" /> Customized
+                      Treatment Plans
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Experienced
-                      Oral Surgeons with Proven Results
+                      <CheckCircle className="service-point-icon" /> Gentle
+                      Surgical Techniques & Sedation
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" />{" "}
-                      Comprehensive Post-Op Care and Support
+                      <CheckCircle className="service-point-icon" /> Affordable
+                      & Insurance-Friendly Care
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" /> Convenient
-                      Location in Maplewood, NJ
+                      Plainfield Location
                     </h3>
                   </li>
                 </ul>

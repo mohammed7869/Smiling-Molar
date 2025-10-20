@@ -7,9 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import Link from "next/link";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
 
@@ -19,39 +17,36 @@ export default function SportsDentistryPage() {
       icon: "/Images/icons/Immediate Pain Relief.png",
       title: "Custom Athletic Mouthguards",
       description:
-        "Made from high-quality materials, they're built to withstand impact while maintaining comfort during extended wear.",
+        "Professionally fitted for comfort and durability to protect teeth, lips, and jaws from impact injuries.",
       points: [
-        "Custom-molded for perfect fit and maximum retention",
-        "Superior shock absorption to prevent dental injuries",
-        "Comfortable design that doesn't interfere with breathing or communication",
-        "Available in team colors and personalized designs",
-        "Durable construction that withstands repeated impact",
+        "Professionally fitted for comfort and durability",
+        "Protect teeth, lips, and jaws from impact injuries",
+        "Ideal for contact sports like football, basketball, hockey - and non-contact activities like gymnastics or biking",
+        "More effective and longer-lasting than over-the-counter guards",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Sports Injury Treatment & Emergency Care",
+      title: "Emergency Dental Injury Treatment",
       description:
-        "We provide immediate treatment for chipped, cracked, or knocked-out teeth, helping minimize damage and preserve your natural smile.",
+        "Immediate care for chipped, cracked, or fractured teeth with re-implantation of knocked-out teeth when possible.",
       points: [
-        "Same-day emergency appointments for sports injuries",
-        "Advanced techniques for tooth reattachment and repair",
-        "Pain management and infection prevention",
-        "Comprehensive follow-up care for full recovery",
-        "Coordination with sports medicine professionals",
+        "Immediate care for chipped, cracked, or fractured teeth",
+        "Re-implantation of knocked-out teeth when possible",
+        "Stabilization, pain relief, and follow-up restorative care",
+        "Quick response to preserve natural teeth and prevent complications",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Performance-Optimized Dental Care",
+      title: "Ongoing Prevention & Monitoring",
       description:
-        "Poor dental health can affect nutrition, sleep, and overall well-being, which can impact your game. Our performance-focused approach ensures your mouth supports your athletic goals.",
+        "Regular mouthguard checks for proper fit and adjustments for growing children and teens.",
       points: [
-        "Comprehensive oral health evaluations for athletes",
-        "Treatment of conditions that may affect performance",
-        "Nutritional guidance for optimal oral and athletic health",
-        "Sleep disorder screening and treatment options",
-        "Preventive care scheduling around training and competition",
+        "Regular mouthguard checks for proper fit",
+        "Adjustments for growing children and teens",
+        "Education on injury prevention for athletes and parents",
+        "Seasonal checkups to ensure continued protection",
       ],
     },
   ];
@@ -62,12 +57,11 @@ export default function SportsDentistryPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Sports Dentistry in Maplewood, NJ</h1>
+              <h1>Sports Dentistry in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Protect Your Smile with Sports Dentistry in Maplewood | Tulip
-                Dental | Family & Cosmetic Dentist
+                Protecting Smiles for Active Patients | Smiling Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -96,50 +90,28 @@ export default function SportsDentistryPage() {
             <div className="desc-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Sports Dentistry</div>
-              <h3 className="desc-text-title">About Sports Dentistry</h3>
+              <h3 className="desc-text-title">
+                Understanding Sports Dentistry
+              </h3>
               <p>
-                Whether you're a weekend warrior or a competitive athlete,
-                protecting your{" "}
-                <Link
-                  href="/patient-reviews-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  smile
-                </Link>{" "}
-                should be just as important as protecting the rest of your body.
-                At Tulip Dental in{" "}
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary hover:underline font-medium"
-                >
-                  Maplewood
-                </Link>
-                , NJ, we specialize in sports dentistry, offering custom-fitted
-                mouthguards and{" "}
-                <Link
-                  href="/services/cosmetic-dentistry-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  comprehensive dental care
-                </Link>{" "}
-                designed specifically for active individuals. Our expert team
-                understands the unique dental challenges athletes face and
-                provides solutions to prevent injuries, treat sports-related
-                dental trauma, and keep you performing at your best.
+                Whether you're a child playing youth soccer, a teen on a
+                competitive team, or an adult who loves staying active, dental
+                injuries can happen in an instant. Sports dentistry focuses on
+                preventing injuries with protective gear and providing
+                immediate, expert care when accidents occur.
               </p>
               <p>
-                We proudly serve athletes from Maplewood (07040), South Orange
-                (07079), Vauxhall (07088), Irvington (07111), and nearby Newark
-                (07106 and 07112). Searching for "sports dentistry near me" or
-                "custom mouthguards"? You've found a local dentist who
-                understands the importance of{" "}
-                <Link
-                  href="/patient-reviews-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  protecting your smile
-                </Link>{" "}
-                during athletic activities. athletic activities.
+                At Smiling Molar Dental, we help athletes of all ages safeguard
+                their smiles with custom-fitted athletic mouthguards and fast
+                treatment for sports-related dental emergencies. Patients from
+                Plainfield (07060), North Plainfield (07062, 07063), South
+                Plainfield (07080), Scotch Plains (07076), and nearby areas
+                trust our team for dependable, athlete-focused dental care.
+              </p>
+              <p>
+                If you're searching for "sports mouthguards near me" or need
+                urgent help after a dental injury, our experienced team is ready
+                to keep your smile in the game.
               </p>
               {/* </Fade> */}
             </div>
@@ -148,32 +120,38 @@ export default function SportsDentistryPage() {
             <div className="wcu-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
-                <h2>Top Reasons to Choose Tulip Dental for Sports Dentistry</h2>
+                <h2>Why Choose Smiling Molar Dental for Sports Dentistry</h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />{" "}
-                      Custom-Fitted Protection for Maximum Comfort
+                      Professionally Fitted Mouthguards for Superior Protection
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Expert
-                      Treatment of Sports-Related Dental Injuries
+                      <CheckCircle className="service-point-icon" /> Same-Day
+                      Appointments for Sports-Related Injuries
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Advanced
-                      Materials for Superior Durability
+                      <CheckCircle className="service-point-icon" /> Care for
+                      Kids, Teens & Adults
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Flexible
-                      Scheduling for Busy Athletes
+                      <CheckCircle className="service-point-icon" /> Affordable
+                      Options & Insurance Support
+                    </h3>
+                  </li>
+                  <li>
+                    <h3 className="service-point-title">
+                      <CheckCircle className="service-point-icon" /> Convenient
+                      Plainfield Location
                     </h3>
                   </li>
                 </ul>
@@ -194,32 +172,12 @@ export default function SportsDentistryPage() {
 
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
-            <h2 className="features-heading">Our Sports Dentistry Benefits </h2>
+            <h2 className="features-heading">
+              Sports Dentistry Services at Smiling Molar Dental
+            </h2>
             <p className="features-description">
-              At Tulip Dental, we believe that proper{" "}
-              <Link
-                href="/patient-reviews-maplewood-nj"
-                className="text-primary hover:underline font-medium"
-              >
-                dental protection
-              </Link>{" "}
-              is essential for every athlete, from youth sports participants to
-              professional competitors. Our comprehensive sports dentistry
-              services are designed to prevent injuries before they happen and
-              provide expert care when accidents occur. Every mouthguard and
-              treatment is customized to your specific sport, playing style, and
-              individual needs, ensuring maximum protection without compromising
-              performance.
-              <br />
-              <br />
-              Here's how we{" "}
-              <Link
-                href="/services/dental-fillings-maplewood-nj"
-                className="text-primary hover:underline font-medium"
-              >
-                protect and care for athletes
-              </Link>{" "}
-              at Tulip Dental:
+              We offer a comprehensive range of services to protect and restore
+              smiles for active patients.
             </p>
             {/* </Fade> */}
 
@@ -257,15 +215,14 @@ export default function SportsDentistryPage() {
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What sports require mouthguards?
+                      Do athletes really need custom mouthguards?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      While football and hockey mandate mouthguards, we
-                      recommend them for any sport with risk of facial contact,
-                      including basketball, soccer, baseball, martial arts, and
-                      cycling.
+                      Yes. Custom mouthguards offer significantly better
+                      protection and comfort compared to generic versions,
+                      reducing the risk of broken teeth and jaw injuries.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -273,14 +230,14 @@ export default function SportsDentistryPage() {
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How long do custom mouthguards last?
+                      What should I do if a tooth is knocked out during a game?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      With proper care, custom mouthguards typically last 1-2
-                      seasons for adults and may need annual replacement for
-                      growing children and teens.
+                      Keep the tooth moist - ideally in milk, saline, or gently
+                      placed back in the socket - and visit us immediately.
+                      Quick action improves the chances of saving the tooth.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -288,14 +245,14 @@ export default function SportsDentistryPage() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Can I get a mouthguard if I have braces?
+                      Are mouthguards only necessary for contact sports?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Absolutely! We create specialized mouthguards designed
-                      specifically for patients with orthodontic appliances,
-                      providing protection for both teeth and braces.
+                      No. Even non-contact sports like biking, skateboarding, or
+                      gymnastics carry injury risks. Mouthguards help protect
+                      your teeth in all types of activities.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -303,16 +260,14 @@ export default function SportsDentistryPage() {
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What should I do if my tooth gets knocked out during
-                      sports?
+                      How often should mouthguards be replaced?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Keep the tooth moist (in milk or saliva), handle it by the
-                      crown only, and get to our office immediately. Quick
-                      action greatly improves the chance of successful
-                      reattachment.
+                      For children and teens, mouthguards should be updated
+                      every sports season to accommodate growth. Adults may keep
+                      the same guard for several years with proper care.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -320,14 +275,14 @@ export default function SportsDentistryPage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Do mouthguards affect breathing or talking?
+                      Does insurance cover sports dentistry?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Our custom-fitted mouthguards are designed to allow normal
-                      breathing and clear communication, unlike bulky
-                      store-bought alternatives.
+                      Some insurance plans cover injury treatment and
+                      mouthguards. Our team can review your coverage and provide
+                      affordable options if needed.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -338,12 +293,15 @@ export default function SportsDentistryPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Ready to Protect Your Athletic Smile?
+              Keep Your Smile Safe While You Play in Plainfield, NJ
             </h2>
             <p className="features-description">
-              At Tulip Dental, we make sports dentistry convenient, comfortable,
-              and effective. From custom mouthguards to emergency injury care,
-              we'll help keep you in the game with a healthy, protected smile.
+              At Smiling Molar Dental, we make it easy to protect your smile
+              while enjoying the sports you love. Whether you need a custom
+              athletic mouthguard or urgent injury care, our experienced dental
+              team is here to support athletes across Plainfield, North
+              Plainfield, South Plainfield, Scotch Plains, and surrounding
+              communities.
             </p>
             {/* </Fade> */}
           </div>

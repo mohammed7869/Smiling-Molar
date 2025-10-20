@@ -7,51 +7,45 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import ServiceSidebar from "@/components/ServiceSidebar";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
-import Link from "next/link";
 
 export default function CrownsPage() {
   const features = [
     {
       icon: "/Images/icons/Teeth Replacement.png",
-      title: "Our Most Trusted Crown & Bridge Solutions",
+      title: "Dental Crowns for Weakened or Damaged Teeth",
       description:
-        "We provide a range of restoration types so we can match the right material and design to your needs and budget.",
+        "Our crowns and bridges are designed to restore function, protect teeth, and improve your smile - whether you need a single tooth repaired or several replaced.",
       points: [
-        "All-ceramic / porcelain crowns for the most natural appearance",
-        "Zirconia crowns for high strength and longevity",
-        "Porcelain-fused-to-metal (PFM) crowns for a balance of strength & esthetics",
-        "Implant-supported crowns & bridges to replace missing teeth permanently",
-        "Temporary crowns & provisional bridges for protection during treatment",
+        "Protect cracked, worn, or fractured teeth",
+        "Restore strength after root canal treatment",
+        "Custom-crafted from porcelain, ceramic, or metal",
+        "Seamlessly match surrounding teeth for a natural look",
       ],
     },
     {
       icon: "/Images/icons/x-ray.png",
-      title: "Benefits You Can Expect",
+      title: "Dental Bridges to Replace Missing Teeth",
       description:
-        "Choosing crowns or bridges at Tulip Dental delivers both immediate improvements and long-term oral health benefits.",
+        "Our crowns and bridges are designed to restore function, protect teeth, and improve your smile - whether you need a single tooth repaired or several replaced.",
       points: [
-        "Restore chewing and speaking function quickly",
-        "Protect and preserve weakened or root-canal treated teeth",
-        "Maintain facial shape and prevent neighboring teeth from shifting",
-        "Improve color, shape, and overall smile aesthetics",
-        "Durable restorations designed for lasting performance",
+        "Fill gaps caused by one or more missing teeth",
+        "Anchored to natural teeth or implants for stability",
+        "Restore chewing function and proper bite alignment",
+        "Enhance appearance with lifelike restorations",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Customized Care & Aftercare That Extends Lifespan",
+      title: "Long-Lasting Restorative Solutions",
       description:
-        "We tailor every restoration and provide clear aftercare so your crown or bridge lasts as long as possible.",
+        "Our crowns and bridges are designed to restore function, protect teeth, and improve your smile - whether you need a single tooth repaired or several replaced.",
       points: [
-        "Precise shade selection and contouring for a seamless match",
-        "Bite (occlusion) adjustment to prevent wear and discomfort",
-        "Same-day repairs or adjustments when clinically feasible",
-        "Personalized oral hygiene and maintenance instructions",
-        "Scheduled follow-ups to monitor function and fit",
+        "Durable designs built for years of everyday use",
+        "Prevent shifting of surrounding teeth and bite changes",
+        "Preserve facial structure and oral health",
+        "Comfortable fit for confidence in every smile",
       ],
     },
   ];
@@ -61,10 +55,10 @@ export default function CrownsPage() {
       <main className="details-page-container">
         <div className="details-page">
           <div className="details-page-header-section">
-            <h1>Crowns & Bridges in Maplewood, NJ</h1>
+            <h1>Dental Crowns & Bridges in Plainfield, NJ</h1>
             <h2 className="text-center">
-              Durable Crowns & Natural-Looking Bridges in Maplewood | Tulip
-              Dental | Family & Cosmetic Dentist{" "}
+              Reliable Restorative Solutions for Damaged or Missing Teeth |
+              Smiling Molar Dental
             </h2>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
           </div>
@@ -93,37 +87,23 @@ export default function CrownsPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Dental Crowns & Bridges</div>
               <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-semibold desc-text-title">
-                About Crowns & Bridges
+                Understanding Crowns & Bridges
               </h2>
               <p>
-                Crowns and bridges are trusted restorative{" "}
-                <Link
-                  href="/services/painless-dental-treatment-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  treatments
-                </Link>
-                used to treatments repair heavily damaged teeth and replace one
-                or more missing teeth for long-term function and aesthetics. At
-                Tulip Dental, we create custom crowns and bridges designed to
-                blend seamlessly with your smile while restoring chewing ability
-                and protecting surrounding teeth. We use precise digital
-                impressions, top-grade materials, and expert laboratory partners
-                to deliver{" "}
-                <Link
-                  href="/services/cosmetic-dentistry-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  restorations
-                </Link>
-                that look natural and stand the test of time.{" "}
+                When teeth are damaged, weakened, or missing, dental crowns and
+                bridges offer long-lasting, natural-looking solutions to restore
+                your smile's function and beauty. At Smiling Molar Dental, our
+                team designs custom restorations that blend seamlessly with your
+                natural teeth, helping you chew, speak, and smile with
+                confidence again.
               </p>
               <p>
-                We proudly serve patients from Maplewood (07040), South Orange
-                (07079), Vauxhall (07088), Irvington (07111), and nearby Newark
-                (07106, 07112) - if you’re searching for “crowns near me” or
-                “bridge dentist near me,” Tulip Dental is close by and ready to
-                help.
+                Conveniently located in Plainfield, NJ, we proudly serve
+                Plainfield (07060), North Plainfield (07062, 07063), South
+                Plainfield (07080), Scotch Plains (07076), and surrounding
+                communities. Patients searching for "dental crowns near me" or
+                "dental bridges near me" trust us for precision, quality, and
+                comfort.
               </p>
               {/* </Fade> */}
             </div>
@@ -132,38 +112,40 @@ export default function CrownsPage() {
             <div className="wcu-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
-                <h2>Top Reasons to Choose Tulip Dental for Crowns & Bridges</h2>
+                <h2>
+                  Why Patients Choose Smiling Molar Dental for Crowns & Bridges
+                </h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Custom,
-                      Natural-Looking Restorations
+                      <CheckCircle className="service-point-icon" />
+                      Custom Restorations That Feel Natural
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Durable,
-                      High-Quality Materials
+                      <CheckCircle className="service-point-icon" />
+                      High-Quality Materials for Durability
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Precision
-                      Digital Impressions & Trusted Lab Partners
+                      <CheckCircle className="service-point-icon" />
+                      Gentle, Experienced Dental Team
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Same-Day
-                      Crown Options When Eligible
+                      <CheckCircle className="service-point-icon" />
+                      Affordable Options & Insurance Support
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Insurance
-                      Accepted & Flexible Payment Plans
+                      <CheckCircle className="service-point-icon" />
+                      Convenient Plainfield Location
                     </h3>
                   </li>
                 </ul>
@@ -184,23 +166,12 @@ export default function CrownsPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Crowns & Bridges That Restore Form & Function
+              Dental Crowns & Bridges at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              Crowns and bridges do much more than fill gaps - they rebuild
-              strength, protect vulnerable teeth, and restore a natural,
-              confident smile. At Tulip Dental we blend advanced digital
-              techniques with artistic shade-matching to create{" "}
-              <Link
-                href="/services/cosmetic-dentistry-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                restorations
-              </Link>
-              that look great and perform reliably for years.
-              <br />
-              <br />
-              Here’s what we offer at Tulip Dental:
+              Our crowns and bridges are designed to restore function, protect
+              teeth, and improve your smile - whether you need a single tooth
+              repaired or several replaced.
             </p>
             {/* </Fade> */}
 
@@ -232,23 +203,10 @@ export default function CrownsPage() {
             </div>
           </div>
           <div className="faq-section">
-            <h2 className="faq-heading">Crowns & Bridges FAQs</h2>
+            <h2 className="faq-heading">Dental Crowns & Bridges FAQs</h2>
             <div className="faq-acc-container">
               <Accordion type="single" className="w-full space-y-5">
                 <AccordionItem value="q1" className="faq-acc">
-                  <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">When is a crown necessary?</h3>
-                  </AccordionTrigger>
-                  <AccordionContent className="faq-ans">
-                    <p>
-                      A crown is recommended when a tooth is weakened by decay,
-                      fracture, or after root canal therapy to protect structure
-                      and restore function.
-                    </p>
-                  </AccordionContent>
-                </AccordionItem>
-
-                <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
                       How long do crowns and bridges last?
@@ -256,22 +214,34 @@ export default function CrownsPage() {
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      With good oral hygiene and regular dental visits, crowns
-                      and bridges commonly last 10–15 years or longer; lifespan
-                      depends on material, bite forces, and care.
+                      With proper care, crowns and bridges can last 10-15 years
+                      or more, depending on materials and oral hygiene.
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="q2" className="faq-acc">
+                  <AccordionTrigger className="faq-qn">
+                    <h3 className="text-lg">What materials are used?</h3>
+                  </AccordionTrigger>
+                  <AccordionContent className="faq-ans">
+                    <p>
+                      We offer porcelain, ceramic, and metal-based options. The
+                      best choice depends on your tooth location, goals, and
+                      budget.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Are same-day crowns available?</h3>
+                    <h3 className="text-lg">Does the procedure hurt?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Yes — when clinically appropriate we offer CAD/CAM
-                      same-day crowns that allow you to receive a final
-                      restoration in a single visit.
+                      No. With local anesthesia and gentle techniques, most
+                      patients experience little to no discomfort during
+                      treatment.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -279,14 +249,13 @@ export default function CrownsPage() {
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Will it hurt to get a crown or bridge?
+                      Will my crown or bridge look natural?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      No — we use local anesthesia and gentle techniques to keep
-                      you comfortable; most patients experience only mild,
-                      short-lived sensitivity after placement.
+                      Yes. Each restoration is custom-made to blend seamlessly
+                      with your natural teeth for a flawless smile.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -294,14 +263,14 @@ export default function CrownsPage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How should I care for my crown or bridge?
+                      Is treatment covered by insurance?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Brush twice daily, floss carefully (use floss threaders
-                      under bridges), avoid very hard foods, and keep regular
-                      dental checkups to maintain longevity.
+                      Most dental insurance plans cover part of the cost for
+                      crowns and bridges. Our team will review your benefits and
+                      provide clear estimates.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -311,14 +280,16 @@ export default function CrownsPage() {
 
           <div className="features-section">
             <h2 className="features-heading">
-              Ready to Restore Your Smile with Crowns & Bridges in Maplewood,
-              NJ?
+              Want to Restore Your Smile with Dental Crowns & Bridges in
+              Plainfield, NJ?
             </h2>
             <p className="features-description">
-              At Tulip Dental, our custom crowns and bridges are crafted for
-              strength, comfort, and a natural look — helping you chew, speak,
-              and smile with confidence again. Let us rebuild your smile with
-              precision and care.
+              At Smiling Molar Dental, we specialize in custom crowns and
+              bridges that strengthen damaged teeth and replace missing ones
+              with durable, natural-looking results. Patients from Plainfield,
+              North Plainfield, South Plainfield, Scotch Plains, and surrounding
+              areas trust our team for restorative solutions that look great and
+              last.
             </p>
           </div>
 

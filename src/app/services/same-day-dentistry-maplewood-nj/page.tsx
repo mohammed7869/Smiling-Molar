@@ -7,9 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import Link from "next/link";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
 
@@ -17,38 +15,38 @@ export default function SameDayPage() {
   const features = [
     {
       icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "Same-Day Crowns & Restorations",
+      title: "Emergency Dental Treatments",
       description:
-        "Our in-house technology allows us to design, create, and place dental crowns in just one visit - no temporary crowns or second appointments needed.",
+        "Immediate relief for toothaches or infections with repair of broken or knocked-out teeth.",
       points: [
-        "Digital impressions for quick, comfortable scans",
-        "High-quality materials for strength and aesthetics",
-        "Natural look and feel",
-        "Saves you multiple trips to the dentist",
+        "Immediate relief for toothaches or infections",
+        "Repair of broken or knocked-out teeth",
+        "Antibiotics or root canal therapy when necessary",
+        "Pain management to restore comfort quickly",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Emergency Dental Care",
+      title: "Restorative Repairs",
       description:
-        "Toothaches, broken teeth, and sudden accidents require immediate attention to prevent further damage. We make time in our schedule every day for emergencies.",
+        "Quick fixes for damaged fillings, crowns, or bridges with same-day placement of temporary restorations when needed.",
       points: [
-        "Rapid pain relief and treatment",
-        "On-the-spot repairs for broken teeth or restorations",
-        "Infection control to protect your health",
-        "Restorative options to save your natural teeth",
+        "Quick fixes for damaged fillings, crowns, or bridges",
+        "Same-day placement of temporary restorations when needed",
+        "Adjustments for loose dentures or appliances",
+        "Durable solutions to protect your smile",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Immediate Cosmetic Repairs",
+      title: "Cosmetic & Preventive Care",
       description:
-        "If a visible tooth is chipped, cracked, or damaged, we offer same-day bonding and cosmetic fixes so you can smile with confidence again right away.",
+        "In-office professional whitening, same-day exams and cleanings for new patients, and repair or rebonding of veneers.",
       points: [
-        "Color-matched bonding for a seamless look",
-        "Quick repairs without sacrificing quality",
-        "Durable materials for long-lasting results",
-        "Perfect for pre-event touch-ups or urgent needs",
+        "In-office professional whitening (subject to availability)",
+        "Same-day exams and cleanings for new patients",
+        "Repair or rebonding of veneers or chipped edges",
+        "Preventive guidance to avoid future emergencies",
       ],
     },
   ];
@@ -59,12 +57,11 @@ export default function SameDayPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Same Day Dentistry in Maplewood, NJ</h1>
+              <h1>Same-Day Dentistry in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Fast, Reliable Dental Care When You Need It Most in Maplewood |
-                Tulip Dental | Family & Cosmetic Dentist
+                Prompt Dental Care Without the Wait | Smiling Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -94,42 +91,13 @@ export default function SameDayPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Same-Day Dentistry</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Same Day Dentistry
+                Understanding Same-Day Dentistry
               </h2>
               <p>
-                Life doesn’t always give you time to wait for a dental
-                appointment - that’s where same day dentistry comes in. At Tulip
-                Dental in{" "}
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary hover:underline font-medium"
-                >
-                  Maplewood
-                </Link>
-                , NJ, we provide urgent and on-the-spot treatments for
-                emergencies, broken restorations, toothaches, and other
-                immediate dental needs. Whether you’ve chipped a tooth, lost a
-                <Link
-                  href="/services/crowns-and-bridges-maplewood-nj"
-                  className="text-primary ml-2 hover:underline font-medium"
-                >
-                  crown
-                </Link>
-                , or are experiencing sudden discomfort, our team is here to get
-                you{" "}
-                <Link
-                  href="/patient-reviews-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  smiling
-                </Link>
-                again the very same day.
+                Life happens fast - and sometimes, so do dental problems. Whether you're dealing with a sudden toothache, a chipped tooth, or simply need treatment completed quickly, our same-day dentistry services ensure you get the care you need when you need it most.
               </p>
               <p>
-                We proudly serve patients from Maplewood (07040), South Orange
-                (07079), Vauxhall (07088), Irvington (07111), and nearby Newark
-                (07106 and 07112). Searching for “same day dentist near me”?
-                You’ve just found a local dental team ready to help - fast.
+                At Smiling Molar Dental, we set aside dedicated time every day to accommodate same-day appointments for both new and existing patients. Families from Plainfield (07060), North Plainfield (07062, 07063), South Plainfield (07080), and Scotch Plains (07076) trust us when searching for a "same-day dentist near me" because we deliver fast, high-quality dental care - without compromising comfort or results.
               </p>
               {/* </Fade> */}
             </div>
@@ -139,39 +107,34 @@ export default function SameDayPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
                 <h2>
-                  Top Reasons to Choose Tulip Dental for Same Day Dentistry
+                  Why Patients Choose Smiling Molar Dental for Same-Day Dentistry
                 </h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Prompt Care
-                      Without Long Wait Times
+                      <CheckCircle className="service-point-icon" /> Fast, Reliable Appointments
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Emergency
-                      Appointments Available Daily
+                      <CheckCircle className="service-point-icon" /> Comprehensive Treatment Options
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Advanced
-                      Technology for Faster Results
+                      <CheckCircle className="service-point-icon" /> Gentle, Patient-Focused Team
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Wide Range
-                      of Immediate Treatment Options
+                      <CheckCircle className="service-point-icon" /> Affordable & Insurance-Friendly
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Convenient
-                      Location in Maplewood, NJ
+                      <CheckCircle className="service-point-icon" /> Conveniently Located in Plainfield, NJ
                     </h3>
                   </li>
                 </ul>
@@ -193,23 +156,10 @@ export default function SameDayPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Our Same Day Dentistry Services{" "}
+              Same-Day Dentistry Services at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              At Tulip Dental, we believe urgent dental care should be just as
-              thorough and high-quality as planned treatments. That’s why we
-              combine efficiency with precision - ensuring you leave our office
-              both comfortable and confident in your{" "}
-              <Link
-                href="/patient-reviews-maplewood-nj"
-                className="text-primary  hover:underline font-medium"
-              >
-                smile
-              </Link>
-              .
-              <br />
-              <br />
-              Here’s how we can help you on the same day you call:
+              Our team provides a wide range of same-day dental treatments tailored to your specific situation. Here's what we can often address in a single appointment:
             </p>
             {/* </Fade> */}
 
@@ -247,27 +197,23 @@ export default function SameDayPage() {
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What qualifies as same day dentistry?
+                      What counts as same-day dentistry?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Any dental treatment completed within a single
-                      visit—including emergencies, repairs, and new
-                      restorations—can be considered same day dentistry.
+                      Same-day dentistry includes emergency treatments, urgent restorative repairs, and select cosmetic or preventive services that can be done during a single visit.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Do you accept walk-ins?</h3>
+                    <h3 className="text-lg">How soon can I get an appointment?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      We recommend calling ahead so we can prepare for your
-                      visit, but we do our best to accommodate walk-in patients
-                      in need.
+                      We keep dedicated time each day for urgent cases. Calling early in the day increases your chances of same-day scheduling.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -275,13 +221,12 @@ export default function SameDayPage() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How quickly can I get a crown at Tulip Dental?
+                      Can I get a filling or crown the same day?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      With our same-day crown technology, you can get a
-                      permanent crown in just a few hours.
+                      In many cases, yes. Depending on your situation, we can provide temporary or permanent solutions during the same visit.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -289,14 +234,12 @@ export default function SameDayPage() {
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Will same day treatment cost more?
+                      Is same-day treatment more expensive?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Not necessarily—costs depend on the procedure, but we
-                      offer flexible payment options and accept most insurance
-                      plans.
+                      No - pricing is similar to standard appointments. We work with insurance and offer payment options to keep care affordable.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -304,13 +247,12 @@ export default function SameDayPage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Can cosmetic issues be fixed the same day?
+                      Do you accept walk-ins?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Yes—bonding, contouring, and even some veneer repairs can
-                      be done in a single visit.
+                      Yes. While calling ahead helps us prepare, we welcome walk-ins for emergencies and same-day care whenever possible.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -321,13 +263,13 @@ export default function SameDayPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Ready for Fast, Expert Dental Care?
+              Need Same-Day Dental Care in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              At Tulip Dental, we make it easy to get the treatment you
-              need—right when you need it. From same-day crowns to emergency
-              repairs, our skilled team is here to restore your smile without
-              delay.
+              At Smiling Molar Dental, we understand that dental issues can't always wait for the next available appointment. Whether it's an emergency, a broken tooth, or a last-minute need, our team provides fast, trusted same-day dental care to keep your smile healthy and strong.
+              <br />
+              <br />
+              Patients from Plainfield, North Plainfield, South Plainfield, and Scotch Plains rely on us for efficient treatment with a gentle touch - all on the same day you call.
             </p>
             {/* </Fade> */}
           </div>

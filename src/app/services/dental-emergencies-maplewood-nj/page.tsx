@@ -7,48 +7,46 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
-import Link from "next/link";
 
 export default function DentalEmergencyPage() {
   const features = [
     {
       icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "Severe Tooth Pain & Active Infections",
+      title: "Tooth Pain & Infections",
       description:
-        "Severe, ongoing pain or visible swelling usually means infection or deep decay and requires immediate assessment to control pain and stop the spread.",
+        "Our goal is to relieve pain, protect your oral health, and restore your smile quickly and effectively. Here's how we help during dental emergencies:",
       points: [
-        "Emergency pain control and diagnostic imaging to find the source",
-        "Antibiotic therapy and swelling management when infection is present",
-        "Emergency root canal therapy to remove infected pulp and save the tooth",
-        "Incision & drainage for abscesses when clinically necessary",
+        "Immediate evaluation to pinpoint the cause",
+        "Root canal therapy when needed to save the tooth",
+        "Antibiotics and medication to control infection and swelling",
+        "Gentle treatment focused on fast, lasting relief",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Trauma, Fractures & Knocked-Out Teeth",
+      title: "Broken or Knocked-Out Teeth",
       description:
-        "Traumatic injuries need fast, appropriate action - correct first-aid plus urgent dental care gives the best chance of saving the tooth.",
+        "Our goal is to relieve pain, protect your oral health, and restore your smile quickly and effectively. Here's how we help during dental emergencies:",
       points: [
-        "Reattachment or composite bonding for fractured/chipped teeth",
-        "Reimplantation of knocked-out permanent teeth (when handled correctly and quickly)",
-        "Splinting and stabilization for loosened or displaced teeth",
-        "Care for soft-tissue injuries (lacerations, suturing, wound management)",
+        "Emergency bonding, crowns, or repairs to restore function",
+        "Attempted re-implantation for knocked-out teeth (if addressed quickly)",
+        "Long-term replacement solutions if needed",
+        "Personalized treatment to preserve your natural smile",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Lost or Damaged Restorations & Orthodontic Emergencies",
+      title: "Damaged Restorations & Appliances",
       description:
-        "Broken crowns, lost fillings, or damaged braces can expose teeth and cause pain - we stabilize the situation immediately and plan definitive repair.",
+        "Our goal is to relieve pain, protect your oral health, and restore your smile quickly and effectively. Here's how we help during dental emergencies:",
       points: [
-        "Temporary repairs (bonding, provisional crowns) to protect exposed tooth structure",
-        "Replacement or permanent restoration planning and expedited scheduling",
-        "Emergency orthodontic fixes (trim wires, reattach brackets) to stop irritation",
-        "Same-day stabilization to prevent further damage and reduce infection risk",
+        "Same-day fixes for broken fillings, crowns, bridges, or dentures",
+        "Temporary solutions to keep you comfortable until permanent work is complete",
+        "Adjustments for a proper, comfortable fit",
+        "Durable restorations designed to last",
       ],
     },
   ];
@@ -59,12 +57,11 @@ export default function DentalEmergencyPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Dental Emergencies in Maplewood, NJ</h1>
+              <h1>Emergency Dental Care in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Same-Day Urgent Dental Care in Maplewood | Tulip Dental | Family
-                & Cosmetic Dentist
+                Fast Relief for Dental Emergencies | Smiling Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -89,40 +86,23 @@ export default function DentalEmergencyPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Dental Emergencies</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                {" "}
-                About Dental Emergencies
+                Understanding Dental Emergencies
               </h2>
               <p>
-                When a dental emergency strikes, quick action can mean the
-                difference between saving and losing a tooth. At Tulip Dental,
-                we prioritize{" "}
-                <Link
-                  href="/services/same-day-dentistry-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  same-day appointments
-                </Link>
-                for urgent cases, helping to relieve{" "}
-                <Link
-                  href="/services/painless-dental-treatment-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  pain
-                </Link>
-                and protect your oral health right away. From severe toothaches
-                to knocked-out teeth, our experienced team is here to provide{" "}
-                <Link
-                  href="/services/emergency-dentistry-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  fast, compassionate care
-                </Link>
-                .{" "}
+                Dental emergencies can happen when you least expect them -
+                whether it's a sudden toothache, a cracked tooth during dinner,
+                or a dental injury at school or work. At Smiling Molar Dental,
+                we understand that urgent dental problems can't wait. That's why
+                we offer same-day emergency dental appointments to provide fast,
+                effective relief when you need it most.
               </p>
               <p>
-                Patients from Maplewood (07040), South Orange (07079), Vauxhall
-                (07088), Irvington (07111), and Newark (07106, 07112) trust us
-                when they search “emergency dentist near me.”{" "}
+                Located in Plainfield, NJ, our caring team is here to handle a
+                wide range of urgent dental needs for patients from Plainfield
+                (07060), North Plainfield (07062, 07063), South Plainfield
+                (07080), Scotch Plains (07076), and nearby neighborhoods. If
+                you're searching for an "emergency dentist near me", you can
+                rely on us for immediate attention and compassionate care.
               </p>
               {/* </Fade> */}
             </div>
@@ -131,38 +111,40 @@ export default function DentalEmergencyPage() {
             <div className="wcu-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
-                <h2>Top Reasons to Choose Tulip Dental for Emergency Care</h2>
+                <h2>
+                  Why Patients Choose Smiling Molar Dental for Emergency Care
+                </h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Fast,
-                      Same-Day Appointments
+                      <CheckCircle className="service-point-icon" />
+                      Same-Day Appointments Available
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" />{" "}
-                      Comprehensive Emergency Services
+                      <CheckCircle className="service-point-icon" />
+                      Full Range of Emergency Services
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Gentle,
-                      Pain-Relieving Treatments
+                      <CheckCircle className="service-point-icon" />
+                      Gentle, Compassionate Team
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Experienced
-                      & Compassionate Team
+                      <CheckCircle className="service-point-icon" />
+                      Insurance Accepted & Flexible Options
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Flexible
-                      Payment & Insurance Options
+                      <CheckCircle className="service-point-icon" />
+                      Convenient Plainfield Location
                     </h3>
                   </li>
                 </ul>
@@ -183,19 +165,12 @@ export default function DentalEmergencyPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Common Dental Emergencies We Treat
+              Emergency Dental Services at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              Dental emergencies come in many forms - from sudden, severe pain
-              to traumatic injuries - and quick, expert care often makes the
-              difference between saving and losing a tooth
-              <br />
-              <br />
-              Tulip Dental provides prompt, tooth-preserving treatment and clear
-              next steps so you get relief fast and proper follow-up care.
-              <br />
-              <br />
-              Here are Few Dental Emergencies We Treat at Tulip Dental:
+              Our goal is to relieve pain, protect your oral health, and restore
+              your smile quickly and effectively. Here's how we help during
+              dental emergencies:
             </p>
             {/* </Fade> */}
 
@@ -227,20 +202,20 @@ export default function DentalEmergencyPage() {
             </div>
           </div>
           <div className="faq-section">
-            <h2 className="faq-heading">Dental Emergency FAQs</h2>
+            <h2 className="faq-heading">Emergency Dental FAQs</h2>
             <div className="faq-acc-container">
               <Accordion type="single" className="w-full space-y-5">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What should I do if I knock out a tooth?
+                      What should I do if I lose a tooth?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Handle it by the crown (not the root), gently rinse it,
-                      and place it back in the socket or in milk. Seek immediate
-                      dental care.
+                      Pick up the tooth by the crown only (not the root), keep
+                      it moist in milk or saline, and get to our office right
+                      away - ideally within 30-60 minutes.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -248,14 +223,14 @@ export default function DentalEmergencyPage() {
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Can I go to the ER for a dental emergency?
+                      Should I go to the ER for a dental emergency?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Hospitals can manage severe pain and infection, but they
-                      may not provide full dental treatment. We recommend
-                      calling us first for most cases.
+                      Hospitals can manage pain and infections but typically
+                      can't fix dental problems. Seeing an emergency dentist
+                      ensures proper treatment of the root cause.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -263,13 +238,14 @@ export default function DentalEmergencyPage() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How do I know if it’s a true dental emergency?
+                      How do I know if it's a real emergency?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      If you’re in severe pain, bleeding, or risk losing a
-                      tooth, it’s an emergency—call us right away.
+                      Severe pain, swelling, bleeding, loose or knocked-out
+                      teeth, and damaged dental work are all reasons to call
+                      right away.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -277,13 +253,28 @@ export default function DentalEmergencyPage() {
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Are dental emergencies covered by insurance?
+                      How quickly can I get an appointment?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Many insurance plans cover emergency visits. We’ll verify
-                      your benefits and help you understand costs upfront.
+                      We reserve time daily for emergencies and aim to offer
+                      same-day appointments whenever possible.
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="q5" className="faq-acc">
+                  <AccordionTrigger className="faq-qn">
+                    <h3 className="text-lg">
+                      Will insurance cover emergency visits?
+                    </h3>
+                  </AccordionTrigger>
+                  <AccordionContent className="faq-ans">
+                    <p>
+                      Most dental insurance plans cover emergency services. Our
+                      team will help you maximize your benefits and explain your
+                      options upfront.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -294,18 +285,14 @@ export default function DentalEmergencyPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Need Emergency Dental Care in Maplewood, NJ?
+              Need an Emergency Dentist in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              At Tulip Dental, we’re here to{" "}
-              <Link
-                href="/services/perio-protect-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                protect your smile
-              </Link>
-              when it matters most. Don’t wait—call us now for same-day
-              emergency care.
+              When dental pain or accidents strike, don't wait - fast treatment
+              can make all the difference. At Smiling Molar Dental, we're ready
+              to handle dental emergencies for children and adults, helping
+              patients from Plainfield, North Plainfield, South Plainfield,
+              Scotch Plains, and nearby areas get back to smiling comfortably.
             </p>
             {/* </Fade> */}
           </div>

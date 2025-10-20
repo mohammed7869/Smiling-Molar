@@ -36,7 +36,7 @@ export default function FloatingPromo() {
   };
 
   const handleCardClick = () => {
-    router.push("/teeth-whitening-offer-maplewood-nj"); // Redirect to the offers page
+    router.push("/teeth-whitening-offer-plainfield-nj"); // Redirect to the offers page
   };
 
   if (!isVisible) return null;

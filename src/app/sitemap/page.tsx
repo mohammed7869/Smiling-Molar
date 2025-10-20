@@ -5,13 +5,13 @@ export default function SitemapPage() {
   const pages = {
     "Main Pages": [
       { name: "Home", link: "/" },
-      { name: "About Us", link: "/about-tulip-dental-maplewood-nj" },
+      { name: "About Us", link: "/about-smiling-molar-dental-plainfield-nj" },
       { name: "Contact Us", link: "/contact-tulip-dental-maplewood-nj" },
       { name: "Blog", link: "/dental-blog" },
       { name: "Reviews", link: "/patient-reviews-maplewood-nj" },
       { name: "Providers", link: "/providers" },
       { name: "Services", link: "/services" },
-      { name: "Offers", link: "/teeth-whitening-offer-maplewood-nj" },
+      { name: "Offers", link: "/teeth-whitening-offer-plainfield-nj" },
       //   { name: "Booking", link: "/booking" },
     ],
     Services: [

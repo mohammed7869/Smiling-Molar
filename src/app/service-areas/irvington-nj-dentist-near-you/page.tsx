@@ -2,18 +2,18 @@
 
 import React, { useState } from "react";
 import { CheckCircle } from "lucide-react";
-import { Bounce, Fade, Zoom } from "react-awesome-reveal";
+import { Bounce, Fade } from "react-awesome-reveal";
 import BookCallBtnForServiceAreas from "@/app/services/book-call-btn-for-serviceAreas";
 import { useWorkingHours } from "@/lib/hooks/useWorkingHours";
 
-export default function IrvingtonServiceAreaClient() {
+export default function PlainfieldServiceAreaClient() {
   const { workingHours, loading } = useWorkingHours();
   const locations = [
     {
-      id: "irvington",
-      name: "Irvington, NJ",
-      address: "1585 Springfield Avenue, Store #1, Maplewood, NJ 07040",
-      phone: "973-671-5500",
+      id: "plainfield",
+      name: "Plainfield, NJ",
+      address: "1585 Springfield Avenue, Store #1, Plainfield, NJ 07060",
+      phone: "908-264-2357",
       hours: [
         "Monday: 9:00 AM - 6:00 PM",
         "Tuesday: 9:00 AM - 6:00 PM",
@@ -24,7 +24,7 @@ export default function IrvingtonServiceAreaClient() {
         "Sunday: Closed",
       ],
       mapUrl:
-        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6047.5999171140365!2d-74.256008!3d40.72242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3acfa56220c03%3A0x4ed24acaf264373a!2s1585%20Springfield%20Ave%2C%20Maplewood%2C%20NJ%2007040%2C%20USA!5e0!3m2!1sen!2sin!4v1755873013308!5m2!1sen!2sin",
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6047.5999171140365!2d-74.256008!3d40.72242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3acfa56220c03%3A0x4ed24acaf264373a!2s1585%20Springfield%20Ave%2C%20Plainfield%2C%20NJ%2007060%2C%20USA!5e0!3m2!1sen!2sin!4v1755873013308!5m2!1sen!2sin",
     },
   ];
 
@@ -34,7 +34,7 @@ export default function IrvingtonServiceAreaClient() {
     <div>
       {/* Header Section */}
       <div className="details-page-header-section ">
-        <h1>Family & Cosmetic Dentist in Irvington, NJ 07111 </h1>
+        <h1>Comprehensive Dental Care for Plainfield, NJ Families </h1>
       </div>
 
       {/* Main Content Section */}
@@ -48,7 +48,7 @@ export default function IrvingtonServiceAreaClient() {
               <div className="main-image">
                 <img
                   src="/Images/Irvington.webp"
-                  alt="Family & Cosmetic Dentist in Irvington, NJ 07111"
+                  alt="Family & Cosmetic Dentist in Plainfield, NJ 07060"
                   className="rounded-xl"
                 />
               </div>
@@ -60,20 +60,25 @@ export default function IrvingtonServiceAreaClient() {
           <div className="desc-text-section">
             {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
-              Complete Dental Care in Irvington | Tulip Dental | Trusted Dentist
-              Near You
+              Trusted Family & Cosmetic Dentistry in Plainfield, NJ
             </h2>
             <p>
-              At Tulip Dental, we’re proud to bring exceptional, personalized
-              dental care to residents of Irvington, NJ 07111, and nearby
-              communities. Whether you’re new to the area or looking for a
-              dependable “dentist near me,” we offer state-of-the-art treatments
-              designed for patients of all ages, from children to seniors.
+              At Smiling Molar Dental, we're proud to be a leading dental care
+              provider for families across Plainfield, New Jersey (07060). Our
+              practice combines compassionate care with advanced dental
+              technology to deliver services tailored to every age and smile.
             </p>
             <p>
-              Our friendly, highly skilled team provides everything from routine
-              checkups to advanced smile makeovers-all in a comfortable and
-              modern dental setting.
+              Whether you're looking for routine preventive checkups, cosmetic
+              smile enhancements, or same-day emergency treatments, our skilled
+              team ensures every visit is comfortable, personalized, and
+              effective.
+            </p>
+            <p>
+              Patients from Plainfield, North Plainfield (07062, 07063), South
+              Plainfield (07080), Scotch Plains (07076), and surrounding
+              communities trust us for modern dentistry that puts your comfort
+              and oral health first.
             </p>
             {/* </Fade> */}
           </div>
@@ -82,14 +87,13 @@ export default function IrvingtonServiceAreaClient() {
         {/* Comprehensive Dental Care Section */}
         <div className="flex flex-col gap-4 p-6 md:p-0">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
-            Complete Dental Care for Every Smile
+            Dental Services We Offer in Plainfield, NJ
           </h2>
           {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
           <p>
-            Our conveniently located office near Irvington is equipped with the
-            latest technology and amenities to make your visit comfortable,
-            efficient, and stress-free. We provide a full range of dental
-            services under one roof, including:
+            We go beyond basic care to provide comprehensive dental services all
+            under one roof, making it easy for you and your family to receive
+            consistent, high-quality treatment close to home.
           </p>
 
           <ul className="list-disc pl-6 space-y-4 text-sm md:text-lg">
@@ -99,20 +103,49 @@ export default function IrvingtonServiceAreaClient() {
                   href="/services/emergency-dentistry-maplewood-nj"
                   className="text-blue-600 hover:text-blue-800 hover:underline"
                 >
-                  Emergency Dentistry
+                  Emergency Dental Care
                 </a>
               </h3>
               <p>
-                Same-day treatment for urgent pain, dental injuries, or
-                emergencies.
+                Dental pain or accidents can happen when you least expect it.
+                That's why we offer same-day emergency appointments for issues
+                like severe toothaches, chipped teeth, broken crowns, or
+                knocked-out teeth - ensuring you get fast, reliable relief when
+                you need it most.
               </p>
             </li>
 
             <li>
-              <h3 className="text-lg font-semibold">Preventive Dentistry</h3>
+              <h3 className="text-lg font-semibold">
+                <a
+                  href="/services/kids-and-children-dentistry-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Children's & Family Dentistry
+                </a>
+              </h3>
               <p>
-                Comprehensive exams, cleanings, and long-term oral health
-                planning.
+                We make dental visits fun and stress-free for kids while
+                supporting families with preventive care, sealants, fluoride
+                treatments, and education to build lifelong healthy habits -
+                right here in Plainfield.
+              </p>
+            </li>
+
+            <li>
+              <h3 className="text-lg font-semibold">
+                <a
+                  href="/services/invisalign-clear-aligners-maplewood-nj"
+                  className="text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Orthodontic Treatments
+                </a>
+              </h3>
+              <p>
+                Our practice offers modern orthodontic solutions including
+                Invisalign® clear aligners and traditional braces. Whether it's
+                for teens or adults, we help you achieve a straight, confident
+                smile with precision and comfort.
               </p>
             </li>
 
@@ -126,21 +159,10 @@ export default function IrvingtonServiceAreaClient() {
                 </a>
               </h3>
               <p>
-                Professional{" "}
-                <a
-                  href="/services/teeth-whitening-and-veneers-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  teeth whitening
-                </a>
-                ,{" "}
-                <a
-                  href="/services/teeth-whitening-and-veneers-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  veneers
-                </a>
-                , and smile enhancements.
+                Transform your smile with treatments like veneers, professional
+                teeth whitening, and bonding. We design customized solutions
+                that enhance your natural teeth while maintaining a beautiful,
+                balanced look.
               </p>
             </li>
 
@@ -150,46 +172,14 @@ export default function IrvingtonServiceAreaClient() {
                   href="/services/crowns-and-bridges-maplewood-nj"
                   className="text-blue-600 hover:text-blue-800 hover:underline"
                 >
-                  Restorative Dentistry
+                  Restorative & Surgical Services
                 </a>
               </h3>
               <p>
-                <a
-                  href="/services/crowns-and-bridges-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  Crowns
-                </a>
-                ,{" "}
-                <a
-                  href="/services/crowns-and-bridges-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  bridges
-                </a>
-                , and{" "}
-                <a
-                  href="/services/dental-implants-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  dental implants
-                </a>{" "}
-                to restore function and aesthetics.
-              </p>
-            </li>
-
-            <li>
-              <h3 className="text-lg font-semibold">
-                <a
-                  href="/services/kids-and-children-dentistry-maplewood-nj"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  Pediatric Dentistry
-                </a>
-              </h3>
-              <p>
-                Gentle, compassionate dental care for infants, children, and
-                teens.
+                From crowns and bridges to dental implants, dentures, and tooth
+                extractions, we restore function and aesthetics with care. Our
+                experienced team uses advanced techniques to make procedures
+                efficient and comfortable.
               </p>
             </li>
           </ul>
@@ -200,35 +190,44 @@ export default function IrvingtonServiceAreaClient() {
           <div className="wcu-text-section">
             {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
             <div className="wcu-title">
-              <h2>Why Irvington Families Choose Tulip Dental</h2>
+              <h2>Why Plainfield Patients Choose Smiling Molar Dental</h2>
             </div>
             <div className="wcu-desc">
-              Families in Irvington (07111) and nearby Maplewood (07040), South
-              Orange (07079), Vauxhall (07088), and Newark (07106, 07112) choose
-              us because:
+              Families throughout Plainfield (07060) and nearby towns count on
+              our team for more than just beautiful smiles. Here's why:
             </div>
             <div className="wcu-points-section">
               <ul className="wcu-points space-y-3">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="service-point-icon mt-1 shrink-0" />
-                  <span>We focus on personalized care for every patient</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
-                  <span>Advanced technology ensures precision and comfort</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
-                  <span>Same-day emergency appointments available</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
-                  <span>Insurance-friendly with flexible payment options</span>
+                  <span>
+                    Comprehensive care for all ages - from toddlers to seniors
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="service-point-icon mt-1 shrink-0" />
                   <span>
-                    Convenient location close to Irvington and surrounding areas
+                    State-of-the-art dental technology for precise, comfortable
+                    treatments
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
+                  <span>
+                    Flexible scheduling & same-day appointments for convenience
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
+                  <span>
+                    Clear communication on treatment plans and insurance
+                    coverage
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="service-point-icon mt-1 shrink-0" />
+                  <span>
+                    Friendly, patient-centered team focused on your comfort
                   </span>
                 </li>
               </ul>
@@ -239,7 +238,7 @@ export default function IrvingtonServiceAreaClient() {
             {/* <Zoom cascade damping={0.3} duration={800}> */}
             <img
               src="/Images/maplewood-1.webp"
-              alt="Tulip Dental in Irvington"
+              alt="Smiling Molar Dental in Plainfield"
               className="rounded-xl"
             />
             {/* </Zoom> */}
@@ -250,13 +249,13 @@ export default function IrvingtonServiceAreaClient() {
         <div className="features-section">
           {/* <Fade direction="up" duration={1000}> */}
           <h2 className="features-heading">
-            Schedule Your Appointment in Irvington Today
+            Schedule Your Dental Visit in Plainfield, NJ Today
           </h2>
           <p className="features-description">
-            Whether you’re in the heart of Irvington or nearby neighborhoods,
-            Tulip Dental is your trusted local dentist. If you’ve been searching
-            for a “dentist near me” who combines compassion with clinical
-            excellence, you’ve found your home.
+            If you've been searching for a trusted "dentist near me in
+            Plainfield", look no further than Smiling Molar Dental. Whether you
+            need a routine cleaning, a cosmetic upgrade, or urgent care, our
+            team is here to make every visit smooth, comfortable, and effective.
           </p>
 
           <BookCallBtnForServiceAreas />

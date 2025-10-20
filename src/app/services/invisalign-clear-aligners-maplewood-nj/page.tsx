@@ -7,48 +7,46 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
-import Link from "next/link";
 
 export default function InvisilinePage() {
   const features = [
     {
       icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "Invisalign for Adults",
+      title: "Invisalign for Teens & Adults",
       description:
-        "Many adults want a straighter smile but don’t want traditional braces. Invisalign is discreet, effective, and fits easily into your daily routine.",
+        "Clear aligners for a discreet treatment experience that fits seamlessly into your lifestyle.",
       points: [
-        "Nearly invisible aligners for a professional, confident look",
-        "Removable for eating, drinking, and oral care",
-        "Customized for a comfortable fit",
-        "Predictable results with advanced treatment planning",
+        "Clear aligners for a discreet treatment experience",
+        "Custom trays designed to gradually shift teeth",
+        "Easy to clean and maintain",
+        "Regular check-ins to ensure progress stays on track",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Invisalign for Teens",
+      title: "Correcting Bite & Alignment Issues",
       description:
-        "Perfect for active lifestyles and self-conscious teens, Invisalign Teen provides all the benefits of Invisalign with added features like wear indicators to track usage.",
+        "Effective treatment for various orthodontic concerns with digital planning for accurate results.",
       points: [
-        "Flexible design for sports and activities",
-        "Eat your favorite foods without restrictions",
-        "Monitored progress with compliance indicators",
-        "Gentle, gradual tooth movement for comfort",
+        "Effective treatment for crowding, spacing, and bite misalignments",
+        "Digital planning for accurate, efficient tooth movement",
+        "Consistent pressure for gentle realignment",
+        "Improved oral health along with aesthetic results",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Complex Case Invisalign",
+      title: "Lifestyle-Friendly Orthodontics",
       description:
-        "Even if you’ve been told you’re not a candidate for clear aligners, modern Invisalign technology may surprise you. We can treat many moderate to complex orthodontic cases.",
+        "No food restrictions, comfortable fit, and removable trays perfect for busy teens and professionals.",
       points: [
-        "Addresses crowding, gaps, overbites, and underbites",
-        "Precision-mapped movement for each tooth",
-        "Fewer in-office visits compared to braces",
-        "Designed to minimize discomfort throughout treatment",
+        "No food restrictions - eat what you love",
+        "Comfortable fit with no sharp wires or brackets",
+        "Removable trays for brushing, flossing, and special occasions",
+        "Perfect choice for busy teens and professionals",
       ],
     },
   ];
@@ -59,12 +57,11 @@ export default function InvisilinePage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Invisalign in Maplewood, NJ </h1>
+              <h1>Invisalign in Plainfield, NJ </h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Straighten Your Smile with Invisalign in Maplewood | Tulip
-                Dental | Family & Cosmetic Dentist{" "}
+                Clear Aligners for Confident Smiles | Smiling Molar Dental{" "}
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -94,29 +91,24 @@ export default function InvisilinePage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Invisalign</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Invisalign
+                Understanding Invisalign
               </h2>
               <p>
-                A straighter smile can improve your confidence, oral health, and
-                overall appearance - and Invisalign makes the process easier
-                than ever. At Tulip Dental in{" "}
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  Maplewood
-                </Link>
-                , NJ, we offer Invisalign clear aligners that gently shift your
-                teeth into place without the hassle of metal brackets or wires.
-                These virtually invisible aligners are comfortable, removable,
-                and custom-made for your smile.{" "}
+                A straighter smile doesn't have to mean metal braces. At Smiling
+                Molar Dental, we offer Invisalign® clear aligners - a modern,
+                comfortable, and nearly invisible way to align your teeth and
+                improve your bite. Whether you're a teen starting your
+                orthodontic journey or an adult ready for a subtle
+                transformation, Invisalign fits seamlessly into your daily life.
               </p>
               <p>
-                We proudly serve patients from Maplewood (07040), South Orange
-                (07079), Vauxhall (07088), Irvington (07111), and nearby Newark
-                (07106 and 07112). Searching for “Invisalign near me”? You’ve
-                just found a caring, local dentist ready to help you achieve the
-                smile you’ve always wanted.
+                Our skilled dental team uses advanced digital technology to
+                design personalized Invisalign treatment plans for patients from
+                Plainfield (07060), North Plainfield (07062, 07063), South
+                Plainfield (07080), Scotch Plains (07076), and nearby
+                communities. If you're searching for "Invisalign near me", we're
+                your trusted local provider for clear, convenient orthodontic
+                care.
               </p>
               {/* </Fade> */}
             </div>
@@ -125,38 +117,38 @@ export default function InvisilinePage() {
             <div className="wcu-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
-                <h2>Top Reasons to Choose Tulip Dental for Invisalign</h2>
+                <h2>Why Patients Choose Smiling Molar Dental for Invisalign</h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Discreet
-                      Orthodontic Treatment
+                      <CheckCircle className="service-point-icon" /> Discreet &
+                      Modern Orthodontic Option
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" /> Customized
-                      Aligners for Your Unique Smile
+                      Treatment for Every Smile
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" />{" "}
-                      Comfortable, Metal-Free Design
+                      <CheckCircle className="service-point-icon" /> Experienced
+                      Invisalign Providers
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Flexible
-                      Financing & Payment Options
+                      <CheckCircle className="service-point-icon" /> Affordable
+                      & Flexible Payment Options
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" /> Convenient
-                      Location in Maplewood, NJ
+                      Plainfield Location
                     </h3>
                   </li>
                 </ul>
@@ -176,29 +168,12 @@ export default function InvisilinePage() {
           </div>
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
-            <h2 className="features-heading">Our Invisalign Services</h2>
+            <h2 className="features-heading">
+              Invisalign Services at Smiling Molar Dental
+            </h2>
             <p className="features-description">
-              At Tulip Dental, we believe{" "}
-              <Link
-                href="/services/orthodontics-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                orthodontic care
-              </Link>{" "}
-              should be effective, comfortable, and fit seamlessly into your
-              lifestyle. Invisalign gives you the freedom to straighten your
-              teeth without changing how you eat, brush, or{" "}
-              <Link
-                href="/services/orthodontics-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                smile
-              </Link>{" "}
-              for photos. Every treatment is planned using advanced 3D imaging
-              to ensure precise, predictable results.
-              <br />
-              <br />
-              Here’s how we help you achieve your best smile with Invisalign:
+              We provide Invisalign solutions designed to fit your lifestyle
+              while achieving beautiful, long-lasting results.
             </p>
             {/* </Fade> */}
 
@@ -235,55 +210,50 @@ export default function InvisilinePage() {
               <Accordion type="single" className="w-full space-y-5">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">
-                      How long does Invisalign treatment take?
-                    </h3>
+                    <h3 className="text-lg">How does Invisalign work?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Most cases take 6–18 months, depending on your specific
-                      needs and goals.
+                      Invisalign uses a series of clear, removable aligners that
+                      gradually shift teeth into their ideal position over time.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Is Invisalign painful?</h3>
+                    <h3 className="text-lg">How long does treatment take?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      You may feel mild pressure when switching to a new
-                      aligner, but most patients find it far more comfortable
-                      than traditional braces.
+                      Most Invisalign treatments take 12-18 months, depending on
+                      the complexity of your case.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">
-                      Can I eat with Invisalign aligners in?
-                    </h3>
+                    <h3 className="text-lg">Is Invisalign painful?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      No — remove them before eating or drinking anything
-                      besides water to avoid staining or damage.
+                      You may feel slight pressure when starting a new set of
+                      aligners, but it usually subsides within a few days as
+                      your teeth adjust.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">
-                      How often should I wear my aligners?
-                    </h3>
+                    <h3 className="text-lg">Can teens get Invisalign?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      For best results, wear them 20–22 hours per day, removing
-                      only for eating, brushing, and flossing.
+                      Yes. Invisalign Teen is designed specifically for younger
+                      patients and includes features like compliance indicators
+                      to track wear time.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -291,13 +261,14 @@ export default function InvisilinePage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Will Invisalign work for severe orthodontic issues?
+                      Is Invisalign covered by insurance?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Yes — with today’s technology, Invisalign can treat many
-                      complex cases once only possible with braces.
+                      Many dental insurance plans offer orthodontic coverage
+                      that applies to Invisalign. We'll help you understand your
+                      benefits and payment options before treatment begins.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -308,13 +279,18 @@ export default function InvisilinePage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Ready to Start Your Invisalign Journey?
+              Ready to Straighten Your Smile with Invisalign in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              At Tulip Dental, we make straightening your smile simple,
-              discreet, and convenient. From your first consultation to your
-              final aligner, we’ll guide you every step of the way toward a
-              smile you’ll love for life.
+              At Smiling Molar Dental, we make orthodontic treatment simple,
+              discreet, and effective with Invisalign clear aligners. Whether
+              you're a teen or adult, our customized treatment plans help you
+              achieve a straighter, more confident smile without the hassle of
+              traditional braces.
+              <br />
+              <br />
+              We proudly serve patients from Plainfield, North Plainfield, South
+              Plainfield, Scotch Plains, and nearby areas.
             </p>
             {/* </Fade> */}
           </div>

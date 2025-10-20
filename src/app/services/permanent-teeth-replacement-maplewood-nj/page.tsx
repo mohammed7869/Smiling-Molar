@@ -7,11 +7,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
-import Link from "next/link";
 
 export default function Page() {
   const features = [
@@ -19,36 +17,36 @@ export default function Page() {
       icon: "/Images/icons/Immediate Pain Relief.png",
       title: "Dental Implants",
       description:
-        "Dental implants are the gold standard for replacing missing teeth, providing unmatched stability and durability.",
+        "Permanent solution for one or multiple missing teeth with titanium posts that act as strong, artificial roots.",
       points: [
-        "Titanium posts integrate with your jawbone for a secure foundation",
-        "Custom crowns that look and feel like natural teeth",
-        "Helps preserve bone health and facial structure",
-        "Long-lasting results with proper care",
+        "Permanent solution for one or multiple missing teeth",
+        "Titanium posts act as strong, artificial roots",
+        "Custom-made crowns for a natural, seamless finish",
+        "Long-lasting with proper oral care and maintenance",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
       title: "Dental Bridges",
       description:
-        "A bridge replaces one or more missing teeth by anchoring to the surrounding teeth or implants.",
+        "Ideal for replacing one or more teeth in a row, anchored to nearby teeth or implants for stability.",
       points: [
-        "Fixed, non-removable tooth replacement",
-        "Natural-looking design to blend with your smile",
-        "Restores chewing function and appearance",
-        "Durable materials for long-term wear",
+        "Ideal for replacing one or more teeth in a row",
+        "Anchored to nearby teeth or implants for stability",
+        "Restores bite function and aesthetics",
+        "Crafted to match the color and shape of your natural teeth",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
       title: "Implant-Supported Dentures",
       description:
-        "For patients missing most or all teeth, implant-supported dentures combine the security of implants with the coverage of dentures.",
+        "Secure alternative to traditional removable dentures that eliminates slipping, discomfort, and adhesives.",
       points: [
-        "Stable fit - no slipping or adhesives needed",
-        "Allows for confident eating and speaking",
-        "Designed for comfort and natural appearance",
-        "Supports jawbone health and facial shape",
+        "Secure alternative to traditional removable dentures",
+        "Eliminates slipping, discomfort, and adhesives",
+        "Restores confidence with a natural, stable feel",
+        "Designed for everyday comfort and long-term reliability",
       ],
     },
   ];
@@ -59,12 +57,11 @@ export default function Page() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Permanent Teeth Replacement in Maplewood, NJ </h1>
+              <h1>Permanent Teeth Replacement in Plainfield, NJ </h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Restore Your Smile with Dental Implants & Restorations in
-                Maplewood | Tulip Dental | Family & Cosmetic Dentist
+                Long-Lasting Smile Restorations | Smiling Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -96,51 +93,27 @@ export default function Page() {
                 Permanent Teeth Replacement
               </div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Permanent Teeth Replacement
+                Understanding Permanent Teeth Replacement
               </h2>
               <p>
-                Losing a tooth doesn’t mean losing your smile. At Tulip Dental
-                in{" "}
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  Maplewood
-                </Link>
-                , NJ, we offer permanent teeth replacement solutions designed to
-                restore function, aesthetics, and confidence. Whether you’ve
-                lost one tooth, several, or a full arch, our treatments -
-                including{" "}
-                <Link
-                  href="/services/dental-implants-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  dental implants
-                </Link>
-                ,{" "}
-                <Link
-                  href="/services/crowns-and-bridges-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  bridges
-                </Link>
-                , and
-                <Link
-                  href="/patient-reviews-maplewood-nj"
-                  className="text-primary ml-2 hover:underline font-medium"
-                >
-                  implant-supported dentures
-                </Link>{" "}
-                - are built to last and look completely natural.
-                implant-supported dentures - are built to last and look
-                completely natural.
+                Missing teeth can affect the way you eat, speak, and smile - but
+                modern dentistry offers reliable, long-term solutions to help
+                you regain full confidence. At Smiling Molar Dental, we provide
+                permanent teeth replacement options, including dental implants,
+                bridges, and implant-supported dentures, designed to look, feel,
+                and function just like natural teeth.
               </p>
               <p>
-                We proudly serve patients from Maplewood (07040), South Orange
-                (07079), Vauxhall (07088), Irvington (07111), and nearby Newark
-                (07106 and 07112). Searching for “permanent teeth replacement
-                near me”? You’ve just found a trusted local dental team ready to
-                give you back your smile.
+                Our experienced team creates customized treatment plans tailored
+                to your needs, helping patients from Plainfield (07060), North
+                Plainfield (07062, 07063), South Plainfield (07080), Scotch
+                Plains (07076), and surrounding communities restore their smiles
+                with lasting results.
+              </p>
+              <p>
+                If you're searching for "permanent teeth replacement near me",
+                our advanced restorative solutions are designed for comfort,
+                strength, and beauty.
               </p>
               {/* </Fade> */}
             </div>
@@ -150,40 +123,39 @@ export default function Page() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
                 <h2>
-                  Top Reasons to Choose Tulip Dental for Permanent Teeth
-                  Replacement
+                  Why Patients Choose Smiling Molar Dental for Teeth Replacement
                 </h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
-                    <h3 className="text-lg  flex items-center gap-2">
-                      <CheckCircle className="service-point-icon" />{" "}
-                      Long-Lasting, Natural-Looking Results
-                    </h3>
-                  </li>
-                  <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Advanced
-                      Implant Technology
+                      <CheckCircle className="service-point-icon" /> Multiple
+                      Restorative Options to Fit Every Smile
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />{" "}
-                      Personalized Treatment Plans
+                      Natural-Looking & Durable Results
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" />{" "}
-                      Comfortable, Stress-Free Procedures
+                      <CheckCircle className="service-point-icon" /> Experienced
+                      Restorative Dental Team
+                    </h3>
+                  </li>
+                  <li>
+                    <h3 className="service-point-title">
+                      <CheckCircle className="service-point-icon" /> Affordable
+                      Options & Flexible Payments
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" /> Convenient
-                      Location in Maplewood, NJ
+                      Plainfield Location
                     </h3>
                   </li>
                 </ul>
@@ -205,24 +177,11 @@ export default function Page() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Our Permanent Teeth Replacement Services{" "}
+              Teeth Replacement Options at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              At Tulip Dental, we believe replacing missing teeth is about more
-              than just restoring your{" "}
-              <Link
-                href="/patient-reviews-maplewood-nj"
-                className="text-primary hover:underline font-medium"
-              >
-                smile
-              </Link>{" "}
-              - it’s about improving your overall oral health, speech, and
-              ability to enjoy the foods you love. Every solution is
-              custom-designed to match your natural teeth in color, shape, and
-              fit, ensuring both comfort and beauty.
-              <br />
-              <br />
-              Here’s how we restore smiles at Tulip Dental:
+              We provide personalized solutions to restore your smile's function
+              and appearance with long-lasting results.
             </p>
             {/* </Fade> */}
 
@@ -260,13 +219,15 @@ export default function Page() {
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How long do dental implants last?
+                      What's the best option for replacing missing teeth?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      With proper care, implants can last 20 years or more,
-                      often for a lifetime.
+                      Dental implants are often considered the gold standard for
+                      their durability and natural feel, but bridges and
+                      implant-supported dentures are excellent alternatives
+                      depending on your needs.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -274,40 +235,42 @@ export default function Page() {
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Are implants better than bridges?
+                      How long do dental implants last?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Implants don’t require altering adjacent teeth and help
-                      maintain jawbone health, making them a preferred option
-                      for many patients.
+                      With proper care, dental implants can last decades - often
+                      a lifetime, making them one of the most reliable
+                      replacement options.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Does the procedure hurt?</h3>
+                    <h3 className="text-lg">
+                      Are implant-supported dentures better than traditional
+                      dentures?
+                    </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      We use advanced techniques and anesthesia for a
-                      comfortable, low-pain experience.
+                      Yes. Implant-supported dentures offer better stability,
+                      comfort, and chewing ability compared to traditional
+                      removable dentures.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">
-                      How soon after losing a tooth can I get an implant?
-                    </h3>
+                    <h3 className="text-lg">Will my new teeth look natural?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      In some cases, an implant can be placed immediately; in
-                      others, healing time is needed before placement.
+                      Absolutely. Our restorations are custom-designed to match
+                      your natural teeth in color, shape, and size.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -315,13 +278,14 @@ export default function Page() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Are implants covered by insurance?
+                      Does insurance cover permanent teeth replacement?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Coverage varies; we’ll help you navigate insurance and
-                      offer flexible payment options.
+                      Some insurance plans offer partial coverage. We'll help
+                      you maximize benefits and explore financing options to fit
+                      your budget.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -332,13 +296,19 @@ export default function Page() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Ready to Restore Your Smile Permanently?
+              Searching for a Lasting Tooth Replacement Solution in Plainfield,
+              NJ?
             </h2>
             <p className="features-description">
-              At Tulip Dental, we make permanent teeth replacement comfortable,
-              reliable, and tailored to your needs. From single implants to
-              full-mouth restoration, our team is here to help you smile with
-              confidence again.
+              At Smiling Molar Dental, we offer permanent, natural-looking
+              solutions for missing teeth - from dental implants and bridges to
+              implant-supported dentures. Our team combines advanced technology
+              with compassionate care to help you regain your smile, confidence,
+              and quality of life.
+              <br />
+              <br />
+              We proudly serve patients from Plainfield, North Plainfield, South
+              Plainfield, Scotch Plains, and surrounding communities.
             </p>
             {/* </Fade> */}
           </div>

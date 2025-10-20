@@ -7,51 +7,46 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
-import Link from "next/link";
 
 export default function OralSurgeryPage() {
   const features = [
     {
       icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "Our Most Common Oral Surgery Procedures",
+      title: "Tooth Extractions & Wisdom Teeth Removal",
       description:
-        "At Tulip Dental, we perform a wide range of oral surgery services designed to restore your oral health, relieve pain, and support long-term dental wellness.",
+        "Our oral surgery services are designed to address a wide range of dental concerns - from preventive extractions to implant preparation - with the goal of restoring function and supporting long-term oral health.",
       points: [
-        "Simple & Surgical Tooth Extractions",
-        "Impacted Wisdom Tooth Removal",
-        "Bone Grafts for Dental Implants",
-        "Treatment of Dental Infections & Abscesses",
-        "Oral Lesion Removal & Biopsies",
+        "Safe removal of impacted or problematic teeth",
+        "Gentle wisdom tooth extractions with anesthesia options",
+        "Sedation available to ease anxiety during the procedure",
+        "Post-operative guidance to support a smooth, quick recovery",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Sedation & Pain Management Options Available",
+      title: "Bone Grafting & Implant Site Preparation",
       description:
-        "Your comfort matters to us. We offer several sedation options and thoughtful care protocols to ensure a calm, pain-free surgical experience.",
+        "Our oral surgery services are designed to address a wide range of dental concerns - from preventive extractions to implant preparation - with the goal of restoring function and supporting long-term oral health.",
       points: [
-        "Local Anesthesia for Targeted Numbness",
-        "Nitrous Oxide (Laughing Gas) for Relaxation",
-        "Calming Environment & Compassionate Care",
-        "Post-Operative Guidance & Recovery Support",
-        "Follow-Up Appointments to Monitor Healing",
+        "Preparation of bone for strong, stable implant placement",
+        "Bone grafting and ridge augmentation when extra support is needed",
+        "Precise planning with digital imaging to ensure optimal results",
+        "Seamless coordination with restorative treatment for natural aesthetics",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Serving Maplewood & Nearby Communities",
+      title: "Surgical Treatment for Infections & Trauma",
       description:
-        "We’re proud to provide expert oral surgery care to patients across Maplewood and the surrounding areas. Whether you're nearby or just a short drive away, we're here to help.",
+        "Our oral surgery services are designed to address a wide range of dental concerns - from preventive extractions to implant preparation - with the goal of restoring function and supporting long-term oral health.",
       points: [
-        "Maplewood – 07040",
-        "South Orange – 07079",
-        "Vauxhall – 07088",
-        "Irvington – 07111",
-        "Newark – 07106 & 07112",
+        "Drainage and treatment of abscesses and oral infections",
+        "Repair and stabilization of teeth and gums after injury",
+        "Targeted antibiotic therapy and follow-up monitoring",
+        "Comprehensive care to restore both health and function",
       ],
     },
   ];
@@ -62,12 +57,12 @@ export default function OralSurgeryPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Oral Surgery in Maplewood, NJ</h1>
+              <h1>Oral Surgery in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Expert Oral Surgery Care at Tulip Dental in Maplewood | Tulip
-                Dental | Family & Cosmetic Dentist{" "}
+                Trusted Surgical Dental Care in Plainfield | Smiling Molar
+                Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -97,36 +92,24 @@ export default function OralSurgeryPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Oral Surgery</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Oral Surgery
+                Understanding Oral Surgery
               </h2>
               <p>
-                Oral surgery may sound intimidating, but at Tulip Dental in
-                Maplewood, we make the process safe, gentle, and stress-free.
-                Whether you need a simple{" "}
-                <Link
-                  href="/services/tooth-extraction-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  tooth extraction
-                </Link>
-                ,{" "}
-                <Link
-                  href="/services/wisdom-teeth-removal-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  wisdom tooth removal
-                </Link>
-                , or more complex surgical care, our experienced team is here to
-                help.We provide in-house surgical procedures using advanced
-                tools and sedation options for maximum comfort.{" "}
+                When dental issues require more than routine treatment, oral
+                surgery can help restore comfort, function, and long-term oral
+                health. At Smiling Molar Dental, our experienced team provides a
+                full range of surgical procedures with a focus on safety,
+                precision, and patient comfort.
               </p>
               <p>
-                Patients from Maplewood (07040), South Orange (07079), Vauxhall
-                (07088), Irvington (07111), and nearby areas of Newark (07106,
-                07112) trust us for convenient, compassionate surgical
-                care-right in their neighborhood. If you're searching for an
-                "oral surgeon near me," Tulip Dental is nearby and ready to
-                support your dental health with precision and care.{" "}
+                From wisdom tooth extractions to bone grafting and implant site
+                preparation, we make surgical dental care stress-free and
+                accessible for patients of all ages. Located in Plainfield, NJ,
+                we proudly serve patients from Plainfield (07060), North
+                Plainfield (07062, 07063), South Plainfield (07080), Scotch
+                Plains (07076), and nearby neighborhoods. If you're looking for
+                "oral surgery near me", Smiling Molar Dental is your trusted
+                local destination for expert surgical dentistry.
               </p>
               {/* </Fade> */}
             </div>
@@ -135,38 +118,40 @@ export default function OralSurgeryPage() {
             <div className="wcu-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
-                <h2>Top Reasons To Choose Tulip Dental for Oral Surgery?</h2>
+                <h2>
+                  Why Patients Choose Smiling Molar Dental for Oral Surgery
+                </h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Experienced
-                      Surgical Team
+                      <CheckCircle className="service-point-icon" />
+                      Expert Surgical Skills You Can Trust
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" />{" "}
-                      State-of-the-Art Equipment
+                      <CheckCircle className="service-point-icon" />
+                      Advanced Technology for Accurate Planning
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" />{" "}
-                      Comfortable, Stress-Free Environment
+                      <CheckCircle className="service-point-icon" />
+                      Patient Comfort Is Our Priority
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Same-Day
-                      Consultations Available
+                      <CheckCircle className="service-point-icon" />
+                      Transparent Pricing & Insurance Support
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Serving
-                      Maplewood & Surrounding Communities
+                      <CheckCircle className="service-point-icon" />
+                      Convenient Location in Plainfield
                     </h3>
                   </li>
                 </ul>
@@ -186,23 +171,13 @@ export default function OralSurgeryPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Comfortable, Safe & Expert Dental Surgery Near You{" "}
+              Oral Surgery Services at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              Oral surgery doesn’t have to be stressful. At Tulip Dental, our
-              goal is to make every surgical procedure-from extractions to minor
-              jaw surgeries-as smooth and{" "}
-              <Link
-                href="/services/painless-dental-treatment-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                pain-free
-              </Link>
-              as possible. We use advanced diagnostics, modern techniques, and
-              gentle care every step of the way.
-              <br />
-              <br />
-              Here’s What Makes Our Service Different{" "}
+              Our oral surgery services are designed to address a wide range of
+              dental concerns - from preventive extractions to implant
+              preparation - with the goal of restoring function and supporting
+              long-term oral health.
             </p>
             {/* </Fade> */}
 
@@ -239,27 +214,32 @@ export default function OralSurgeryPage() {
               <Accordion type="single" className="w-full space-y-5">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">When is oral surgery necessary?</h3>
+                    <h3 className="text-lg">
+                      Is oral surgery safe for kids and adults?
+                    </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Oral surgery is needed when a dental condition can’t be
-                      treated with non-surgical methods. Common reasons include
-                      impacted teeth, severe decay, dental infections, or
-                      preparation for dental implants.
+                      Yes. Our team follows strict safety protocols, reviews
+                      your medical history, and tailors anesthesia and surgical
+                      techniques to your individual needs.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Does oral surgery hurt?</h3>
+                    <h3 className="text-lg">
+                      How long does recovery usually take?
+                    </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Not with us! We use local anesthesia and offer sedation
-                      options to ensure a pain-free experience. Most patients
-                      report little to no discomfort during the procedure.
+                      Recovery time depends on the procedure. Simple extractions
+                      may heal within a few days, while bone grafting or implant
+                      surgery can take several weeks to fully integrate. We
+                      provide clear timelines and aftercare instructions for
+                      every case.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -267,14 +247,14 @@ export default function OralSurgeryPage() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What should I expect after oral surgery?
+                      Do you offer sedation during surgery?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Mild swelling and discomfort are normal, and we provide
-                      detailed aftercare instructions to support healing. Most
-                      patients recover within a few days.
+                      Yes. We offer safe sedation options, including nitrous
+                      oxide and oral sedation, to help patients stay calm and
+                      comfortable throughout their procedure.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -282,14 +262,14 @@ export default function OralSurgeryPage() {
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How do I prepare for a dental surgery appointment?
+                      Will my insurance cover oral surgery?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Avoid eating or drinking if sedation is planned, follow
-                      any instructions we provide, and arrange for someone to
-                      drive you home if needed.
+                      Many dental insurance plans cover part or all of surgical
+                      procedures. Our team will review your benefits and explain
+                      costs and payment options beforehand.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -297,14 +277,16 @@ export default function OralSurgeryPage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Is oral surgery covered by insurance?
+                      When should I see an oral surgeon instead of a general
+                      dentist?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Many oral surgery procedures are covered by dental
-                      insurance. Our team will help you verify your benefits and
-                      explain all your financial options.
+                      If a tooth is impacted, fractured below the gumline, or
+                      requires complex extraction or implant preparation,
+                      surgical evaluation is recommended. Our team can determine
+                      the best course of action for your specific situation.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -315,13 +297,16 @@ export default function OralSurgeryPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Need Oral Surgery in Maplewood, NJ?
+              Looking for an Oral Surgeon in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              From extractions to wisdom teeth removal, Tulip Dental is here
-              with the surgical expertise and gentle care you deserve. Let us
-              help you protect your smile and your overall health with expert
-              oral surgery — close to home.
+              At Smiling Molar Dental, we make oral surgery safe, comfortable,
+              and straightforward. Whether you need wisdom teeth removal,
+              implant preparation, or surgical treatment for infections, our
+              skilled team is here to help. Patients from Plainfield, North
+              Plainfield, South Plainfield, Scotch Plains, and nearby areas
+              trust us for expert, compassionate oral surgery that restores
+              comfort and confidence.
             </p>
             {/* </Fade> */}
           </div>

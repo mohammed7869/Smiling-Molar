@@ -9,7 +9,7 @@ This document outlines the SEO-optimized URL structure implemented for Tulip Den
 ### 1. About Page
 
 - **Old Route:** `/about-us`
-- **New SEO Route:** `/about-tulip-dental-maplewood-nj`
+- **New SEO Route:** `/about-smiling-molar-dental-plainfield-nj`
 - **Status:** ✅ Implemented with 301 redirect
 
 ### 2. Reviews Page
@@ -97,7 +97,7 @@ All service area pages have been updated with SEO-optimized routes:
 
 - **Service Pages:** `/services/[service-name]-maplewood-nj`
 - **Service Area Pages:** `/service-areas/[area-name]-nj-dentist-near-you`
-- **About Page:** `/about-tulip-dental-maplewood-nj`
+- **About Page:** `/about-smiling-molar-dental-plainfield-nj`
 
 ## Benefits
 

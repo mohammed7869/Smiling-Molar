@@ -7,45 +7,46 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
-import Link from "next/link";
 
 export default function OrthodonticsPage() {
   const features = [
     {
       icon: "/Images/icons/braces1.png",
-      title: "Step 1: Consultation & Smile Assessment",
+      title: "Invisalign® Clear Aligners",
       description:
-        "We start with a complete evaluation to determine which orthodontic option is best for your needs and goals.",
+        "We offer orthodontic treatments tailored to the needs of each patient - from early intervention for kids to clear aligners for adults who want discreet straightening.",
       points: [
-        "Digital X-rays, scans & photographs",
-        "Bite and alignment analysis",
-        "Customized treatment plan for braces or clear aligners",
+        "Nearly invisible trays for a discreet smile journey",
+        "Removable for easy eating and cleaning",
+        "Customized aligners designed for gradual, precise tooth movement",
+        "A popular option for teens and adults who want flexibility",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Step 2: Appliance Placement & Progress Tracking",
+      title: "Traditional Metal & Ceramic Braces",
       description:
-        "Once you’re ready, we place your braces or provide your first set of aligners and guide you through wear and care.",
+        "We offer orthodontic treatments tailored to the needs of each patient - from early intervention for kids to clear aligners for adults who want discreet straightening.",
       points: [
-        "Traditional or ceramic braces",
-        "Invisalign® or other clear aligners",
-        "Regular check-ins for adjustments or aligner changes",
+        "Ideal for moderate to complex alignment cases",
+        "Modern, low-profile brackets for improved comfort",
+        "Ceramic options available for a more aesthetic look",
+        "Regular checkups to track progress and make adjustments",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Step 3: Retainers & Smile Maintenance",
+      title: "Early Orthodontic Evaluations for Children",
       description:
-        "After treatment, we fit you with a custom retainer to maintain your new smile for years to come.",
+        "We offer orthodontic treatments tailored to the needs of each patient - from early intervention for kids to clear aligners for adults who want discreet straightening.",
       points: [
-        "Removable or fixed retainers",
-        "Post-treatment evaluations",
-        "Tips to protect your results long-term",
+        "Early screenings to detect potential problems",
+        "Growth-guided treatments to reduce the need for extensive future care",
+        "Expanders and interceptive treatments when needed",
+        "A gentle, child-friendly approach to set the foundation for healthy smiles",
       ],
     },
   ];
@@ -56,12 +57,12 @@ export default function OrthodonticsPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Orthodontics in Maplewood, NJ</h1>
+              <h1>Orthodontics Treatment in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Braces & Clear Aligners in Maplewood | Tulip Dental | Family &
-                Cosmetic Dentist{" "}
+                Straighten Your Smile with Braces & Invisalign® | Smiling Molar
+                Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -91,36 +92,23 @@ export default function OrthodonticsPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Orthodontic Treatment</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Orthodontics
+                Understanding Orthodontics Treatment
               </h2>
               <p>
-                Crooked teeth, gaps, or bite issues? Orthodontic treatment
-                improves not just the appearance of your smile-but also how your
-                teeth function and fit together.At Tulip Dental, we offer{" "}
-                <Link
-                  href="/services/orthodontics-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  braces
-                </Link>
-                and{" "}
-                <Link
-                  href="/services/invisalign-clear-aligners-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  clear aligners
-                </Link>
-                for children, teens, and adults in a friendly, no-pressure
-                environment. Whether you’re considering Invisalign® or
-                traditional braces, we personalize your care plan to match your
-                goals and lifestyle.{" "}
+                Crooked teeth, gaps, or bite issues can affect both your oral
+                health and your confidence. At Smiling Molar Dental, we offer a
+                complete range of orthodontic treatments - including traditional
+                braces and Invisalign® clear aligners - to help patients of all
+                ages achieve beautifully aligned, healthy smiles.
               </p>
               <p>
-                Patients from Maplewood (07040), South Orange (07079), Vauxhall
-                (07088), Irvington (07111), and Newark (07106, 07112) trust us
-                for expert orthodontic care. If you’ve been searching for
-                “braces near me” or “Invisalign near Maplewood,” your smile is
-                in the right hands.{" "}
+                Located in Plainfield, NJ, our experienced dental team creates
+                personalized orthodontic plans for children, teens, and adults.
+                Patients from Plainfield (07060), North Plainfield (07062,
+                07063), South Plainfield (07080), Scotch Plains (07076), and
+                nearby areas trust us when searching for "Invisalign near me" or
+                "braces near me" because we combine modern orthodontic
+                techniques with patient-first care.
               </p>
               {/* </Fade> */}
             </div>
@@ -129,38 +117,38 @@ export default function OrthodonticsPage() {
             <div className="wcu-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
-                <h2>Top Reasons to Choose Tulip Dental for Orthodontics</h2>
+                <h2>Why Choose Smiling Molar Dental for Orthodontics</h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Braces &
-                      Aligners for All Ages
+                      <CheckCircle className="service-point-icon" />
+                      Comprehensive Options for All Ages
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Invisalign®
-                      Certified Provider
+                      <CheckCircle className="service-point-icon" />
+                      Invisalign® & Braces Available
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" />{" "}
-                      Personalized Treatment Plans
+                      <CheckCircle className="service-point-icon" />
+                      Experienced & Caring Team
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Early
-                      Orthodontic Screenings for Children
+                      <CheckCircle className="service-point-icon" />
+                      Flexible Financing & Insurance Support
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Flexible
-                      Financing & Insurance Assistance
+                      <CheckCircle className="service-point-icon" />
+                      Convenient Location in Plainfield
                     </h3>
                   </li>
                 </ul>
@@ -181,16 +169,12 @@ export default function OrthodonticsPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              The Orthodontic Treatment Process
+              Orthodontic Services at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              Orthodontic care works by gently shifting teeth into ideal
-              positions over time-improving bite alignment, aesthetics, and oral
-              health. Whether you’re a teen or adult, we walk you through every
-              step with clarity and care.
-              <br />
-              <br />
-              Here’s What Makes Our Root Canal Process Different
+              We offer orthodontic treatments tailored to the needs of each
+              patient - from early intervention for kids to clear aligners for
+              adults who want discreet straightening.
             </p>
             {/* </Fade> */}
 
@@ -228,13 +212,14 @@ export default function OrthodonticsPage() {
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What is the best age to get braces?
+                      What age is best to start orthodontic treatment?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      The ideal time is between ages 10–14, but orthodontic care
-                      is effective at any age— including adults.
+                      The American Association of Orthodontists recommends a
+                      checkup by age 7, but treatment can be successful at any
+                      age.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -242,14 +227,13 @@ export default function OrthodonticsPage() {
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What’s the difference between braces and clear aligners?
+                      How long does orthodontic treatment usually take?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Braces use wires and brackets, while aligners are clear
-                      trays. Both straighten teeth, but aligners are more
-                      discreet and removable.
+                      Most cases take between 12-24 months, depending on
+                      complexity and patient cooperation.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -257,26 +241,26 @@ export default function OrthodonticsPage() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How long does orthodontic treatment take?
+                      Is Invisalign® as effective as braces?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Most patients complete treatment in 12 to 24 months,
-                      though minor adjustments may take less time.
+                      Yes - Invisalign can correct most mild to moderate
+                      alignment issues. Braces may be recommended for more
+                      complex cases.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Are braces painful?</h3>
+                    <h3 className="text-lg">Will braces or aligners hurt?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Mild discomfort is normal during adjustments, but it fades
-                      quickly. Aligners typically cause less irritation than
-                      braces.
+                      Mild soreness after adjustments is normal but temporary.
+                      Most patients adapt quickly.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -284,14 +268,14 @@ export default function OrthodonticsPage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Is orthodontic treatment covered by insurance?
+                      Does insurance cover orthodontic treatment?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Many dental insurance plans cover orthodontics. We’ll
-                      check your benefits and offer payment plans to fit your
-                      budget.
+                      Many dental insurance plans offer partial coverage for
+                      orthodontics. We'll help you review your benefits and
+                      financing options.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -302,13 +286,16 @@ export default function OrthodonticsPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Ready to Transform Your Smile with Braces or Invisalign in
-              Maplewood, NJ?
+              Ready for a Straighter Smile with Braces or Invisalign® in
+              Plainfield, NJ?
             </h2>
             <p className="features-description">
-              At Tulip Dental, our orthodontic solutions are comfortable,
-              effective, and designed to fit your lifestyle—no matter your age.
-              Let us help you achieve the confident, healthy smile you deserve.
+              At Smiling Molar Dental, we make orthodontic care comfortable and
+              customized for every patient - whether you're a child starting
+              early treatment or an adult ready for Invisalign®. Patients from
+              Plainfield, North Plainfield, South Plainfield, Scotch Plains, and
+              surrounding communities trust us to deliver exceptional
+              orthodontic results with a caring touch.
             </p>
             {/* </Fade> */}
           </div>

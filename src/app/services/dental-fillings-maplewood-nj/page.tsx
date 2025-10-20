@@ -7,51 +7,46 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
-import Link from "next/link";
 
 export default function DentalFillingPage() {
   const features = [
     {
       icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "Our Most Common Dental Filling Options",
+      title: "Cavity Treatment & Restoration",
       description:
-        "We carefully choose the right material for function and aesthetics.",
+        "Our filling treatments are designed to protect your teeth and restore their natural beauty - whether you're addressing new decay or upgrading older restorations.",
       points: [
-        "Tooth-Colored Composite Resin",
-        "Replacement of Old Amalgam Fillings",
-        "Cosmetic Recontouring with Bonding",
-        "Preventive Fillings for Early Decay",
-        "Minimally Invasive Cavity Treatment",
+        "Careful removal of decay and bacteria",
+        "Placement of composite fillings that match your tooth shade",
+        "Smooth, comfortable restorations for natural bite function",
+        "Preventative sealing to reduce future decay",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "How Fillings Restore Your Smile",
+      title: "Repairing Worn or Chipped Teeth",
       description:
-        "Dental fillings do more than just patch a cavity – they help preserve your overall oral health.",
+        "Our filling treatments are designed to protect your teeth and restore their natural beauty - whether you're addressing new decay or upgrading older restorations.",
       points: [
-        "Stop cavity progression and tooth pain",
-        "Restore natural tooth shape and strength",
-        "Protect against future decay",
-        "Improve chewing and speech",
-        "Blend seamlessly with your smile",
+        "Cosmetic bonding to fix chips or small cracks",
+        "Reinforcement of weakened enamel with strong composites",
+        "Natural-looking finishes for seamless integration",
+        "Long-lasting durability for daily function",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Dental Fillings Near You – Areas We Serve",
+      title: "Replacing Old or Metal Fillings",
       description:
-        "If you’re in or around Maplewood and need a cavity treated, we’re just a short drive away:",
+        "Our filling treatments are designed to protect your teeth and restore their natural beauty - whether you're addressing new decay or upgrading older restorations.",
       points: [
-        "Maplewood – 07040",
-        "South Orange – 07079",
-        "Vauxhall – 07088",
-        "Irvington – 07111",
-        "Newark – 07106 & 07112",
+        "Safe removal of outdated amalgam or failing fillings",
+        "Replacement with modern tooth-colored materials",
+        "Aesthetic improvement for a brighter, healthier-looking smile",
+        "Strong, reliable results designed to last for years",
       ],
     },
   ];
@@ -62,12 +57,11 @@ export default function DentalFillingPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Dental Fillings in Maplewood, NJ</h1>
+              <h1>Dental Fillings in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Repair Cavities with Safe, Natural-Looking Fillings in Maplewood
-                | Tulip Dental | Family & Cosmetic Dentist{" "}
+                Strong, Natural-Looking Dental Fillings | Smiling Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -97,29 +91,24 @@ export default function DentalFillingPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Dental Fillings</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Dental Fillings
+                Understanding Dental Fillings
               </h2>
               <p>
-                Dental fillings are one of the most common and effective ways to
-                treat cavities and prevent further tooth damage. At Tulip Dental
-                in{" "}
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary hover:underline font-medium"
-                >
-                  Maplewood, NJ
-                </Link>
-                , we use tooth-colored, mercury-free materials to restore
-                strength and appearance-without the metallic look of traditional
-                fillings. Whether it’s your first filling or a replacement for
-                an old one, our skilled team ensures your treatment is
-                comfortable and long-lasting.{" "}
+                When cavities or minor damage affect your teeth, tooth-colored
+                dental fillings offer a quick, durable, and aesthetically
+                pleasing solution. At Smiling Molar Dental, we use modern
+                composite materials that blend seamlessly with your natural
+                teeth - restoring strength, function, and appearance without
+                compromising your smile.
               </p>
               <p>
-                We proudly serve Maplewood (07040), South Orange (07079),
-                Vauxhall (07088), Irvington (07111), and nearby Newark (07106,
-                07112). Searching for “dental fillings near me”? We’ve got you
-                covered.{" "}
+                Whether you're repairing a small cavity or replacing an old
+                filling, our experienced dental team provides gentle, precise
+                care for patients of all ages. We proudly serve Plainfield
+                (07060), North Plainfield (07062, 07063), South Plainfield
+                (07080), Scotch Plains (07076), and surrounding communities.
+                When patients search for "dental fillings near me", they choose
+                Smiling Molar Dental for quality and comfort.
               </p>
               {/* </Fade> */}
             </div>
@@ -128,38 +117,38 @@ export default function DentalFillingPage() {
             <div className="wcu-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
-                <h2>Why Choose Tulip Dental for Fillings?</h2>
+                <h2>Why Patients Choose Smiling Molar Dental for Fillings</h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" />{" "}
-                      Natural-Looking Results
+                      <CheckCircle className="service-point-icon" />
+                      Aesthetic, Tooth-Colored Restorations
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Safe,
-                      Mercury-Free Materials
+                      <CheckCircle className="service-point-icon" />
+                      Gentle & Efficient Treatments
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Gentle,
-                      Painless Cavity Repair
+                      <CheckCircle className="service-point-icon" />
+                      Precision You Can Trust
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Quick
-                      Treatment, Long-Lasting Results
+                      <CheckCircle className="service-point-icon" />
+                      Affordable & Insurance-Friendly Care
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Convenient
-                      & Friendly Local Care
+                      <CheckCircle className="service-point-icon" />
+                      Convenient Plainfield Location
                     </h3>
                   </li>
                 </ul>
@@ -179,15 +168,13 @@ export default function DentalFillingPage() {
           </div>
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
-            <h2 className="features-heading">Types of Fillings We Offer</h2>
+            <h2 className="features-heading">
+              Dental Filling Services at Smiling Molar Dental
+            </h2>
             <p className="features-description">
-              Every smile is different, and so are the solutions we provide.
-              That’s why we offer a range of dental filling options tailored to
-              the location of your cavity, the extent of the damage, and your
-              aesthetic preferences.
-              <br />
-              <br />
-              Here’s What Makes Our Root Canal Services Different:{" "}
+              Our filling treatments are designed to protect your teeth and
+              restore their natural beauty - whether you're addressing new decay
+              or upgrading older restorations.
             </p>
             {/* </Fade> */}
 
@@ -224,53 +211,51 @@ export default function DentalFillingPage() {
               <Accordion type="single" className="w-full space-y-5">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">What is a dental filling?</h3>
+                    <h3 className="text-lg">Do dental fillings hurt?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      A dental filling is a restorative treatment used to repair
-                      a tooth damaged by decay or minor fractures. It restores
-                      the shape, function, and integrity of the tooth.
+                      No. We use local anesthesia to ensure you feel little to
+                      no discomfort during the procedure.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">
-                      Are tooth-colored fillings as strong as metal ones?
-                    </h3>
+                    <h3 className="text-lg">How long do fillings last?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Yes! Modern composite fillings are highly durable,
-                      especially for small to mid-sized cavities, and bond
-                      securely to the tooth structure.
+                      Tooth-colored fillings typically last 7-10 years or more
+                      with good oral hygiene and regular dental visits.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Will getting a filling hurt?</h3>
+                    <h3 className="text-lg">
+                      Can children get dental fillings?
+                    </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Not at all. We use effective local anesthesia and gentle
-                      techniques to ensure you feel no discomfort during
-                      treatment.
+                      Yes. Fillings are a safe and effective way to treat
+                      cavities in both children and adults.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">How long does a filling last?</h3>
+                    <h3 className="text-lg">What type of filling is best?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Composite fillings typically last 5–10 years or longer
-                      with proper oral hygiene and regular dental checkups.
+                      Composite (tooth-colored) fillings are most popular today
+                      because they look natural, bond strongly to teeth, and
+                      don't contain metal.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -278,14 +263,14 @@ export default function DentalFillingPage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Can you replace my old silver filling?
+                      Are fillings covered by insurance?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Absolutely. We safely remove old amalgam fillings and
-                      replace them with tooth-colored alternatives that look and
-                      feel better.
+                      Most dental insurance plans cover fillings. Our team will
+                      help you understand your coverage and payment options
+                      before treatment.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -296,18 +281,16 @@ export default function DentalFillingPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Let’s Treat That Cavity—Before It Gets Worse
+              Looking for Durable, Natural-Looking Fillings in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              Don’t wait for the{" "}
-              <Link
-                href="/services/painless-dental-treatment-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                pain
-              </Link>
-              to get worse. Our friendly team at Tulip Dental is ready to
-              restore your smile with safe, natural-looking dental fillings.
+              At Smiling Molar Dental, we specialize in aesthetic, durable
+              fillings that restore the strength and appearance of your teeth
+              with care and precision. Whether it's your child's first cavity or
+              replacing old restorations, our friendly team provides
+              high-quality, personalized care for patients from Plainfield,
+              North Plainfield, South Plainfield, Scotch Plains, and surrounding
+              communities.
             </p>
             {/* </Fade> */}
           </div>

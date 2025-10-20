@@ -6,9 +6,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import Link from "next/link";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
 import { generateServiceMetadata } from "@/lib/metadata";
@@ -22,69 +20,38 @@ export default function RootCanalClient() {
   const features = [
     {
       icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "Comfortable, Efficient Treatment Process",
+      title: "Relieving Tooth Pain & Infection",
       description:
-        "We’re committed to turning an intimidating procedure into a stress-free experience. ",
+        "Root canal therapy doesn't just relieve pain - it protects your natural smile. Our approach is focused on stopping infection, restoring strength, and preventing future problems.",
       points: [
-        "Local anesthesia for a pain-free procedure",
-        "Digital X-rays for precise diagnostics",
+        "Comprehensive exams and X-rays to diagnose the issue",
+        "Precise removal of infected or inflamed pulp",
         "Thorough cleaning and sealing of the root canals",
-        "Option to restore the tooth with a crown for durability",
+        "Antibiotic support and follow-ups to ensure full recovery",
       ],
     },
     {
       icon: "/Images/icons/tooth-implant.png",
-      title: "Focused on Long-Term Tooth Preservation",
+      title: "Restoring Tooth Strength & Function",
       description:
-        "Our goal is to save your natural teeth and help you avoid extraction whenever possible:",
+        "Root canal therapy doesn't just relieve pain - it protects your natural smile. Our approach is focused on stopping infection, restoring strength, and preventing future problems.",
       points: [
-        "Expert evaluation of tooth health",
-        " Restoration with high-quality materials",
-        "Post-treatment monitoring to ensure healing",
-        "Clear aftercare instructions for lasting results",
+        "Placement of protective fillings or custom crowns",
+        "Natural-looking restorations that blend with your smile",
+        "Durable results designed to withstand daily function",
+        "Comfortable, fully restored bite alignment",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Root Canal Services for Maplewood & Nearby Areas",
+      title: "Preventing Tooth Loss",
       description:
-        "Our office proudly provides root canal therapy to patients in:",
+        "Root canal therapy doesn't just relieve pain - it protects your natural smile. Our approach is focused on stopping infection, restoring strength, and preventing future problems.",
       points: [
-        <Link
-          key="maplewood"
-          href="/service-areas/maplewood-nj-dentist-near-you"
-          className="text-primary mr-2 hover:underline font-medium"
-        >
-          Maplewood (07040)
-        </Link>,
-        <Link
-          key="south-orange"
-          href="/service-areas/south-orange-nj-dentist-near-you"
-          className="text-primary mr-2 hover:underline font-medium"
-        >
-          South Orange (07079)
-        </Link>,
-        <Link
-          key="irvington"
-          href="/service-areas/irvington-nj-dentist-near-you"
-          className="text-primary mr-2 hover:underline font-medium"
-        >
-          Irvington (07111)
-        </Link>,
-        <Link
-          key="vauxhall"
-          href="/service-areas/vauxhall-nj-dentist-near-you"
-          className="text-primary mr-2 hover:underline font-medium"
-        >
-          Vauxhall (07088)
-        </Link>,
-        <Link
-          key="newark"
-          href="/service-areas/newark-nj-dentist-near-you"
-          className="text-primary mr-2 hover:underline font-medium"
-        >
-          Newark (07106, 07112)
-        </Link>,
+        "Saving teeth whenever possible to avoid extractions",
+        "Offering alternative solutions if a tooth cannot be preserved",
+        "Long-term monitoring and personalized care plans",
+        "Guidance to keep your restored tooth healthy for years",
       ],
     },
   ];
@@ -94,12 +61,12 @@ export default function RootCanalClient() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Root Canal Treatment in Maplewood, NJ</h1>
+              <h1>Root Canal Treatment in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Pain-Free Root Canals in Maplewood | Tulip Dental | Family &
-                Cosmetic Dentist{" "}
+                Gentle & Effective Root Canal Therapy in Plainfield | Smiling
+                Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -129,38 +96,26 @@ export default function RootCanalClient() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Root Canal</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Root Canal Treatment
+                Understanding Root Canal Treatment
               </h2>
               <p>
-                When{" "}
-                <Link
-                  href="/services/painless-dental-treatment-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  tooth pain
-                </Link>{" "}
-                won’t go away, a root canal may be the solution to save your
-                natural tooth and stop the infection at its source. At Tulip
-                Dental in{" "}
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary  hover:underline font-medium"
-                >
-                  Maplewood, NJ
-                </Link>
-                , we offer gentle, effective root canal therapy in a relaxing
-                and modern setting. Root canals aren’t what they used to
-                be-today’s treatment is fast, comfortable, and highly
-                successful. Whether you're dealing with deep decay, infection,
-                or damage from trauma, our team is here to help you feel better
-                and preserve your natural smile.{" "}
+                When tooth pain strikes, fast and effective treatment can make
+                all the difference. At Smiling Molar Dental, we offer modern,
+                comfortable root canal therapy designed to relieve pain,
+                eliminate infection, and save your natural tooth.
               </p>
               <p>
-                We proudly serve patients from Maplewood (07040), South Orange
-                (07079), Vauxhall (07088), Irvington (07111), and Newark
-                neighborhoods including 07106 and 07112. Searching for a “root
-                canal dentist near me”? We’re right nearby and ready when you
-                are.{" "}
+                Our skilled dental team uses advanced techniques and technology
+                to make the experience as smooth and stress-free as possible. We
+                proudly serve patients from Plainfield (07060), North Plainfield
+                (07062, 07063), South Plainfield (07080), Scotch Plains (07076),
+                and nearby neighborhoods - making us a trusted local choice when
+                searching for "root canal dentist near me."
+              </p>
+              <p>
+                At Smiling Molar Dental, our focus is on comfort, precision, and
+                long-term results - so you can leave your appointment pain-free
+                and confident in your smile.
               </p>
               {/* </Fade> */}
             </div>
@@ -170,39 +125,39 @@ export default function RootCanalClient() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
                 <h2>
-                  Top Reasons To Choose Tulip Dental for Root Canal Therapy
+                  Why Patients Trust Smiling Molar Dental for Root Canal Care
                 </h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Experienced
-                      Team Focused on Comfort
+                      <CheckCircle className="service-point-icon" />
+                      Comfortable, Pain-Relieving Treatment
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Advanced
-                      Technology for Better Results
+                      <CheckCircle className="service-point-icon" />
+                      Advanced Technology for Precise Results
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Same-Day
-                      Appointments Available
+                      <CheckCircle className="service-point-icon" />
+                      Skilled Dental Professionals
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Convenient
-                      Location in Maplewood, NJ
+                      <CheckCircle className="service-point-icon" />
+                      Affordable Options & Insurance Support
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Flexible
-                      Financing & Insurance Accepted
+                      <CheckCircle className="service-point-icon" />
+                      Convenient Plainfield Location
                     </h3>
                   </li>
                 </ul>
@@ -222,17 +177,12 @@ export default function RootCanalClient() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Saving Your Tooth Has Never Been Easier
+              Root Canal Services at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              Root canal treatment removes infection from inside your tooth
-              while preserving the natural structure. It's the preferred
-              alternative to extraction and helps you avoid more invasive
-              procedures in the future. Our goal is to make the process smooth
-              and pain-free, so you leave our office feeling relieved and
-              confident.
-              <br /> <br />
-              Here’s What Makes Our Root Canal Services Different
+              Root canal therapy doesn't just relieve pain - it protects your
+              natural smile. Our approach is focused on stopping infection,
+              restoring strength, and preventing future problems.
             </p>
             {/* </Fade> */}
 
@@ -263,90 +213,66 @@ export default function RootCanalClient() {
               ))}
             </div>
           </div>
-          <p className="p-4">
-            Looking for a trusted “root canal specialist near you”? Tulip Dental
-            is your go-to destination for expert care and real results.
-          </p>
           <div className="faq-section">
             <h2 className="faq-heading">Root Canal Treatment FAQs</h2>
             <div className="faq-acc-container">
               <Accordion type="single" collapsible className="w-full space-y-6">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                    <h3 className="text-lg">
-                      {" "}
-                      What is a root canal and why is it needed?{" "}
-                    </h3>
+                    <h3 className="text-lg">Does a root canal hurt?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans ">
-                    A root canal is a procedure that removes infected or damaged
-                    pulp from inside your tooth, cleans the area, and seals it
-                    to prevent further problems. It’s often necessary when decay
-                    or trauma affects the inner nerve of the tooth.
+                    No - root canals are designed to relieve pain, not cause it.
+                    With modern anesthesia and techniques, most patients feel
+                    little to no discomfort.
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      {" "}
-                      How do I know if I need a root canal?{" "}
+                      How do I know if I need a root canal?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
-                    <p className="mt-2">Common signs include:</p>
-                    <ul className="list-disc pl-5 mt-2 space-y-1">
-                      <li>Persistent toothache or throbbing pain</li>
-                      <li>Sensitivity to hot or cold</li>
-                      <li>Swollen gums or a pimple on the gum</li>
-                      <li>Pain when biting or chewing</li>
-                      <li>Darkening of the tooth</li>
-                    </ul>
-                    <p className="mt-2">
-                      If you're experiencing any of these symptoms, it’s time to
-                      schedule an evaluation.
-                    </p>
+                    Signs include persistent tooth pain, sensitivity to hot or
+                    cold, swelling, or a darkened tooth. A dental exam and
+                    X-rays confirm if treatment is needed.
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                    <h3 className="text-lg"> Is a root canal painful? </h3>
+                    <h3 className="text-lg">
+                      How long does a root canal take?
+                    </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
-                    Not at all! With modern techniques and local anesthesia,
-                    root canals are typically no more uncomfortable than getting
-                    a filling. Most patients report immediate relief from pain
-                    after the procedure.
+                    Most procedures can be completed in one or two visits,
+                    depending on the complexity and location of the tooth.
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      {" "}
-                      What happens after the root canal?{" "}
+                      What happens after the procedure?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
-                    Once the root canal is complete, your tooth will likely need
-                    a crown to restore full function and protect it from future
-                    damage. We’ll handle everything right here in our Maplewood
-                    office.
+                    The tooth is restored with a filling or crown to strengthen
+                    it and protect it from future damage.
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                    <h3 className="text-lg">
-                      {" "}
-                      Can a root canal prevent tooth extraction?{" "}
-                    </h3>
+                    <h3 className="text-lg">Will my insurance cover it?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
-                    Yes! A root canal is designed to save your natural tooth. It
-                    helps you avoid extraction, bridges, or implants, keeping
-                    your smile intact and functional.
+                    Most dental insurance plans offer coverage for root canal
+                    therapy. Our team will explain your benefits and financing
+                    options before treatment begins.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
@@ -356,13 +282,14 @@ export default function RootCanalClient() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Need Root Canal Treatment in Harrisburg?
+              Looking for a Root Canal Dentist in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              If you're dealing with tooth pain, infection, or signs of deep
-              decay, don’t wait. The sooner you get treatment, the better your
-              chances of saving the tooth. At Tulip Dental, we’re here to
-              help—compassionately and quickly.
+              Tooth pain and infection shouldn't wait. At Smiling Molar Dental,
+              we provide gentle, effective root canal treatment to save your
+              tooth, relieve pain, and restore your smile. Patients from
+              Plainfield, North Plainfield, South Plainfield, Scotch Plains, and
+              nearby communities trust our team for precise, compassionate care.
             </p>
             {/* </Fade> */}
           </div>

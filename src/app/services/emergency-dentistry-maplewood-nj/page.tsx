@@ -6,12 +6,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade, Zoom } from "react-awesome-reveal";
 import { CheckCircle } from "lucide-react";
 import BookCallBtn from "../book-call-btn";
 import { generateServiceMetadata } from "@/lib/metadata";
-import Link from "next/link";
 
 export const metadata: Metadata = generateServiceMetadata(
   "emergency-dentistry-plainfield-nj",
@@ -22,38 +20,38 @@ export default function EmergencyDentistryPage() {
   const features = [
     {
       icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "Rapid Relief for Pain and Infections",
+      title: "Persistent Toothaches & Infections",
       description:
-        "We respond immediately to issues like abscesses, dental trauma, and broken teeth.",
+        "When emergencies happen, our goal is to relieve pain quickly and protect your smile. Whether it's a sudden injury, swelling, or broken dental work, we're ready to help with same-day treatment for patients across Plainfield and surrounding zip codes.",
       points: [
-        "Same-day emergency visits",
-        "Swelling and infection management",
-        "Sedation available for nervous patients",
-        "Gentle treatment for all age groups",
+        "Prompt exams to pinpoint the source of pain",
+        "Gentle procedures to relieve discomfort immediately",
+        "Root canal or restorative treatment if needed",
+        "Antibiotics and follow-up care to ensure full healing",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Smart, Tooth-Saving Solutions",
+      title: "Dental Injuries from Accidents",
       description:
-        "When every minute counts, we help you make the best decisions for your dental future.",
+        "When emergencies happen, our goal is to relieve pain quickly and protect your smile. Whether it's a sudden injury, swelling, or broken dental work, we're ready to help with same-day treatment for patients across Plainfield and surrounding zip codes.",
       points: [
-        "Quick diagnostics with digital X-rays",
-        "Emergency root canals, fillings, and crowns",
-        "Temporary and permanent repairs",
-        "Focus on preserving natural teeth whenever possible",
+        "Emergency repair for fractured or displaced teeth",
+        "Treatment for gum or soft tissue injuries",
+        "Replacement solutions for unsalvageable teeth",
+        "Customized treatment plans to restore both function and appearance",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Your Local Emergency Dental Team in Maplewood",
-      description: "We’re proud to serve families across:",
+      title: "Problems with Restorations or Appliances",
+      description:
+        "When emergencies happen, our goal is to relieve pain quickly and protect your smile. Whether it's a sudden injury, swelling, or broken dental work, we're ready to help with same-day treatment for patients across Plainfield and surrounding zip codes.",
       points: [
-        "Maplewood (07040)",
-        "South Orange (07079)",
-        "Vauxhall (07088)",
-        "Irvington (07111)",
-        "Newark (07106, 07112)",
+        "Quick fixes for broken crowns, bridges, or fillings",
+        "Adjustments or repairs for dentures and partials",
+        "Temporary solutions to keep you comfortable until permanent treatment",
+        "Durable, natural-looking replacements crafted to last",
       ],
     },
   ];
@@ -64,12 +62,12 @@ export default function EmergencyDentistryPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Emergency Dentistry in Maplewood, NJ</h1>
+              <h1>Emergency Dental Care in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Emergency Dentist in Maplewood | Tulip Dental | Family &
-                Cosmetic Dentist{" "}
+                Same-Day Emergency Dentistry in Plainfield | Smiling Molar
+                Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -98,34 +96,29 @@ export default function EmergencyDentistryPage() {
             <div className="desc-text-section">
               <div className="desc-text-subtitle">Emergency Dentistry</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Emergency Dentistry
+                Understanding Emergency Dentistry
               </h2>
               <p>
-                Dental problems can catch you off guard-whether it's a sudden
-                toothache, a fractured{" "}
-                <Link
-                  href="/services/crowns-and-bridges-plainfield-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  crown
-                </Link>
-                , or a dental injury. At Smiling Molar Dental, we understand how
-                urgent these situations are. That's why we offer compassionate,
-                expert emergency dental care on the same day you call.From kids
-                with sports injuries to adults facing unexpected{" "}
-                <Link
-                  href="/services/painless-dental-treatment-plainfield-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  pain
-                </Link>
-                , our team is ready to help.{" "}
+                Dental emergencies can happen when you least expect them -
+                during meals, at night, while playing sports, or even during
+                routine activities. Whether it's a broken tooth, severe
+                toothache, infection, or a damaged restoration, waiting for care
+                can make things worse.
               </p>
               <p>
-                We proudly serve Plainfield (07060), Edison, Rahway, Scotch
-                Plains, Fanwood, and surrounding areas. If you're searching for
-                a trusted "emergency dentist near me," Smiling Molar Dental is
-                right around the corner.{" "}
+                At Smiling Molar Dental, we offer same-day emergency
+                appointments because we know that fast treatment is essential to
+                ease pain, protect your teeth, and prevent complications. Our
+                experienced team is trained to handle a full range of urgent
+                dental problems, helping patients return to comfort quickly and
+                confidently.
+              </p>
+              <p>
+                We proudly serve patients from Plainfield (07060), North
+                Plainfield (07062, 07063), South Plainfield (07080), Scotch
+                Plains (07076), and surrounding areas. If you're searching for
+                an "emergency dentist near me", you can count on us for
+                immediate, compassionate care.
               </p>
             </div>
           </div>
@@ -134,8 +127,7 @@ export default function EmergencyDentistryPage() {
             <div className="wcu-text-section">
               <div className="wcu-title">
                 <h2>
-                  Top Reasons to Choose Smiling Molar Dental for Emergency
-                  Dental Care
+                  Why Choose Smiling Molar Dental for Emergency Dental Care
                 </h2>
               </div>
               <div className="wcu-points-section">
@@ -143,32 +135,32 @@ export default function EmergencyDentistryPage() {
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Skilled Dentists with a Gentle Approach
+                      Fast Appointments When Urgency Strikes
                     </h3>
                   </li>
 
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Modern
-                      Technology for Fast, Accurate Care
+                      <CheckCircle className="service-point-icon" />
+                      Comprehensive Emergency Solutions
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Same-Day
-                      Appointments & Walk-In Availability
+                      <CheckCircle className="service-point-icon" />
+                      Gentle, Experienced Professionals
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Convenient
-                      Maplewood Location
+                      <CheckCircle className="service-point-icon" />
+                      Affordable & Flexible Payment Options
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Flexible
-                      Payment Options & Insurance Friendly
+                      <CheckCircle className="service-point-icon" />
+                      Convenient Plainfield Location
                     </h3>
                   </li>
                 </ul>
@@ -186,27 +178,13 @@ export default function EmergencyDentistryPage() {
           </div>
           <div className="features-section">
             <h2 className="features-heading">
-              Immediate Relief, Compassionate Treatment When You Need It Most{" "}
+              Emergency Dentistry Services at Smiling Molar Dental
             </h2>
             <p className="features-description text-center">
-              A dental emergency can be more than just uncomfortable – it can
-              affect your ability to eat, speak, or sleep. At{" "}
-              <Link
-                href="/"
-                className="text-primary hover:underline font-medium"
-              >
-                Tulip Dental
-              </Link>
-              , we provide fast, focused solutions to stop the pain and restore
-              your oral health as soon as possible.
-              <br />
-              <br />
-              From the moment you walk in, we prioritize your comfort and work
-              to stabilize your condition with care that’s both effective and
-              reassuring.
-            </p>
-            <p className="features-description">
-              Here’s What Sets Our Emergency Dentistry Apart:
+              When emergencies happen, our goal is to relieve pain quickly and
+              protect your smile. Whether it's a sudden injury, swelling, or
+              broken dental work, we're ready to help with same-day treatment
+              for patients across Plainfield and surrounding zip codes.
             </p>
 
             <div className="features-grid">
@@ -243,79 +221,62 @@ export default function EmergencyDentistryPage() {
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      {" "}
-                      What qualifies as a dental emergency?
+                      How do I know if my dental problem is an emergency?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans ">
-                    Dental emergencies include any condition that causes severe
-                    pain, swelling, bleeding, or damage to your teeth or gums.
-                    These situations require prompt care to prevent
-                    complications.{" "}
+                    If you have severe pain, swelling, bleeding, or a
+                    broken/knocked-out tooth, treat it as an emergency and call
+                    us right away.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      {" "}
-                      What are common dental emergencies?{" "}
+                      What should I do if I break a tooth?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
-                    We treat a variety of urgent concerns, including:{" "}
-                    <ul className="list-disc list-inside mt-2 space-y-1">
-                      <li>Broken or cracked teeth</li>
-                      <li>Knocked-out permanent teeth</li>
-                      <li>Throbbing toothaches or infections</li>
-                      <li>Bleeding after an injury or extraction</li>
-                      <li>Lost fillings or crowns</li>
-                      <li>Damaged braces or wires</li>
-                      <li>Objects stuck between teeth </li>
-                    </ul>
+                    Rinse with warm water, save any fragments, and contact us
+                    immediately. Quick action increases the chance of repair.
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      {" "}
-                      What should I do before getting to the dentist?
+                      Can I wait a few days to see if the pain goes away?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
-                    <p className="mb-2">
-                      Here are some quick tips while you're on your way:
-                    </p>
-                    <strong>Toothache:</strong> Rinse with warm saltwater and
-                    apply a cold compress.
-                    <br />
-                    <br />
-                    <strong>Knocked-out tooth:</strong> Handle only by the crown
-                    and try reinserting gently. If not, place it in milk.
-                    <br />
-                    <br />
-                    <strong>Broken crown or filling:</strong>Save any pieces in
-                    a clean container and bring them with you.
+                    Delaying treatment can worsen the issue. Infections and
+                    injuries can escalate quickly - it's best to seek help
+                    immediately.
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      {" "}
-                      Can dental emergencies be prevented?
+                      Are emergency dental visits covered by insurance?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
-                    Yes! While some emergencies are accidental, others are
-                    preventable with good habits:{" "}
-                    <ul className="list-disc list-inside mt-2 space-y-1">
-                      <li>Brush and floss daily</li>
-                      <li>Schedule regular dental checkups</li>
-                      <li>Wear a mouthguard when playing sports</li>
-                      <li>Avoid hard foods like ice or candy</li>
-                      <li>Never use your teeth as tools</li>
-                    </ul>
+                    Most dental insurance plans cover urgent care. Our team will
+                    help verify your benefits and discuss your options before
+                    treatment.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="q5" className="faq-acc">
+                  <AccordionTrigger className="faq-qn rounded-md">
+                    <h3 className="text-lg">
+                      How fast can I be seen at Smiling Molar Dental?
+                    </h3>
+                  </AccordionTrigger>
+                  <AccordionContent className="faq-ans">
+                    We reserve daily slots for urgent cases and do our best to
+                    offer same-day appointments whenever possible.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
@@ -325,20 +286,15 @@ export default function EmergencyDentistryPage() {
         </div>
         <div className="features-section">
           <h2 className="features-heading">
-            Need Emergency Dental Care in Maplewood?
+            Looking for an Emergency Dentist in Plainfield, NJ?
           </h2>
           <p className="features-description">
-            If you're in{" "}
-            <Link
-              href="/services/painless-dental-treatment-maplewood-nj"
-              className="text-primary mr-2 hover:underline font-medium"
-            >
-              pain
-            </Link>
-            or dealing with a dental injury, don’t delay. Tulip Dental is here
-            with fast, reliable, same-day emergency care that puts your comfort
-            and safety first. We welcome walk-ins and can often treat you on the
-            spot.{" "}
+            Dental problems don't wait - and neither should you. At Smiling
+            Molar Dental, we provide same-day emergency dental appointments for
+            toothaches, injuries, infections, and broken restorations. Patients
+            from Plainfield, North Plainfield, South Plainfield, Scotch Plains,
+            and nearby communities trust our team for quick, compassionate care
+            when it matters most.
           </p>
           <BookCallBtn />
         </div>

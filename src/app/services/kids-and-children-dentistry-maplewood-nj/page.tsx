@@ -7,48 +7,46 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
-import Link from "next/link";
 
 export default function KidsAndChildrenPage() {
   const features = [
     {
       icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "First Dental Visits & Exams",
+      title: "Routine Checkups & Gentle Cleanings",
       description:
-        "We recommend bringing your child for their first dental visit by age one or when their first tooth appears. Early visits build trust and establish a healthy oral care routine.",
+        "Regular dental visits help prevent problems and keep children's teeth healthy and strong.",
       points: [
-        "Gentle, thorough checkups for growing smiles",
-        "Introduction to dental care in a fun way",
-        "Parental guidance for at-home care",
-        "Focus on prevention over treatment",
+        "Dental sealants to protect back teeth from decay",
+        "Early treatment for small cavities before they worsen",
+        "Tooth-colored fillings for natural results",
+        "Preventive strategies to reduce future dental problems",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Preventive Care for Kids",
+      title: "Cavity Prevention & Fillings",
       description:
-        "Preventing dental problems is the best way to keep children’s smiles healthy. We provide routine cleanings, fluoride treatments, and sealants to protect teeth from cavities.",
+        "We focus on preventing cavities and treating them early when they do occur.",
       points: [
-        "Professional cleanings to remove plaque and tartar",
-        "Fluoride applications to strengthen enamel",
-        "Dental sealants for cavity prevention",
-        "Oral hygiene education tailored for kids",
+        "Dental sealants to protect back teeth from decay",
+        "Early treatment for small cavities",
+        "Tooth-colored fillings for natural results",
+        "Preventive care designed to reduce future dental problems",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Restorative Pediatric Dentistry",
+      title: "Emergency & Specialized Care for Kids",
       description:
-        "If your child develops a cavity or dental injury, we offer gentle, effective treatments to restore their teeth and comfort.",
+        "When dental emergencies happen, we're here to provide immediate, gentle care for your child.",
       points: [
-        "Tooth-colored fillings for a natural look",
-        "Baby tooth crowns for extra protection",
-        "Careful, pain-minimizing techniques",
-        "Supportive, reassuring environment for nervous kids",
+        "Same-day appointments for injuries, toothaches, or accidents",
+        "Expert guidance for knocked-out or broken teeth",
+        "Early orthodontic assessments to catch spacing or bite issues",
+        "Personalized care tailored to each child's unique needs",
       ],
     },
   ];
@@ -59,12 +57,11 @@ export default function KidsAndChildrenPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Kids & Children’s Dentistry in Maplewood, NJ </h1>
+              <h1>Children's Dentistry in Plainfield, NJ </h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Gentle Pediatric Dental Care in Maplewood | Tulip Dental |
-                Family & Cosmetic Dentist
+                Building Bright Smiles from the Start | Smiling Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -93,43 +90,29 @@ export default function KidsAndChildrenPage() {
             <div className="desc-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">
-                Kids & Children’s Dentistry
+                Kids & Children's Dentistry
               </div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Kids & Children’s Dentistry
+                Understanding Kids & Children's Dentistry
               </h2>
               <p>
-                Healthy dental habits start early, and at Tulip Dental in
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary ml-2 hover:underline font-medium"
-                >
-                  Maplewood
-                </Link>
-                , NJ, we make every visit fun, positive, and stress-free for
-                your child. From their very first checkup to routine cleanings,{" "}
-                <Link
-                  href="/services/cosmetic-dentistry-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  preventive treatments
-                </Link>
-                , and guidance for lifelong oral health, our friendly team
-                specializes in caring for young{" "}
-                <Link
-                  href="/patient-reviews-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  smiles
-                </Link>
-                .
+                At Smiling Molar Dental, we believe great oral health begins
+                early. Our kids and children's dentistry services are designed
+                to create positive, comfortable experiences that set the
+                foundation for lifelong healthy smiles.
               </p>
               <p>
-                We proudly serve children from Maplewood (07040), South Orange
-                (07079), Vauxhall (07088), Irvington (07111), and nearby Newark
-                (07106 and 07112). Searching for “kids’ dentist near me”? You’ve
-                just found a dental home where children feel safe, cared for,
-                and excited to visit.
+                From your child's very first dental visit to routine cleanings,
+                cavity prevention, and early orthodontic guidance, our
+                experienced dental team ensures that every appointment is
+                gentle, encouraging, and even fun.
+              </p>
+              <p>
+                We proudly serve families from Plainfield (07060), North
+                Plainfield (07062, 07063), South Plainfield (07080), Scotch
+                Plains (07076), and surrounding communities. If you're searching
+                for a "children's dentist near me" who truly cares, Smiling
+                Molar Dental is your trusted family-friendly practice.
               </p>
               {/* </Fade> */}
             </div>
@@ -138,38 +121,41 @@ export default function KidsAndChildrenPage() {
             <div className="wcu-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
-                <h2>Top Reasons to Choose Tulip Dental for Kids’ Dentistry</h2>
+                <h2>
+                  Why Families Choose Smiling Molar Dental for Children's
+                  Dentistry
+                </h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Gentle,
-                      Child-Friendly Care
+                      <CheckCircle className="service-point-icon" /> A Warm,
+                      Kid-Friendly Environment
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Experienced
-                      in Pediatric Dental Needs
+                      <CheckCircle className="service-point-icon" /> Gentle &
+                      Patient Dental Team
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Fun &
-                      Positive Dental Experiences
+                      <CheckCircle className="service-point-icon" />{" "}
+                      Prevention-Focused Pediatric Care
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Flexible
-                      Scheduling for Busy Families
+                      <CheckCircle className="service-point-icon" /> Affordable
+                      Care with Insurance & Medicaid Options
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Convenient
-                      Location in Maplewood, NJ
+                      <CheckCircle className="service-point-icon" />{" "}
+                      Conveniently Located for Families in Plainfield
                     </h3>
                   </li>
                 </ul>
@@ -191,23 +177,14 @@ export default function KidsAndChildrenPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Our Kids’ & Children’s Dentistry Services
+              Children's Dentistry Services at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              At Tulip Dental, we believe children deserve dental care that is
-              both effective and enjoyable. We take the time to explain each
-              step, use kid-friendly language, and offer a warm, welcoming
-              environment so young patients feel relaxed and confident.
+              We offer a comprehensive range of pediatric dental services
+              designed to support healthy growth and development at every stage.
               <br />
               <br />
-              Here’s how we help{" "}
-              <Link
-                href="/services/dental-emergencies-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                children
-              </Link>
-              maintain healthy smiles:
+              Here's how we care for children's smiles:
             </p>
             {/* </Fade> */}
 
@@ -245,14 +222,14 @@ export default function KidsAndChildrenPage() {
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      When should my child have their first dental visit?
+                      When should my child visit the dentist for the first time?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      The American Academy of Pediatric Dentistry recommends the
+                      The American Academy of Pediatric Dentistry recommends a
                       first visit by age one or within six months of the first
-                      tooth appearing.
+                      tooth erupting.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -260,13 +237,13 @@ export default function KidsAndChildrenPage() {
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How often should kids go to the dentist?
+                      How often should children see the dentist?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Most children should have a checkup every six months to
-                      prevent cavities and monitor growth.
+                      Most kids should visit the dentist every six months for
+                      checkups and cleanings to maintain healthy teeth and gums.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -274,13 +251,14 @@ export default function KidsAndChildrenPage() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Are baby teeth really that important?
+                      Are dental sealants safe for children?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Yes - healthy baby teeth help with chewing, speaking, and
-                      holding space for adult teeth.
+                      Yes. Sealants are a safe, effective way to protect molars
+                      from cavities by creating a barrier against bacteria and
+                      food particles.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -288,13 +266,14 @@ export default function KidsAndChildrenPage() {
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How can I help my child avoid cavities?
+                      What if my child is anxious or afraid?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Encourage twice-daily brushing, daily flossing, a balanced
-                      diet, and regular dental checkups.
+                      Our team specializes in gentle, compassionate
+                      communication. We take time to build trust so children
+                      feel at ease during treatment.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -302,13 +281,14 @@ export default function KidsAndChildrenPage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What if my child is nervous about the dentist?
+                      Is children's dentistry covered by insurance?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      We specialize in creating positive experiences with gentle
-                      care, patience, and a friendly approach.
+                      Yes. Most insurance plans and Medicaid cover preventive
+                      and restorative care for kids. We'll help you navigate
+                      coverage and options.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -319,12 +299,18 @@ export default function KidsAndChildrenPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Ready to Give Your Child the Best Dental Start?
+              Looking for a Gentle Children's Dentist in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              At Tulip Dental, we make kids’ dental care gentle, effective, and
-              fun. From first visits to preventive care and beyond, we’re here
-              to help your child enjoy a lifetime of healthy smiles.
+              At Smiling Molar Dental, we're passionate about caring for young
+              smiles. From baby teeth to braces, we provide compassionate,
+              age-appropriate care that makes every child feel comfortable and
+              confident.
+              <br />
+              <br />
+              Families from Plainfield, North Plainfield, South Plainfield,
+              Scotch Plains, and surrounding communities trust us to make dental
+              visits positive and stress-free.
             </p>
             {/* </Fade> */}
           </div>

@@ -22,12 +22,13 @@ export default function Footer() {
             />
           </div>
           <p className="text-xs sm:text-sm text-white">
-            Smiling Molar Dental is your trusted dentist in Plainfield, NJ,
-            delivering exceptional family, cosmetic, and restorative dental care
-            with advanced treatments and personalized attention. Our skilled
-            team provides everything from routine cleanings, fillings, and
-            preventive care to professional teeth whitening, porcelain veneers,
-            dental implants, and same-day emergency dental services.
+            At Smiling Molar Dental, your trusted dentist in Plainfield, NJ, our
+            mission is to keep families across Plainfield, North Plainfield,
+            South Plainfield, Scotch Plains, and nearby communities smiling with
+            confidence. Conveniently located in the heart of Plainfield (07060),
+            we offer complete dental care for all ages - including preventive
+            checkups, cosmetic dentistry, Invisalign®, dental implants, and
+            same-day treatments.
           </p>
           <div className="flex items-center gap-3 mt-4">
             <a href="#" onClick={(e) => e.preventDefault()}>

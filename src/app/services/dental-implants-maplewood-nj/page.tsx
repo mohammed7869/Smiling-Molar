@@ -22,37 +22,38 @@ export default function DentalImplantsPage() {
   const features = [
     {
       icon: "/Images/icons/tooth-implant.png",
-      title: "Step 1: Comprehensive Evaluation & Planning",
+      title: "Single & Multiple Tooth Replacements",
       description:
-        "We begin with a detailed evaluation using advanced diagnostics to assess your bone health and develop a fully personalized implant treatment plan.",
+        "Dental implants offer permanent, secure, and natural-looking tooth replacement for a wide range of situations. Our implant services include:",
       points: [
-        "Digital X-rays and 3D imaging",
-        "Assessment of bone structure and oral health",
-        "Customized treatment plan tailored to your needs",
+        "Replace one or several missing teeth with secure implants",
+        "Custom crowns designed to match surrounding teeth",
+        "Improved bite function and comfort compared to bridges",
+        "Long-lasting solution for daily use and confidence",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-
-      title: "Step 2: Implant Placement",
+      title: "Implant-Supported Bridges & Dentures",
       description:
-        "The implant placement is performed under local anesthesia or sedation, where a titanium post is securely positioned in your jawbone to serve as the foundation for your new tooth.",
+        "Dental implants offer permanent, secure, and natural-looking tooth replacement for a wide range of situations. Our implant services include:",
       points: [
-        "Performed under local anesthesia or sedation",
-        "Titanium post inserted into jawbone to act as a root",
-        "Healing period for the implant to integrate with bone (osseointegration)",
+        "Stable alternatives to traditional removable dentures",
+        "Fewer implants needed to support multiple teeth",
+        "Comfortable fit with improved chewing ability",
+        "No slipping, adhesives, or discomfort",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-
-      title: "Step 3: Crown Placement & Final Restoration",
+      title: "Bone Grafting & Surgical Support",
       description:
-        "After the healing phase, we place a custom-designed crown over the implant for a final restoration that looks, feels, and functions just like a natural tooth.",
+        "Dental implants offer permanent, secure, and natural-looking tooth replacement for a wide range of situations. Our implant services include:",
       points: [
-        "Abutment placed on healed implant",
-        "Custom crown designed to match your natural teeth",
-        "Final fitting ensures proper bite and natural look",
+        "Bone grafting and ridge augmentation for patients with low bone density",
+        "Advanced imaging for precise surgical planning",
+        "Safe, predictable implant placement techniques",
+        "Full coordination from surgery through final restoration",
       ],
     },
   ];
@@ -63,12 +64,12 @@ export default function DentalImplantsPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Dental Implants in Maplewood, NJ</h1>
+              <h1>Dental Implants in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Long-Lasting Tooth Replacement in Maplewood | Tulip Dental |
-                Cosmetic & Family Dentist{" "}
+                Lasting Tooth Replacement with Dental Implants | Smiling Molar
+                Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -98,34 +99,22 @@ export default function DentalImplantsPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Dental Implants</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Dental Implants
+                Understanding Dental Implants
               </h2>
               <p>
-                Missing a tooth? Dental implants offer a{" "}
-                <Link
-                  href="/services/permanent-teeth-replacement-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  permanent,
-                </Link>
-                natural-looking solution to restore both your smile and your
-                bite. At Tulip Dental, we specialize in providing high-quality
-                implants in a relaxing, judgment-free environment. Whether
-                you’re replacing a single{" "}
-                <Link
-                  href="/services/crowns-and-bridges-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  tooth
-                </Link>
-                or several, we tailor your care to ensure function, comfort, and
-                aesthetics-all in one complete treatment.{" "}
+                Missing teeth can affect everything from your confidence to your
+                ability to eat and speak comfortably. At Smiling Molar Dental,
+                we offer modern dental implant solutions that look, feel, and
+                function just like natural teeth.
               </p>
               <p>
-                We proudly serve Maplewood (07040), South Orange (07079),
-                Vauxhall (07088), Irvington (07111), and Newark (07106, 07112).
-                Searching for “dental implants near me”? You’ve found your
-                trusted local provider.{" "}
+                Whether you've lost a single tooth, multiple teeth, or require
+                full-arch restoration, dental implants can provide permanent,
+                stable results. Patients from Plainfield (07060), North
+                Plainfield (07062, 07063), South Plainfield (07080), and Scotch
+                Plains (07076) trust our skilled team when searching for "dental
+                implants near me" because we combine advanced technology,
+                precision, and gentle care to deliver beautiful, lasting smiles.
               </p>
               {/* </Fade> */}
             </div>
@@ -134,38 +123,38 @@ export default function DentalImplantsPage() {
             <div className="wcu-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
-                <h2>Top Reasons to Choose Tulip Dental for Dental Implants</h2>
+                <h2>Why Choose Smiling Molar Dental for Dental Implants</h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Highly
-                      Experienced in Implant Dentistry
+                      <CheckCircle className="service-point-icon" />
+                      Cutting-Edge Implant Technology
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Advanced
-                      Technology & 3D Imaging
+                      <CheckCircle className="service-point-icon" />
+                      Tailored Treatment Plans
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Customized
-                      Treatment Plans
+                      <CheckCircle className="service-point-icon" />
+                      Skilled & Gentle Dental Team
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Comfortable
-                      Environment & Sedation Options
+                      <CheckCircle className="service-point-icon" />
+                      Flexible Payment & Insurance Options
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Flexible
-                      Payment Plans & Insurance Accepted
+                      <CheckCircle className="service-point-icon" />
+                      Convenient Plainfield Location
                     </h3>
                   </li>
                 </ul>
@@ -185,14 +174,13 @@ export default function DentalImplantsPage() {
           </div>
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
-            <h2 className="features-heading">The Dental Implant Process</h2>
+            <h2 className="features-heading">
+              Dental Implant Services at Smiling Molar Dental
+            </h2>
             <p className="features-description">
-              Getting a dental implant is a multi-step process that delivers
-              long-term results. From consultation to crown placement, we guide
-              you every step of the way with expert care and precision.
-              <br />
-              <br />
-              Here’s What Makes Our Dental Implant Process Different:
+              Dental implants offer permanent, secure, and natural-looking tooth
+              replacement for a wide range of situations. Our implant services
+              include:
             </p>
             {/* </Fade> */}
 

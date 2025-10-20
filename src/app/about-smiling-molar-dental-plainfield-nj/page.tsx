@@ -31,29 +31,47 @@ const services = [
 const features = [
   {
     icon: "/Images/icons/female-dentist.png",
-    title: "Experienced & Friendly Team",
-    desc: "Our dentists bring years of clinical expertise and treat every patient with kindness and respect.",
+    title: "All-Ages Care Under One Roof",
+    desc: "Kids, teens, adults, and seniors all receive personalized treatment in one convenient location.",
   },
   {
     icon: "/Images/icons/perfect-teeth.png",
-    title: "Same-Day Emergency Dental Care",
-    desc: "We provide prompt, compassionate care for dental emergencies so you’re never left in pain.",
+    title: "Same-Day Emergency Appointments",
+    desc: "Quick relief when dental issues arise, so you're never left waiting in pain.",
   },
   {
     icon: "/Images/icons/dental-chair.png",
-    title: "Comprehensive Services in One Location",
-    desc: "From cosmetic dentistry to restorative treatments and pediatric care - we offer it all under one roof.",
+    title: "Comprehensive Range of Services",
+    desc: "From preventive cleanings to cosmetic dentistry and advanced restorative procedures, we offer everything you need for a healthy smile.",
+  },
+  {
+    icon: "/Images/icons/dental-chair.png",
+    title: "Modern & Comfortable Office",
+    desc: "Our welcoming environment and advanced equipment make every visit more pleasant and efficient.",
+  },
+  {
+    icon: "/Images/icons/dental-chair.png",
+    title: "Deep Community Roots",
+    desc: "We're proud to serve Plainfield, North Plainfield, South Plainfield, Scotch Plains, and nearby neighborhoods with trusted, compassionate care.",
   },
 ];
 
 const team = [
   {
     img: "/Images/Dr Urvashi Banerjee DMD.webp",
-    name: "Dr. Urvashi Banerjee, DMD",
+    name: "Dr. Neetu Bhanushali",
     role: "Doctor of Dental Surgery",
     time: "11 am - 03 pm",
     rating: 5.0,
-    slug: "providers/urvashi-banerjee-maplewood-nj-dentist",
+    slug: "providers/neetu-bhanushali-plainfield-nj-dentist",
+  },
+  {
+    img: "/Images/Dr Urvashi Banerjee DMD.webp",
+    name: "Dr. Steven Reff, DDS",
+    role: "Doctor of Dental Surgery",
+    time: "11 am - 03 pm",
+    rating: 5.0,
+    slug: "providers/steven-reff-plainfield-nj-dentist",
   },
 ];
 
@@ -78,7 +96,8 @@ export default function AboutUsClient() {
         </Fade>
         <Fade direction="down" duration={1000}>
           <h2 className="text-center">
-            Your Caring Family & Cosmetic Dentist in Plainfield, NJ
+            Serving Families Across Plainfield, North Plainfield, South
+            Plainfield & Scotch Plains, NJ
           </h2>
         </Fade>
       </div>
@@ -86,109 +105,33 @@ export default function AboutUsClient() {
       <section className="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-8 py-8 sm:py-12 lg:py-16 px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto">
         <div className="flex-1 space-y-4 sm:space-y-6 lg:pr-8 order-2 lg:order-1 w-full">
           <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold text-primary leading-tight">
-            About Us
+            Get to Know Smiling Molar Dental - Plainfield, NJ
           </h2>
           <p>
-            Looking for a caring dentist near you in Plainfield, NJ? Smiling
-            Molar Dental provides modern, compassionate dental care for patients
-            of every age. Conveniently located in Plainfield, we proudly serve
-            families and individuals from{" "}
-            <strong>
-              <Link
-                href="/service-areas/plainfield-nj-dentist-near-you"
-                className="text-primary hover:underline font-medium"
-              >
-                Plainfield (07060)
-              </Link>
-              ,{" "}
-              <Link
-                href="/service-areas/edison-nj-dentist-near-you"
-                className="text-primary hover:underline font-medium"
-              >
-                Edison
-              </Link>
-              ,{" "}
-              <Link
-                href="/service-areas/rahway-nj-dentist-near-you"
-                className="text-primary hover:underline font-medium"
-              >
-                Rahway
-              </Link>
-              ,
-              <Link
-                href="/service-areas/scotch-plains-nj-dentist-near-you"
-                className="text-primary hover:underline font-medium"
-              >
-                Scotch Plains
-              </Link>
-              {""}
-            </strong>
-            , , and{" "}
-            <Link
-              href="/service-areas/fanwood-nj-dentist-near-you"
-              className="text-primary hover:underline font-medium"
-            >
-              Fanwood
-            </Link>{" "}
-            neighborhoods including{" "}
-            <Link
-              href="/service-areas/surrounding-areas-nj-dentist-near-you"
-              className="text-primary hover:underline font-medium"
-            >
-              surrounding areas{" "}
-            </Link>{" "}
-            and{" "}
-            <Link
-              href="/service-areas/surrounding-areas-nj-dentist-near-you"
-              className="text-primary hover:underline font-medium"
-            >
-              nearby communities
-            </Link>
-            . Our{" "}
-            <Link
-              href="/providers"
-              className="text-primary hover:underline font-medium"
-            >
-              experienced team
-            </Link>{" "}
-            offers preventive care, restorative solutions, and cosmetic team
-            offers preventive care, restorative solutions, and cosmetic
-            treatments - all in a relaxed, family-friendly environment.{" "}
+            At Smiling Molar Dental, we believe that everyone deserves a
+            healthy, confident smile-delivered with care, comfort, and
+            compassion. Located in Plainfield, New Jersey, our practice has
+            become a trusted dental home for families across Plainfield (07060),
+            North Plainfield (07062, 07063), South Plainfield (07080), Scotch
+            Plains (07076), and nearby neighborhoods.
           </p>
-
           <p>
-            Whether you’re visiting for a routine dental check-up or seeking
-            advanced cosmetic treatment, our friendly and{" "}
-            <Link
-              href="/providers"
-              className="text-primary hover:underline font-medium"
-            >
-              experienced team
-            </Link>{" "}
-            at Tulip Dental in{" "}
-            <Link
-              href="/service-areas/maplewood-nj-dentist-near-you"
-              className="text-primary hover:underline font-medium"
-            >
-              Maplewood
-            </Link>{" "}
-            is here to help. We proudly offer a full range of{" "}
-            <Link
-              href="/services"
-              className="text-primary hover:underline font-medium"
-            >
-              services
-            </Link>{" "}
-            - from preventive cleanings to{" "}
-            <Link
-              href="/patient-reviews-maplewood-nj"
-              className="text-primary ml-2 hover:underline font-medium"
-            >
-              smile
-            </Link>{" "}
-            makeovers - all delivered in a modern, welcoming environment. Every
-            treatment plan is personalized to meet your unique needs and goals,
-            ensuring you receive the care you deserve.{" "}
+            Whether you're looking for routine preventive care, cosmetic
+            enhancements, or restorative treatments, we make it easy for
+            patients of all ages to get exceptional dental care right here near
+            you.
+          </p>
+          <p>
+            Smiling Molar Dental was founded with a simple vision: to make
+            high-quality dental care accessible, comfortable, and stress-free
+            for the entire community. From the moment you step into our modern,
+            family-friendly office, you'll notice the difference-our team takes
+            the time to listen, explain, and personalize every treatment plan to
+            meet your needs.
+          </p>
+          <p>
+            At Smiling Molar Dental, we're not just here to treat teeth-we're
+            here to care for people, one smile at a time.
           </p>
 
           <div className="flex justify-left">
@@ -225,19 +168,13 @@ export default function AboutUsClient() {
         </div>
         <div className="flex-1 lg:pl-12 order-1 lg:order-2">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4 sm:mb-6 text-primary mt-2">
-            Why Patients Choose Tulip Dental Maplewood
+            Why Families Trust Smiling Molar Dental in Plainfield, NJ
           </h2>
           <p>
-            Our treatment rooms are equipped with modern dental technology,
-            allowing us to detect and address issues early while using minimally
-            invasive techniques. Your comfort is our top priority, and we focus
-            on making each visit efficient, stress-free, and informative.
-          </p>
-          <p className="mb-4 sm:mb-6">
-            We’re more than just a dentist near you - we’re your partners in
-            lifelong oral health. Here’s why patients from Maplewood (07040),
-            South Orange (07079), Irvington (07111), Vauxhall (07088), and
-            nearby Newark (07106, 07112) trust us:
+            Choosing the right dentist is about more than just finding a clinic
+            nearby-it's about finding a place where your entire family feels
+            valued and cared for. Here's why families across Plainfield and
+            surrounding areas trust Smiling Molar Dental:
           </p>
           <div className="space-y-4 sm:space-y-6">
             {features.map((feature, index) => (
@@ -277,9 +214,9 @@ export default function AboutUsClient() {
       <Zoom triggerOnce>
         <section className="py-8 sm:py-12 lg:py-16 px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-center mb-6 sm:mb-10 text-primary">
-            Meet our Dedicated Dental Team
+            Your Dental Team at Smiling Molar Dental
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-4 sm:gap-8 lg:gap-8 place-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 sm:gap-8 lg:gap-8 place-items-center">
             {team.map((member, index) => (
               <Link
                 href={`/${member.slug}`}
@@ -317,21 +254,26 @@ export default function AboutUsClient() {
 
       {/* Call to Action Section */}
       <section className="py-8 sm:py-12 lg:py-16 px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto">
+        <div className="text-center mb-8">
+          <h3 className="text-2xl font-bold text-primary mb-4">
+            Call Us Today: +1 (908) 264-2357
+          </h3>
+        </div>
         <div className="flex text-center flex-col sm:flex-row gap-8 sm:gap-4">
           <a
-            href="tel:9736715500"
+            href="tel:9082642357"
             className="w-full flex flex-col bg-secondary/90 hover:bg-primary text-white rounded-lg px-2 py-3 hover:from-blue-700 hover:to-cyan-700 text-xs sm:text-sm font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
           >
             <span className="text-sm sm:text-base">Call us for Booking</span>
-            973-671-5500
+            (908) 264-2357
           </a>
           <button
             onClick={() => setIsBookingOpen(true)}
             className="w-full flex flex-col bg-secondary/90 hover:bg-primary text-white rounded-lg px-2 py-3 hover:from-blue-700 hover:to-cyan-700 text-xs sm:text-sm font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
           >
-            Book Now
-            <span className="text-sm sm:text-base ">
-              Click Here for Appointment
+            Book Online
+            <span className="text-sm sm:text-base">
+              Schedule Your Appointment Now
             </span>
           </button>
         </div>

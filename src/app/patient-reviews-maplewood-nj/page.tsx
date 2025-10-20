@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import clsx from "clsx";
 import { generatePageMetadata } from "@/lib/metadata";
 
@@ -9,45 +8,45 @@ export const metadata: Metadata = generatePageMetadata(
 
 const reviews = [
   {
-    name: "Amanda R.",
-    date: "Jul 10, 2025",
+    name: "Alisha M.",
+    date: "Dec 15, 2024",
     rating: 5,
-    text: "I’ve always been nervous about going to the dentist, but Maple Dental changed that. Dr. Simran and the staff were so welcoming and patient with me. The office is clean, modern, and they really care about your comfort. I highly recommend them!",
+    text: "I switched to Smiling Molar Dental after years at another office, and I couldn't be happier. Dr. Neetu took the time to walk me through my treatment options and made me feel completely at ease. The staff is warm, professional, and genuinely cares. My teeth have never looked better!",
     image: "/Images/836.webp",
   },
   {
-    name: "Mike T.",
-    date: "Apr 30, 2025",
+    name: "Julian P.",
+    date: "Dec 10, 2024",
     rating: 5,
-    text: "Professional, efficient, and friendly! I had a routine cleaning and was in and out in under an hour. The hygienist explained everything clearly and made sure I was comfortable throughout the visit.",
+    text: "I had sudden tooth pain early in the morning, and they managed to see me the same day. Dr. Steven Reff treated the problem quickly and explained everything clearly. I walked out pain-free within an hour. I'm so grateful for how responsive and kind they were.",
     image: "/Images/837.webp",
   },
   {
-    name: "Jessica L.",
-    date: "Mar 04, 2025",
-    rating: 4,
-    text: "Maple Dental is a gem in Harrisburg. My kids actually look forward to their checkups now! The pediatric staff is wonderful, and they do a great job making it a positive experience for little ones.",
+    name: "Priya S.",
+    date: "Dec 05, 2024",
+    rating: 5,
+    text: "My 7-year-old needed a small filling, and the entire team made the experience positive for her. Dr. Neetu was patient, gentle, and explained the steps in a way my daughter could understand. She left the appointment smiling and unafraid. As a parent, that means everything.",
     image: "/Images/836.webp",
   },
   {
-    name: "Ryan C.",
-    date: "Feb 14, 2025",
+    name: "Michael L.",
+    date: "Nov 28, 2024",
     rating: 5,
-    text: "I had a dental emergency and they got me in the same day. Dr. Simran took the time to explain what was going on and gave me options without pressure. Great service and compassionate care!",
+    text: "From the moment I walked in, I noticed how modern, clean, and welcoming the office was. The front desk staff was efficient, and my hygienist was incredibly thorough. Dr. Reff gave me a detailed treatment plan and answered all my questions without rushing. I highly recommend them to anyone in the Plainfield area.",
     image: "/Images/837.webp",
   },
   {
-    name: "Stephanie D.",
-    date: "Jan 19, 2025",
+    name: "Tania R.",
+    date: "Nov 20, 2024",
     rating: 5,
-    text: "The team at Maple Dental is top-notch. From the front desk to the dental chair, everyone was friendly and professional. My teeth have never felt cleaner!",
+    text: "I started my Implants treatment with Smiling Molar Dental, and it's been such a smooth process. Dr. Steven Reff customized my plan perfectly, and the team checks in regularly to make sure everything is on track. I already see a huge difference in my smile!",
     image: "/Images/836.webp",
   },
   {
-    name: "Daniel W.",
-    date: "Dec 22, 2024",
+    name: "James K.",
+    date: "Nov 15, 2024",
     rating: 5,
-    text: "I recently had a crown done here and the experience was painless—literally and figuratively. Everything was explained thoroughly and the results look amazing. Wouldn’t go anywhere else.",
+    text: "The entire experience at Smiling Molar Dental feels personal and professional. They make scheduling easy, the staff is friendly, and both doctors take their time with each patient. I've referred my family and neighbors because they genuinely care.",
     image: "/Images/837.webp",
   },
 ];
@@ -77,15 +76,15 @@ export default function ReviewsPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white pb-12">
       {/* Header Section */}
       <div className="details-page-header-section">
-        <h1>What Patients Are Saying About Tulip Dental</h1>
-        <h2>Real Reviews from Families Across Maplewood</h2>
+        <h1>Patient Reviews for Smiling Molar Dental</h1>
+        <h2>Real Experiences from Families Across Plainfield & Beyond</h2>
       </div>
       <div className="max-w-7xl mt-10 mx-auto px-2 sm:px-4 md:px-8">
         <h2 className="text-center text-lg sm:text-xl font-semibold mb-8">
           Patient Reviews
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
-          {reviews.map((review, idx) => (
+          {reviews.map((review) => (
             <div
               key={review.name + review.date}
               className="relative bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col items-center w-full transition-transform hover:-translate-y-2 hover:shadow-2xl border border-teal-100 h-72 sm:h-80 md:h-80 lg:h-80 xl:h-80 mx-auto"

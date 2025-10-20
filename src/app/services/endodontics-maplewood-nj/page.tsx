@@ -7,11 +7,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
-import Link from "next/link";
 
 export default function Page() {
   const features = [
@@ -19,36 +17,36 @@ export default function Page() {
       icon: "/Images/icons/root-canal.png",
       title: "Root Canal Therapy",
       description:
-        "Root canal treatment removes infected or damaged pulp inside the tooth, cleans and disinfects the area, and seals it to prevent reinfection. Our modern techniques make the process as comfortable and efficient as possible.",
+        "Removal of infected or inflamed pulp with thorough cleaning and sealing of canals to preserve your natural tooth.",
       points: [
-        "Local anesthesia for pain-free treatment",
-        "Gentle approach to protect surrounding tissues",
-        "Advanced rotary instruments for precision",
-        "Restorations (like crowns) for strength and protection",
+        "Removal of infected or inflamed pulp",
+        "Thorough cleaning and sealing of canals",
+        "Crown placement to restore strength and structure",
+        "Pain relief and long-term tooth preservation",
       ],
     },
     {
       icon: "/Images/icons/braces1.png",
-      title: "Endodontic Retreatment",
+      title: "Treatment for Dental Abscesses",
       description:
-        "If a tooth that has already had a root canal becomes reinfected or painful, we can perform endodontic retreatment to restore health and function.",
+        "Diagnosis and treatment of infection-related swelling or pain with drainage or root canal to remove infection.",
       points: [
-        "Careful removal of old materials",
-        "Thorough cleaning and disinfection",
-        "Replacement sealing for long-term success",
-        "Preservation of your existing tooth structure",
+        "Diagnosis of infection-related swelling or pain",
+        "Drainage or root canal to remove infection",
+        "Antibiotic support when needed",
+        "Monitoring to ensure complete healing",
       ],
     },
     {
       icon: "/Images/icons/emergency denstiry.png",
-      title: "Emergency Endodontic Care",
+      title: "Endodontic Retreatment",
       description:
-        "Tooth pain can’t wait - that’s why we offer prompt, same-day appointments for urgent endodontic needs.",
+        "Specialized care for teeth that need a second root canal with advanced methods to address persistent infection.",
       points: [
-        "Fast pain relief and diagnosis",
-        "Treatment to prevent spread of infection",
-        "Flexible scheduling for emergencies",
-        "Follow-up care to ensure lasting results",
+        "Specialized care for teeth that need a second root canal",
+        "Advanced methods to address persistent infection",
+        "Thorough evaluation to determine the best approach",
+        "Designed to avoid extractions whenever possible",
       ],
     },
   ];
@@ -59,12 +57,12 @@ export default function Page() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Endodontics & Root Canal Treatment in Maplewood, NJ</h1>
+              <h1>Endodontics in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Gentle, Pain-Free Endodontics Treatment in Maplewood | Tulip
-                Dental | Family & Cosmetic Dentist
+                Advanced Root Canal & Endodontic Treatments Near You | Smiling
+                Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -96,44 +94,27 @@ export default function Page() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Endodontics </div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Endodontics
+                Understanding Endodontics
               </h2>
               <p>
-                Endodontics is the branch of dentistry focused on diagnosing and
-                treating problems inside the tooth - specifically the pulp and
-                surrounding tissues. At Tulip Dental in{" "}
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary hover:underline font-medium"
-                >
-                  Maplewood
-                </Link>
-                , NJ, we use advanced technology and compassionate care to make
-                root canal therapy comfortable, precise, and stress-free. If
-                you’re experiencing{" "}
-                <Link
-                  href="/services/painless-dental-treatment-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  tooth pain
-                </Link>
-                , sensitivity to hot or cold, or swelling, you may have an
-                infection that requires prompt treatment. Our goal is to save
-                your natural tooth and relieve discomfort while preserving your
-                oral health for years to come.
+                When infection or inflammation reaches the inner pulp of your
+                tooth, it can cause intense pain, swelling, and even jeopardize
+                your tooth's health. Endodontic care focuses on diagnosing and
+                treating these internal dental issues to save your natural teeth
+                and prevent the need for extractions.
               </p>
               <p>
-                We proudly serve patients from Maplewood (07040), South Orange
-                (07079), Vauxhall (07088), Irvington (07111), and nearby Newark
-                (07106 and 07112). Searching for “root canal near me”? You’ve
-                just found a{" "}
-                <Link
-                  href="/services/painless-dental-treatment-maplewood-nj"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  dental team
-                </Link>
-                that truly cares about your comfort and your smile.
+                At Smiling Molar Dental in Plainfield, NJ, we provide modern,
+                gentle root canal treatments and other endodontic procedures to
+                restore comfort and protect your smile. Using state-of-the-art
+                technology and precise techniques, our team ensures your
+                experience is smooth, efficient, and virtually pain-free.
+              </p>
+              <p>
+                Patients from Plainfield (07060), North Plainfield (07062,
+                07063), South Plainfield (07080), and Scotch Plains (07076)
+                trust us when searching for "root canal near me" because we
+                combine clinical expertise with compassionate care.
               </p>
               {/* </Fade> */}
             </div>
@@ -142,38 +123,38 @@ export default function Page() {
             <div className="wcu-text-section">
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
-                <h2>Top Reasons to Choose Tulip Dental for Endodontic Care</h2>
+                <h2>Why Choose Smiling Molar Dental for Endodontic Care</h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Gentle,
-                      Pain-Free Treatment
+                      <CheckCircle className="service-point-icon" /> Expert Root
+                      Canal Therapy
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" /> Advanced
-                      Digital Imaging for Precision
+                      Imaging & Modern Equipment
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Same-Day
-                      Emergency Appointments
+                      <CheckCircle className="service-point-icon" />{" "}
+                      Comfortable, Patient-Focused Approach
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Focus on
-                      Saving Your Natural Teeth
+                      <CheckCircle className="service-point-icon" /> Affordable
+                      Care & Insurance Support
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" /> Convenient
-                      Location in Maplewood, NJ
+                      Location in Plainfield, NJ
                     </h3>
                   </li>
                 </ul>
@@ -194,29 +175,13 @@ export default function Page() {
 
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
-            <h2 className="features-heading">Our Endodontic Services </h2>
+            <h2 className="features-heading">
+              Endodontic Services at Smiling Molar Dental
+            </h2>
             <p className="features-description">
-              At Tulip Dental, endodontic care is about more than just relieving
-              <Link
-                href="/services/painless-dental-treatment-maplewood-nj"
-                className="text-primary ml-2 hover:underline font-medium"
-              >
-                pain
-              </Link>{" "}
-              - it’s about restoring your oral health, preserving your natural
-              teeth, and preventing future complications. We combine advanced
-              tools,{" "}
-              <Link
-                href="/patient-reviews-maplewood-nj"
-                className="text-primary  hover:underline font-medium"
-              >
-                proven techniques
-              </Link>
-              , and a compassionate touch to ensure every patient receives the
-              best possible outcome.
-              <br />
-              <br />
-              Here’s how we care for your smile at Tulip Dental:
+              Our goal is to save natural teeth whenever possible, relieve
+              discomfort, and restore full function with minimally invasive
+              treatments.
             </p>
             {/* </Fade> */}
 
@@ -253,28 +218,26 @@ export default function Page() {
               <Accordion type="single" className="w-full space-y-5">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">
-                      Is root canal treatment painful?
-                    </h3>
+                    <h3 className="text-lg">What exactly is endodontics?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      With modern anesthesia and techniques, root canals are
-                      typically no more uncomfortable than getting a filling.
+                      Endodontics is the branch of dentistry that treats issues
+                      affecting the dental pulp and root tissues. Root canals
+                      are the most common endodontic procedure.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">
-                      How long does a root canal take?
-                    </h3>
+                    <h3 className="text-lg">Do root canals hurt?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Most treatments are completed in one visit, usually
-                      lasting 60–90 minutes.
+                      Modern root canal therapy is typically no more
+                      uncomfortable than a dental filling. With local anesthesia
+                      and gentle techniques, discomfort is minimal.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -287,8 +250,9 @@ export default function Page() {
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Common signs include persistent tooth pain, sensitivity to
-                      hot/cold, swelling, or darkening of the tooth.
+                      Persistent pain, swelling, extreme sensitivity, or tooth
+                      discoloration may indicate pulp infection. A dental exam
+                      and X-rays will confirm the need for treatment.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -296,13 +260,14 @@ export default function Page() {
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Will my tooth look different after a root canal?
+                      How long will the treated tooth last?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      We typically restore treated teeth with a crown, giving
-                      them a natural look and strength.
+                      With proper restoration (usually a crown) and good oral
+                      hygiene, root canal-treated teeth can last for decades,
+                      often a lifetime.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -310,13 +275,14 @@ export default function Page() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How long does a root canal last?
+                      Is endodontic treatment covered by insurance?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      With proper care, a root canal-treated tooth can last a
-                      lifetime.
+                      Yes - most dental insurance plans cover root canal therapy
+                      and related procedures. We help maximize your benefits and
+                      explain all costs upfront.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -327,15 +293,19 @@ export default function Page() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Ready to Relieve Tooth Pain &amp; Save Your Smile?
+              Looking for Trusted Endodontic Care in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              At Tulip Dental, we make root canal therapy comfortable,
-              efficient, and effective—so you can get back to smiling without
-              pain. Whether you need urgent care or are looking for a trusted
-              dentist for preventive endodontics, we’re here to help.
+              If you're experiencing tooth pain, swelling, or signs of
+              infection, don't wait. At Smiling Molar Dental, we provide gentle,
+              precise endodontic treatments to save your natural teeth and
+              restore your comfort.
+              <br />
+              <br />
+              Patients from Plainfield, North Plainfield, South Plainfield, and
+              Scotch Plains rely on our experienced team for care that's both
+              advanced and compassionate.
             </p>
-            {/* </Fade> */}
             {/* </Fade> */}
           </div>
 

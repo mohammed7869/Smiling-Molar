@@ -21,77 +21,38 @@ export default function CosmeticDentistryPage() {
   const features = [
     {
       icon: "/Images/icons/teeth-whitening.png",
-      title: "Our Most Popular Cosmetic Services",
+      title: "Professional Teeth Whitening",
       description:
-        "Our cosmetic offerings are designed to fit a range of goals, timelines, and budgets.",
+        "Our goal is to provide cosmetic treatments that are safe, effective, and long-lasting, giving you a smile that boosts both your confidence and your oral health.",
       points: [
-        "Porcelain Veneers",
-        <Link
-          key="teeth-whitening"
-          href="/services/teeth-whitening-and-veneers-maplewood-nj"
-          className="text-primary mr-2 hover:underline font-medium"
-        >
-          Teeth Whitening (In-Office & Take-Home)
-        </Link>,
-        "Dental Bonding for Chips & Gaps",
-        "Tooth-Colored Fillings & Restorations",
-        "Smile Makeover Consultations",
+        "In-office whitening for fast, dramatic results",
+        "Take-home kits for flexible treatment options",
+        "Safe methods that protect enamel and gums",
+        "Noticeably brighter smiles with lasting effects",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "The Power of a Confident Smile",
+      title: "Veneers & Cosmetic Bonding",
       description:
-        "Feeling good about your smile can impact every part of your life—from relationships to career.",
+        "Our goal is to provide cosmetic treatments that are safe, effective, and long-lasting, giving you a smile that boosts both your confidence and your oral health.",
       points: [
-        "Look younger and more vibrant",
-        "Enhance first impressions",
-        "Smile more freely and confidently",
-        "Improve symmetry and tooth shape",
-        "Correct years of wear and discoloration",
+        "Custom-crafted veneers for a flawless smile makeover",
+        "Tooth-colored bonding to repair chips, gaps, and imperfections",
+        "Natural aesthetics that blend seamlessly with surrounding teeth",
+        "Durable materials designed to last for years",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Cosmetic Dentistry for Maplewood & Nearby Areas",
+      title: "Complete Smile Transformations",
       description:
-        "We're proud to be your trusted local cosmetic dentist serving:",
+        "Our goal is to provide cosmetic treatments that are safe, effective, and long-lasting, giving you a smile that boosts both your confidence and your oral health.",
       points: [
-        <Link
-          key="maplewood"
-          href="/service-areas/maplewood-nj-dentist-near-you"
-          className="text-primary hover:underline font-medium"
-        >
-          Maplewood – 07040
-        </Link>,
-        <Link
-          key="south-orange"
-          href="/service-areas/south-orange-nj-dentist-near-you"
-          className="text-primary hover:underline font-medium"
-        >
-          South Orange – 07079
-        </Link>,
-        <Link
-          key="vauxhall"
-          href="/service-areas/vauxhall-nj-dentist-near-you"
-          className="text-primary hover:underline font-medium"
-        >
-          Vauxhall – 07088
-        </Link>,
-        <Link
-          key="irvington"
-          href="/service-areas/irvington-nj-dentist-near-you"
-          className="text-primary hover:underline font-medium"
-        >
-          Irvington – 07111
-        </Link>,
-        <Link
-          key="newark"
-          href="/service-areas/newark-nj-dentist-near-you"
-          className="text-primary hover:underline font-medium"
-        >
-          Newark – 07106 & 07112
-        </Link>,
+        "Combination of veneers, crowns, whitening, and Invisalign®",
+        "Personalized treatment plans for full smile makeovers",
+        "A balanced focus on both appearance and function",
+        "Results that leave a lasting impression",
       ],
     },
   ];
@@ -102,12 +63,12 @@ export default function CosmeticDentistryPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Cosmetic Dentistry in Maplewood, NJ</h1>
+              <h1>Cosmetic Dentistry in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Transform Your Smile with Cosmetic Dentistry in Maplewood |
-                Tulip Dental | Family & Cosmetic Dentist{" "}
+                Enhance Your Smile with Cosmetic Dentistry | Smiling Molar
+                Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -134,35 +95,26 @@ export default function CosmeticDentistryPage() {
             <div className="desc-text-section">
               <div className="desc-text-subtitle">Cosmetic Dentistry</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Cosmetic Dentistry
+                Understanding Cosmetic Dentistry
               </h2>
               <p>
-                Your smile is one of the first things people notice-why not make
-                it unforgettable? At Tulip Dental in{" "}
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary mr-2 hover:underline font-medium"
-                >
-                  Maplewood
-                </Link>
-                , NJ, we offer modern, high-quality cosmetic dental treatments
-                to help you feel more confident every time you smile. Whether
-                you’re looking to{" "}
-                <Link
-                  href="/services/teeth-whitening-and-veneers-maplewood-nj"
-                  className="text-primary hover:underline font-medium"
-                >
-                  whiten your teeth
-                </Link>
-                , fix chips and gaps, or completely transform your look with
-                veneers or a full smile makeover, our skilled team is here to
-                help.{" "}
+                A confident smile can transform the way you look and feel. At
+                Smiling Molar Dental, we offer comprehensive cosmetic dentistry
+                to help you achieve the radiant, natural-looking smile you've
+                always wanted.
               </p>
               <p>
-                We proudly serve patients from Maplewood (07040), South Orange
-                (07079), Vauxhall (07088), Irvington (07111), and nearby Newark
-                (07106 and 07112). Searching for a “cosmetic dentist near me”?
-                You’ve just found one who truly cares.{" "}
+                Whether you want to fix chips and cracks, brighten stained
+                teeth, or completely redesign your smile, our team uses modern
+                techniques and high-quality materials to create results that are
+                both beautiful and long-lasting.
+              </p>
+              <p>
+                We proudly serve patients from Plainfield (07060), North
+                Plainfield (07062, 07063), South Plainfield (07080), Scotch
+                Plains (07076), and nearby communities. If you're searching for
+                a "cosmetic dentist near me" in the Plainfield area, we're here
+                to make your dream smile a reality.
               </p>
             </div>
           </div>
@@ -170,40 +122,38 @@ export default function CosmeticDentistryPage() {
             <div className="wcu-text-section">
               {/* <div className="wcu-subtitle">Top Reasons</div> */}
               <div className="wcu-title">
-                <h2>
-                  Top Reasons To Choose Tulip Dental for Cosmetic Dentistry
-                </h2>
+                <h2>Why Choose Smiling Molar Dental for Cosmetic Dentistry</h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" />{" "}
-                      Personalized Smile Makeovers
+                      <CheckCircle className="service-point-icon" />
+                      Comprehensive Aesthetic Solutions
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Advanced
-                      Technology & Materials
+                      <CheckCircle className="service-point-icon" />
+                      Modern Technology & Precision Techniques
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" />{" "}
-                      Natural-Looking Enhancements
+                      <CheckCircle className="service-point-icon" />
+                      Personalized Smile Design
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Flexible
-                      Financing Options
+                      <CheckCircle className="service-point-icon" />
+                      Flexible Financing Options
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Convenient
-                      Location in Maplewood, NJ
+                      <CheckCircle className="service-point-icon" />
+                      Convenient Location for Local Families
                     </h3>
                   </li>
                 </ul>

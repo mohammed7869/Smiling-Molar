@@ -4,20 +4,10 @@ import React, { useState, Suspense } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import {
-  InfoIcon,
-  MessageCircle,
-  Stethoscope,
-  User,
-  Star,
-  Award,
-  Shield,
-  ArrowRight,
-} from "lucide-react";
+import { InfoIcon, MessageCircle, Stethoscope, User } from "lucide-react";
 import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
-import { services as allServices } from "../services/serviceList";
 
 // Lazy load heavy components
 const ServicesSection = dynamic(() => import("./services"), {
@@ -112,16 +102,16 @@ export default function HomePage() {
 
               <div className="text-white space-y-2 sm:space-y-6 md:space-y-8 lg:space-y-8 p-2 sm:p-6 lg:p-8 relative z-10 mt-4 sm:mt-0">
                 <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight">
-                  TULIP DENTAL
+                  SMILING MOLAR DENTAL
                 </h1>
                 <p className="text-xs sm:text-base md:text-lg lg:text-xl text-white/80 max-w-lg leading-relaxed mx-auto sm:mx-0">
                   <span className="sm:hidden">
-                    Your Trusted Family & Cosmetic Dentist in
+                    Trusted Family and Cosmetic Dental Care in
                     <br />
-                    Maplewood
+                    Plainfield, NJ
                   </span>
                   <span className="hidden text-2xl sm:inline">
-                    Your Trusted Family & Cosmetic Dentist in Maplewood
+                    Trusted Family and Cosmetic Dental Care in Plainfield, NJ
                   </span>
                 </p>
               </div>
@@ -152,7 +142,7 @@ export default function HomePage() {
                   Walk-Ins Welcome
                 </h3>
                 <p className="text-xs sm:ml-1 sm:text-sm text-white/80">
-                  1585 Springfield Avenue, Maplewood, NJ
+                  1024 Park Ave Suite 6C, Plainfield, NJ 07060
                 </p>
               </div>
             </div>
@@ -350,25 +340,26 @@ export default function HomePage() {
           {/* Right Side - Text */}
           <div className="w-full md:w-1/2 text-center md:text-left space-y-6">
             <h1 className="text-3xl md:text-5xl font-semibold text-primary leading-tight">
-              Dentist in Plainfield, NJ
+              Dentist in Plainfield, NJ | Smiling Molar Dental - Family &
+              Cosmetic Care
             </h1>
 
-            <h2 className="text-lg ">
-              Trusted Family & Cosmetic Dentistry Across Plainfield and
-              Surrounding Areas{" "}
-            </h2>
-
             <p className="text-base leading-relaxed">
-              Looking for a caring dentist near you in Plainfield, NJ? Smiling
-              Molar Dental provides modern, compassionate dental care for
-              patients of every age. Conveniently located in Plainfield, we
-              proudly serve families and individuals from{" "}
-              <strong>
-                Plainfield (07060), Edison, Rahway, Scotch Plains, Fanwood{" "}
-              </strong>
-              , and surrounding areas. Our experienced team offers preventive
-              care, restorative solutions, and cosmetic treatments - all in a
-              relaxed, family-friendly environment.{" "}
+              Welcome to Smiling Molar Dental, your trusted dentist in
+              Plainfield, NJ. We are a modern, full-service dental practice
+              dedicated to providing gentle, high-quality dental care for
+              patients of all ages. Whether you need preventive checkups,
+              advanced cosmetic dentistry, or emergency treatment, our
+              experienced dental team is here to help you achieve and maintain a
+              healthy, confident smile. Our office combines a welcoming,
+              family-friendly atmosphere with advanced technology to deliver
+              exceptional results. Conveniently located in Plainfield, we
+              proudly serve patients from Plainfield (07060), North Plainfield
+              (07062, 07063), South Plainfield (07080), Scotch Plains (07076),
+              and surrounding neighborhoods. So if you're searching for a
+              "dentist near me" or "family dental care near you", Smiling Molar
+              Dental is your trusted local destination for comprehensive oral
+              health.
             </p>
 
             {/* <Fade> */}
@@ -379,6 +370,273 @@ export default function HomePage() {
               Learn More
             </Link>
             {/* </Fade> */}
+          </div>
+        </div>
+      </section>
+
+      {/* Emergency Dentist Section */}
+      <section className="w-full bg-gradient-to-br from-white to-sky-50 relative overflow-hidden py-10 md:py-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+          <div className="text-center space-y-6">
+            <h2 className="text-3xl md:text-4xl font-semibold text-primary leading-tight">
+              Emergency Dentist in Plainfield, NJ
+            </h2>
+            <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+              Dental emergencies can happen when you least expect them - whether
+              it's a sudden toothache, a chipped tooth, or a broken crown. At
+              Smiling Molar Dental, we offer same-day emergency dental
+              appointments in Plainfield, NJ, so you can get fast, effective
+              relief without the long wait.
+            </p>
+            <button
+              onClick={() => setIsBookingOpen(true)}
+              className="bg-primary hover:bg-primary/80 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+            >
+              Book Online
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Most Insurance Accepted Section */}
+      <section className="w-full bg-gradient-to-br from-sky-50 to-white relative overflow-hidden py-10 md:py-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+          <div className="text-center space-y-6">
+            <h2 className="text-3xl md:text-4xl font-semibold text-primary leading-tight">
+              Most Insurance Accepted & Flexible Financing
+            </h2>
+            <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+              At Smiling Molar Dental, we believe that exceptional dental care
+              should be affordable for everyone. That's why we accept most major
+              insurance plans and work directly with your provider to help you
+              maximize your benefits. If you don't have insurance, we've got you
+              covered. Our practice offers a variety of membership savings
+              programs, special offers, and flexible financing options designed
+              to fit your budget, making high-quality care accessible to all.
+            </p>
+            {/* Insurance scroller will be added here */}
+          </div>
+        </div>
+      </section>
+
+      {/* Special Offers Section */}
+      <section className="w-full bg-gradient-to-br from-white to-sky-50 relative overflow-hidden py-10 md:py-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Emergency Dental Exam Offer */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200">
+              <div className="text-center space-y-4">
+                <h3 className="text-2xl font-bold text-primary">
+                  Emergency Dental Exam - $55
+                </h3>
+                <p className="text-gray-600">Includes Exam & Digital X-ray</p>
+                <button
+                  onClick={() => setIsBookingOpen(true)}
+                  className="bg-primary hover:bg-primary/80 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 w-full"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+
+            {/* Welcome Special Offer */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200">
+              <div className="text-center space-y-4">
+                <h3 className="text-2xl font-bold text-primary">
+                  Welcome Special for New Patients - $79
+                </h3>
+                <p className="text-gray-600">
+                  Exam, Professional Cleaning & Digital X-rays
+                </p>
+                <button
+                  onClick={() => setIsBookingOpen(true)}
+                  className="bg-primary hover:bg-primary/80 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 w-full"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Multilingual Care Section */}
+      <section className="w-full bg-gradient-to-br from-sky-50 to-white relative overflow-hidden py-10 md:py-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+          <div className="text-center space-y-6">
+            <h2 className="text-3xl md:text-4xl font-semibold text-primary leading-tight">
+              Multilingual Care for Every Patient
+            </h2>
+            <div className="flex flex-wrap justify-center gap-4">
+              <span className="bg-white px-4 py-2 rounded-lg shadow-md font-semibold text-primary">
+                English
+              </span>
+              <span className="bg-white px-4 py-2 rounded-lg shadow-md font-semibold text-primary">
+                Spanish
+              </span>
+              <span className="bg-white px-4 py-2 rounded-lg shadow-md font-semibold text-primary">
+                Portuguese
+              </span>
+              <span className="bg-white px-4 py-2 rounded-lg shadow-md font-semibold text-primary">
+                Arabic
+              </span>
+              <span className="bg-white px-4 py-2 rounded-lg shadow-md font-semibold text-primary">
+                Hindi
+              </span>
+              <span className="bg-white px-4 py-2 rounded-lg shadow-md font-semibold text-primary">
+                Creole
+              </span>
+            </div>
+            <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+              No matter which language you speak, you can expect clear
+              communication and a stress-free dental experience from start to
+              finish.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="tel:908-264-2357"
+                className="bg-primary hover:bg-primary/80 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                Call Now
+              </a>
+              <button
+                onClick={() => setIsBookingOpen(true)}
+                className="bg-secondary hover:bg-secondary/80 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                Book Online
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Affordable Dental Specials Section */}
+      <section className="w-full bg-gradient-to-br from-white to-sky-50 relative overflow-hidden py-10 md:py-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+          <div className="text-center space-y-6">
+            <h2 className="text-3xl md:text-4xl font-semibold text-primary leading-tight">
+              Affordable Dental Specials
+            </h2>
+            <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+              We believe great dental care should never be out of reach. That's
+              why Smiling Molar Dental offers affordable specials to help you
+              get started with the treatment you need:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+              <div className="bg-white rounded-lg p-6 shadow-lg border border-slate-200">
+                <h4 className="font-bold text-primary text-lg">
+                  $55 Emergency Dental Visit
+                </h4>
+                <p className="text-gray-600 text-sm">
+                  Includes Exam & Digital X-ray
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-lg border border-slate-200">
+                <h4 className="font-bold text-primary text-lg">
+                  $79 New Patient Special
+                </h4>
+                <p className="text-gray-600 text-sm">
+                  Exam, Professional Cleaning & Digital X-rays
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-lg border border-slate-200">
+                <h4 className="font-bold text-primary text-lg">
+                  Interest-Free Financing
+                </h4>
+                <p className="text-gray-600 text-sm">
+                  Options for qualified patients
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-lg border border-slate-200">
+                <h4 className="font-bold text-primary text-lg">
+                  Senior Discounts
+                </h4>
+                <p className="text-gray-600 text-sm">
+                  Available on select days
+                </p>
+              </div>
+            </div>
+            <a
+              href="tel:908-264-2357"
+              className="inline-block bg-primary hover:bg-primary/80 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+            >
+              Call Today
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Information Section */}
+      <section className="w-full bg-gradient-to-br from-sky-50 to-white relative overflow-hidden py-10 md:py-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+          <div className="text-center space-y-6">
+            <h2 className="text-3xl md:text-4xl font-semibold text-primary leading-tight">
+              Smiling Molar Dental, NJ
+            </h2>
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 max-w-4xl mx-auto">
+              <div className="space-y-4">
+                <div className="flex items-center justify-center gap-2">
+                  <span className="text-2xl">📍</span>
+                  <p className="text-lg font-semibold">
+                    Address: 1024 Park Ave Suite 6C, Plainfield, NJ 07060,
+                    United States
+                  </p>
+                </div>
+                <div className="flex items-center justify-center gap-2">
+                  <span className="text-2xl">📞</span>
+                  <p className="text-lg font-semibold">Phone: (908) 264-2357</p>
+                </div>
+                <div className="mt-6">
+                  <h3 className="text-xl font-bold text-primary mb-4">
+                    Office Hours:
+                  </h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-left">
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Monday</span>
+                      <span>9 am-7 pm</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Tuesday</span>
+                      <span>9 am-6 pm</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Wednesday</span>
+                      <span>9 am-7 pm</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Thursday</span>
+                      <span>9 am-6 pm</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Friday</span>
+                      <span>9 am-5 pm</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Saturday</span>
+                      <span>8:30 am-3 pm</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Sunday</span>
+                      <span>Closed</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
+                  <button
+                    onClick={() => setIsBookingOpen(true)}
+                    className="bg-primary hover:bg-primary/80 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                  >
+                    💻 Book Online
+                  </button>
+                  <a
+                    href="tel:908-264-2357"
+                    className="bg-secondary hover:bg-secondary/80 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 text-center"
+                  >
+                    Call Now
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -476,53 +734,21 @@ export default function HomePage() {
           {/* Right Side - Text */}
           <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
             <h2 className="text-3xl md:text-5xl font-semibold text-primary leading-tight">
-              Affordable Care for Everyone
+              Most Insurance Accepted & Flexible Financing
             </h2>
 
             <p className="text-lg ">
-              <strong>No insurance? No problem</strong>. We believe quality
-              dental care should be accessible to all. That’s why we offer:
+              At Smiling Molar Dental, we believe that exceptional dental care
+              should be affordable for everyone. That's why we accept most major
+              insurance plans and work directly with your provider to help you
+              maximize your benefits. If you don't have insurance, we've got you
+              covered. Our practice offers a variety of membership savings
+              programs, special offers, and flexible financing options designed
+              to fit your budget, making high-quality care accessible to all.
             </p>
 
-            <div className="text-base text-left leading-relaxed">
-              <ul className="list-disc gap-3 mt-2 px-6">
-                <li className="list-disc">
-                  <div className="flex gap-2 ">
-                    <span>
-                      <strong>$55 Emergency Dental Visit</strong> (Includes Exam
-                      & X-ray)
-                    </span>
-                  </div>
-                </li>
-                <li className="list-disc">
-                  <div className="flex gap-2">
-                    <span>
-                      <strong>$79 New Patient Special</strong> (Exam , Cleaning
-                      + X-rays)
-                    </span>
-                  </div>
-                </li>
-                <li className="list-disc">
-                  <div className="flex gap-2">
-                    <span>
-                      <strong>Interest-Free Financing Available</strong> (Up to
-                      12 Months)
-                    </span>
-                  </div>
-                </li>
-                <li className="list-disc">
-                  <div className="flex gap-2">
-                    <span>
-                      {" "}
-                      <strong>Senior Discounts</strong> During Special Hours
-                    </span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
             {/* <Fade> */}
-            <a href="tel:973-671-5500">
+            <a href="tel:908-264-2357">
               <Button className="bg-primary hover:bg-secondary/80 text-white px-3 py-2 rounded-md text-sm  font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 cursor-pointer">
                 CALL TODAY!
               </Button>
@@ -549,7 +775,7 @@ function HomepageSections() {
       label: "About Us",
       icon: <InfoIcon />,
       bg: "bg-primary",
-      href: "/about-tulip-dental-maplewood-nj",
+      href: "/about-smiling-molar-dental-plainfield-nj",
     },
     {
       label: "Our Providers",

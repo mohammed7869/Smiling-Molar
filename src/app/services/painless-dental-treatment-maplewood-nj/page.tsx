@@ -7,9 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import Reveal, { Fade, Zoom } from "react-awesome-reveal";
-import Link from "next/link";
-import ServiceSidebar from "@/components/ServiceSidebar";
+import { Fade } from "react-awesome-reveal";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
 
@@ -17,38 +15,38 @@ export default function PainlessTreatmentPage() {
   const features = [
     {
       icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "Pain-Free Fillings & Restorations",
+      title: "Preventive Care That Stops Problems Early",
       description:
-        "Our fillings and restorative procedures are done using advanced numbing techniques so you feel nothing during treatment.",
+        "Routine checkups and gentle cleanings to avoid major treatments later with early detection of issues.",
       points: [
-        "Precise local anesthesia for targeted comfort",
-        "Gentle hand movements to avoid unnecessary pressure",
-        "Tooth-colored fillings for a natural look",
-        "Quick, efficient procedures to minimize time in the chair",
+        "Routine checkups and gentle cleanings to avoid major treatments later",
+        "Fluoride and sealants to protect against cavities",
+        "Early detection of issues with digital X-rays",
+        "Education to build confidence and good oral habits at home",
       ],
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Sedation Dentistry",
+      title: "Gentle Restorative Dentistry",
       description:
-        "For patients with dental anxiety or more complex procedures, we offer safe sedation options to help you relax.",
+        "Tooth-colored fillings placed precisely with minimal drilling and modern techniques to preserve natural tooth structure.",
       points: [
-        "Nitrous oxide (laughing gas) for mild relaxation",
-        "Oral sedation for deeper calm",
-        "Monitored safety at every step",
-        "Perfect for both adults and children with dental fears",
+        "Tooth-colored fillings placed precisely with minimal drilling",
+        "Crowns and bridges crafted for a comfortable fit",
+        "Modern techniques to preserve natural tooth structure",
+        "Numbing methods that ensure you stay pain-free throughout treatment",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Minimally Invasive Techniques",
+      title: "Comfortable Procedures with Modern Techniques",
       description:
-        "We use the latest tools and methods to treat dental issues with as little disruption to healthy tissue as possible.",
+        "Tooth extractions performed with care and step-by-step guidance with technology that makes procedures faster and more precise.",
       points: [
-        "Smaller incisions and precise treatments",
-        "Faster healing times",
-        "Reduced post-treatment sensitivity",
-        "Better long-term preservation of your natural teeth",
+        "Tooth extractions performed with care and step-by-step guidance",
+        "Root canal therapy designed to relieve pain, not cause it",
+        "Technology that makes procedures faster and more precise",
+        "Clear aftercare instructions to support smooth recovery",
       ],
     },
   ];
@@ -59,12 +57,11 @@ export default function PainlessTreatmentPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Painless Dentistry in Maplewood, NJ</h1>
+              <h1>Painless Dentistry in Plainfield, NJ</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Gentle Dental Care for a Stress-Free Visit | Tulip Dental |
-                Family & Cosmetic Dentist
+                Comfortable, Fear-Free Dental Care | Smiling Molar Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -94,36 +91,24 @@ export default function PainlessTreatmentPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="desc-text-subtitle">Painless Dentistry</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Painless Dentistry
+                Understanding Painless Dentistry
               </h2>
               <p>
-                At Tulip Dental in{" "}
-                <Link
-                  href="/service-areas/maplewood-nj-dentist-near-you"
-                  className="text-primary hover:underline font-medium"
-                >
-                  Maplewood
-                </Link>
-                , NJ, we believe dental visits should never be something you
-                dread. That’s why we specialize in painless dentistry -
-                combining advanced technology, gentle techniques, and a caring
-                approach to make every procedure as comfortable as possible.
-                Whether you’re getting a filling,
-                <Link
-                  href="/services/crowns-and-bridges-maplewood-nj"
-                  className="text-primary ml-2 hover:underline font-medium"
-                >
-                  crown
-                </Link>
-                , root canal, or cleaning, our goal is to ensure you feel
-                relaxed, safe, and pain-free throughout your treatment.
+                Many patients put off visiting the dentist because they fear
+                pain - but it doesn't have to be that way. At Smiling Molar
+                Dental, our goal is to make every appointment comfortable,
+                relaxing, and stress-free, whether it's a routine checkup or a
+                more complex procedure.
               </p>
               <p>
-                We proudly serve patients from Maplewood (07040), South Orange
-                (07079), Vauxhall (07088), Irvington (07111), and nearby Newark
-                (07106 and 07112). Searching for “gentle dentist near me”?
-                You’ve found a local dental team committed to your comfort and
-                care.
+                Using modern dental technology, gentle techniques, and a
+                compassionate approach, we ensure that children and adults alike
+                receive the care they need without discomfort. Patients from
+                Plainfield (07060), North Plainfield (07062, 07063), South
+                Plainfield (07080), Scotch Plains (07076), and surrounding areas
+                frequently choose us when searching for "gentle dentist near me"
+                because they trust us to prioritize their comfort every step of
+                the way.
               </p>
               {/* </Fade> */}
             </div>
@@ -133,39 +118,39 @@ export default function PainlessTreatmentPage() {
               {/* <Fade cascade direction="up" delay={1000} duration={600}> */}
               <div className="wcu-title">
                 <h2>
-                  Top Reasons to Choose Tulip Dental for Painless Treatment
+                  Why Choose Smiling Molar Dental for Gentle, Painless Dentistry
                 </h2>
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Gentle,
-                      Compassionate Approach
+                      <CheckCircle className="service-point-icon" /> A Gentle
+                      Touch for Every Patient
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" /> Advanced
-                      Technology for Maximum Comfort
+                      Technology for Pain-Free Precision
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Local
-                      Anesthesia & Sedation Options
+                      <CheckCircle className="service-point-icon" /> Preventive
+                      Approach to Minimize Future Discomfort
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
-                      <CheckCircle className="service-point-icon" /> Ideal for
-                      Patients with Dental Anxiety
+                      <CheckCircle className="service-point-icon" />{" "}
+                      Insurance-Friendly, Affordable Options
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" /> Convenient
-                      Location in Maplewood, NJ
+                      Location in Plainfield, NJ
                     </h3>
                   </li>
                 </ul>
@@ -187,16 +172,12 @@ export default function PainlessTreatmentPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Our Painless Dentistry Services{" "}
+              Painless Dentistry Services at Smiling Molar Dental
             </h2>
             <p className="features-description">
-              At Tulip Dental, we know that comfort is just as important as
-              quality when it comes to dental care. We take the time to listen
-              to your concerns, explain each step of your treatment, and use
-              techniques that minimize or eliminate discomfort.
-              <br />
-              <br />
-              Here’s how we make dentistry gentle and stress-free:
+              We combine modern dental care with a compassionate chairside
+              approach to keep every procedure as comfortable as possible.
+              Here's how we put your comfort first:
             </p>
             {/* </Fade> */}
 
@@ -234,13 +215,14 @@ export default function PainlessTreatmentPage() {
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Is dental treatment really painless?
+                      How do you make dental treatments pain-free?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      With today’s technology and numbing methods, most
-                      treatments can be completed with little to no discomfort.
+                      We use gentle techniques, advanced tools, and local
+                      anesthesia to make treatments virtually painless from
+                      start to finish.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -248,14 +230,14 @@ export default function PainlessTreatmentPage() {
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What if I’m scared of the dentist?
+                      Can kids really have pain-free dental visits?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      We specialize in treating anxious patients, offering a
-                      gentle approach and sedation options to keep you
-                      comfortable.
+                      Yes! We specialize in making children feel comfortable
+                      with a patient, kind approach that builds trust and
+                      positive dental habits for life.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -263,25 +245,29 @@ export default function PainlessTreatmentPage() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Will I feel the needle for anesthesia?
+                      What if I've avoided the dentist because of fear?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      We use numbing gel before injections to make them
-                      virtually unnoticeable.
+                      You're not alone - many patients feel this way. Our
+                      painless dentistry is designed to help you overcome that
+                      fear and receive care comfortably.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Is sedation safe?</h3>
+                    <h3 className="text-lg">
+                      Are extractions or root canals painful?
+                    </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Yes — our sedation methods are safe, effective, and
-                      carefully monitored throughout your visit.
+                      No - with modern methods, these procedures are typically
+                      painless. Many patients are surprised by how easy their
+                      experience is.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -289,13 +275,14 @@ export default function PainlessTreatmentPage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Can painless dentistry be done for kids?
+                      Is painless dentistry more expensive?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Absolutely. We use gentle techniques to keep children
-                      comfortable and at ease during treatment.
+                      No. It typically costs the same as standard care, and most
+                      treatments are covered by insurance. We work with you to
+                      make it affordable.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -306,25 +293,19 @@ export default function PainlessTreatmentPage() {
           <div className="features-section">
             {/* <Fade direction="up" duration={1000}> */}
             <h2 className="features-heading">
-              Ready for Comfortable, Stress-Free Dental Care?
+              Looking for a Gentle, Pain-Free Dentist in Plainfield, NJ?
             </h2>
             <p className="features-description">
-              At Tulip Dental, we make sure your visits are as pleasant as they
-              are effective. From{" "}
-              <Link
-                href="/services/dental-fillings-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                fillings
-              </Link>
-              to{" "}
-              <Link
-                href="/services/root-canal-treatment-maplewood-nj"
-                className="text-primary mr-2 hover:underline font-medium"
-              >
-                root canals
-              </Link>
-              , we focus on your comfort every step of the way.
+              At Smiling Molar Dental, your comfort is our priority. From
+              routine cleanings to more advanced treatments, our painless
+              dentistry approach ensures you'll receive the care you need
+              without fear or stress.
+              <br />
+              <br />
+              Patients from Plainfield, North Plainfield, South Plainfield, and
+              Scotch Plains trust our friendly team to make their dental
+              experience smooth and anxiety-free - so they can smile with
+              confidence again.
             </p>
             {/* </Fade> */}
           </div>
