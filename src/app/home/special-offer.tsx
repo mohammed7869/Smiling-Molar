@@ -95,7 +95,7 @@ const SpecialOffersSection = () => {
                 </div> */}
 
                 {/* Title */}
-                <h3 className="text-lg md:text-4xl font-normal text-gray-900 mb-4">
+                <h3 className="text-lg md:text-4xl font-normal text-gray-900 mb-4 h-7 md:h-28 flex ">
                   {offer.title}
                 </h3>
 

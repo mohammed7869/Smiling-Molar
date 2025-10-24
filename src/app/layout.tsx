@@ -135,11 +135,11 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Dentist",
-              name: "Smiling Molar Dental",
-              url: "https://smilingmolardental.com",
-              logo: "https://smilingmolardental.com/Images/Smiling Molar Header.png",
+              name: "Smiling Molar Dental Plainfield",
+              url: "https://www.smilingmolar.com",
+              logo: "https://www.smilingmolar.com/path-to-your-logo.png",
               image:
-                "https://smilingmolardental.com/Images/Smiling Molar Header.png",
+                "https://www.smilingmolar.com/wp-content/uploads/2025/10/smiling-molar-logo.png",
               priceRange: "$55 - $2999",
               telephone: "+1-908-264-2357",
               address: {
@@ -152,20 +152,20 @@ export default function RootLayout({
               },
               geo: {
                 "@type": "GeoCoordinates",
-                latitude: 40.6176,
-                longitude: -74.4075,
+                latitude: 40.61535,
+                longitude: -74.39148,
               },
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "4.9",
-                reviewCount: "186",
+                reviewCount: "978",
               },
               openingHoursSpecification: [
                 {
                   "@type": "OpeningHoursSpecification",
                   dayOfWeek: "Monday",
                   opens: "09:00",
-                  closes: "18:00",
+                  closes: "19:00",
                 },
                 {
                   "@type": "OpeningHoursSpecification",
@@ -177,7 +177,7 @@ export default function RootLayout({
                   "@type": "OpeningHoursSpecification",
                   dayOfWeek: "Wednesday",
                   opens: "09:00",
-                  closes: "18:00",
+                  closes: "19:00",
                 },
                 {
                   "@type": "OpeningHoursSpecification",
@@ -189,7 +189,7 @@ export default function RootLayout({
                   "@type": "OpeningHoursSpecification",
                   dayOfWeek: "Friday",
                   opens: "09:00",
-                  closes: "18:00",
+                  closes: "17:00",
                 },
                 {
                   "@type": "OpeningHoursSpecification",
@@ -201,53 +201,46 @@ export default function RootLayout({
               areaServed: [
                 {
                   "@type": "City",
-                  name: "Maplewood",
-                  sameAs: "https://en.wikipedia.org/wiki/Maplewood,_New_Jersey",
-                  address: {
-                    "@type": "PostalAddress",
-                    addressRegion: "NJ",
-                    postalCode: "07040",
-                  },
-                },
-                {
-                  "@type": "City",
-                  name: "South Orange",
+                  name: "Plainfield",
                   sameAs:
-                    "https://en.wikipedia.org/wiki/South_Orange,_New_Jersey",
+                    "https://en.wikipedia.org/wiki/Plainfield,_New_Jersey",
                   address: {
                     "@type": "PostalAddress",
                     addressRegion: "NJ",
-                    postalCode: "07079",
+                    postalCode: "07060",
                   },
                 },
                 {
                   "@type": "City",
-                  name: "Irvington",
-                  sameAs: "https://en.wikipedia.org/wiki/Irvington,_New_Jersey",
+                  name: "North Plainfield",
+                  sameAs:
+                    "https://en.wikipedia.org/wiki/North_Plainfield,_New_Jersey",
                   address: {
                     "@type": "PostalAddress",
                     addressRegion: "NJ",
-                    postalCode: "07111",
+                    postalCode: ["07062", "07063"],
                   },
                 },
                 {
                   "@type": "City",
-                  name: "Vauxhall",
-                  sameAs: "https://en.wikipedia.org/wiki/Vauxhall,_New_Jersey",
+                  name: "South Plainfield",
+                  sameAs:
+                    "https://en.wikipedia.org/wiki/South_Plainfield,_New_Jersey",
                   address: {
                     "@type": "PostalAddress",
                     addressRegion: "NJ",
-                    postalCode: "07088",
+                    postalCode: "07080",
                   },
                 },
                 {
                   "@type": "City",
-                  name: "Newark",
-                  sameAs: "https://en.wikipedia.org/wiki/Newark,_New_Jersey",
+                  name: "Scotch Plains",
+                  sameAs:
+                    "https://en.wikipedia.org/wiki/Scotch_Plains,_New_Jersey",
                   address: {
                     "@type": "PostalAddress",
                     addressRegion: "NJ",
-                    postalCode: ["07106", "07112"],
+                    postalCode: "07076",
                   },
                 },
               ],
@@ -523,42 +516,42 @@ export default function RootLayout({
               mainEntity: [
                 {
                   "@type": "Question",
-                  name: "What makes Smiling Molar Dental in Plainfield a trusted choice for families?",
+                  name: "Why is Smiling Molar Dental Plainfield a trusted choice for dental care?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Smiling Molar Dental is dedicated to providing high-quality, personalized care in a welcoming environment. We treat patients of all ages, offering preventive, restorative, and cosmetic dentistry to keep every smile healthy.",
+                    text: "Smiling Molar Dental Plainfield is committed to providing high-quality, personalized dental care in a warm and welcoming environment. We treat patients of all ages, offering preventive, restorative, and cosmetic treatments to ensure every smile stays healthy and confident.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Do you accept new patients in Plainfield, NJ?",
+                  name: "Does Smiling Molar Dental accept new patients in Plainfield, NJ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Yes, Smiling Molar Dental proudly welcomes new patients. Whether you're new to the area or simply looking for a reliable dentist near you, our team is here to provide compassionate care tailored to your needs.",
+                    text: "Yes, we welcome new patients from Plainfield and surrounding areas. Our friendly team is ready to provide personalized dental care, whether you are new to the area or seeking a trusted local dentist.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Can I book same-day appointments for dental emergencies?",
+                  name: "Can I get same-day appointments for dental emergencies?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Absolutely. We understand that dental emergencies can't wait, so we provide same-day emergency dental care in Plainfield to help with tooth pain, broken teeth, or urgent dental issues.",
+                    text: "Absolutely. We understand that dental emergencies require immediate attention, so Smiling Molar Dental offers same-day appointments for urgent issues like tooth pain, broken teeth, or other dental emergencies.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "What cosmetic dentistry services are available at Smiling Molar Dental?",
+                  name: "What cosmetic dental treatments does Smiling Molar Dental offer?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "We offer several cosmetic treatments including professional teeth whitening, porcelain veneers, bonding, and dental implants to restore and enhance your smile's appearance.",
+                    text: "Our cosmetic dentistry services include teeth whitening, porcelain veneers, dental bonding, crowns, bridges, Invisalign®, and dental implants to help you achieve a beautiful, confident smile.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Does Smiling Molar Dental provide care for children as well as adults?",
+                  name: "Is Smiling Molar Dental suitable for children as well as adults?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Yes, our practice is family-friendly. From toddlers visiting for their first checkup to adults needing advanced treatment, we ensure every patient feels comfortable and cared for.",
+                    text: "Yes, our practice is family-friendly and provides comprehensive dental care for patients of all ages. From toddlers visiting for their first checkup to adults seeking advanced treatment, we ensure everyone receives comfortable and compassionate care.",
                   },
                 },
                 {
@@ -566,15 +559,15 @@ export default function RootLayout({
                   name: "How can I schedule an appointment at Smiling Molar Dental?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "You can schedule your appointment by calling our Plainfield office or booking online. Our team is happy to help you find a convenient time for your visit.",
+                    text: "Appointments can be scheduled by calling our Plainfield office at +1 908-264-2357 or through our online booking system. Our team will help you find a convenient time that fits your schedule.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Which communities do you serve near Plainfield, NJ?",
+                  name: "Which areas do you serve near Plainfield, NJ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Smiling Molar Dental proudly serves Plainfield (07060) and nearby communities including Edison, Rahway, Scotch Plains, Fanwood, and surrounding areas.",
+                    text: "Smiling Molar Dental proudly serves Plainfield (07060), North Plainfield (07062, 07063), South Plainfield (07080), Scotch Plains (07076), and nearby neighborhoods, making us a trusted local destination for dental care.",
                   },
                 },
               ],
