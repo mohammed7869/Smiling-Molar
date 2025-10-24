@@ -15,7 +15,7 @@ export default function SouthOrangeServiceAreaClient() {
       id: "south-orange",
       name: "South Orange, NJ",
       address: "1585 Springfield Avenue, Store #1, Maplewood, NJ 07040",
-      phone: "973-671-5500",
+      phone: "908-264-2357",
       hours: [
         "Monday: 9:00 AM - 6:00 PM",
         "Tuesday: 9:00 AM - 6:00 PM",
@@ -49,7 +49,7 @@ export default function SouthOrangeServiceAreaClient() {
               {/* <Zoom cascade damping={0.3} duration={800}> */}
               <div className="main-image">
                 <img
-                  src="/Images/south-orange.webp"
+                  src="/Images/south-plaifield.avif"
                   alt="Family & Cosmetic Dentist in South Orange, NJ 07079"
                   className="rounded-xl"
                 />
@@ -241,7 +241,7 @@ export default function SouthOrangeServiceAreaClient() {
           <div className="wcu-img-section">
             {/* <Zoom cascade damping={0.3} duration={800}> */}
             <img
-              src="/Images/south-orange-1.webp"
+              src="/Images/south-plaifield-1.avif"
               alt="Tulip Dental in South Orange"
               className="rounded-xl"
             />

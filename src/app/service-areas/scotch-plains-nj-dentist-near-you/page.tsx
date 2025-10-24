@@ -47,7 +47,7 @@ export default function ScotchPlainsServiceAreaClient() {
               {/* <Zoom cascade damping={0.3} duration={800}> */}
               <div className="main-image">
                 <img
-                  src="/Images/newark.webp"
+                  src="/Images/scotch.avif"
                   alt="Family & Cosmetic Dentist in Scotch Plains, NJ 07076"
                   className="rounded-xl"
                 />
@@ -230,7 +230,7 @@ export default function ScotchPlainsServiceAreaClient() {
           <div className="wcu-img-section">
             {/* <Zoom cascade damping={0.3} duration={800}> */}
             <img
-              src="/Images/maplewood-1.webp"
+              src="/Images/scotch-1.avif"
               alt="Smiling Molar Dental in Scotch Plains"
               className="rounded-xl"
             />

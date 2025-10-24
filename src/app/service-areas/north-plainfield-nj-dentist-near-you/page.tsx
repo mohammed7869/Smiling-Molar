@@ -50,7 +50,7 @@ export default function PlainfieldServiceAreaClient() {
               {/* <Zoom cascade damping={0.3} duration={800}> */}
               <div className="main-image">
                 <img
-                  src="/Images/maplewood.webp"
+                  src="/Images/north-plianfiled.avif"
                   alt="Family & Cosmetic Dentist in Plainfield, NJ 07060"
                   className="rounded-xl"
                 />
@@ -235,7 +235,7 @@ export default function PlainfieldServiceAreaClient() {
           <div className="wcu-img-section">
             {/* <Zoom cascade damping={0.3} duration={800}> */}
             <img
-              src="/Images/maplewood-1.webp"
+              src="/Images/north-plianfiled-1.avif"
               alt="Tulip Dental in Maplewood"
               className="rounded-xl"
             />

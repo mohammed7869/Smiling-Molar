@@ -200,7 +200,7 @@ export default function ServiceAreasPage() {
                 href="tel:9736715500"
                 className="bg-blue-100 text-primary border border-primary px-5 py-2 rounded-md text-sm hover:opacity-50 transition"
               >
-                973-671-5500
+                908-264-2357
               </a>
               <a
                 href="/booking"

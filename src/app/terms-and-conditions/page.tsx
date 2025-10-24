@@ -39,7 +39,7 @@ const termsSections = [
   {
     title: "Notices",
     icon: "/Images/Smiling Molar.png",
-    content: `Please contact us by phone at 973-671-5500 or by mail at 1585 Springfield Avenue, Store #1, Maplewood, NJ 07040`,
+    content: `Please contact us by phone at 908-264-2357 or by mail at 1585 Springfield Avenue, Store #1, Maplewood, NJ 07040`,
   },
 ];
 
@@ -53,7 +53,7 @@ const importantPoints = [
 ];
 
 const contactInfo = {
-  phone: "973-671-5500",
+  phone: "908-264-2357",
   email: "maplewood@tulipdentalnj.com",
   address: "1585 Springfield Avenue, Store #1, Maplewood, NJ 07040",
   hours: "Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 9:00 AM - 3:30 PM",

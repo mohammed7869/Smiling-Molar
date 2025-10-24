@@ -168,7 +168,7 @@ export default function HomePage() {
                 Book Online
               </button>
               <a
-                href="tel:973-671-5500"
+                href="tel:908-264-2357"
                 className="bg-white text-gray-800 hover:bg-gray-300 px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg font-semibold transition-all duration-300 text-xs sm:text-base text-center w-full sm:w-auto"
               >
                 Call Now
@@ -512,7 +512,7 @@ export default function HomePage() {
             </div>
 
             {/* <Fade> */}
-            <a href="tel:973-671-5500">
+            <a href="tel:908-264-2357">
               <Button className="bg-primary hover:bg-secondary/80 text-white px-3 py-2 rounded-md text-sm  font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 cursor-pointer">
                 CALL TODAY!
               </Button>

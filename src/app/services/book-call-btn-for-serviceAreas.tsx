@@ -18,7 +18,7 @@ const BookCallBtnForServiceAreas: React.FC = () => {
             <span className="text-[12px] md:text-base">
               Call Us for Booking
             </span>
-            973-671-5500
+            908-264-2357
           </a>
           <button
             onClick={() => setIsBookingOpen(true)}

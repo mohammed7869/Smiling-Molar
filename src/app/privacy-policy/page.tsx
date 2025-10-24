@@ -30,7 +30,7 @@ const privacySections = [
   },
   {
     title: "Contact Information",
-    content: `Please contact us by phone at 973-671-5500 or by mail at 1585 Springfield Avenue, Store #1, Maplewood, NJ 07040`,
+    content: `Please contact us by phone at 908-264-2357 or by mail at 1585 Springfield Avenue, Store #1, Maplewood, NJ 07040`,
   },
 ];
 
