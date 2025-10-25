@@ -5,7 +5,7 @@ import { useWorkingHours } from "@/lib/hooks/useWorkingHours";
 export default function ContactInfo() {
   const { workingHours, loading, getCurrentStatus } = useWorkingHours();
   return (
-    <div className="relative bg-[#0087CE] rounded-lg p-8 text-white shadow-lg overflow-hidden">
+    <div className="relative bg-primary/90 rounded-lg p-8 text-white shadow-lg overflow-hidden">
       {/* Background Image */}
       {/* <div className="absolute inset-0 opacity-10">
         <img

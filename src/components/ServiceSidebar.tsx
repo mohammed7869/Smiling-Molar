@@ -92,7 +92,7 @@ export default function ServiceSidebar({
         `}
         style={{ minWidth: 260, maxWidth: 320 }}
       >
-        <div className="p-6 border-b bg-[#0087ce] sticky top-0 z-30">
+        <div className="p-6 border-b bg-primary sticky top-0 z-30">
           <div className="flex items-center justify-between">
             <h2 className="text-xl text-center font-bold text-white flex-1 lg:text-center lg:mt-5">
               Our Services
@@ -122,7 +122,7 @@ export default function ServiceSidebar({
                   <img
                     src={service.icon}
                     alt={service.name}
-                    className="w-4 h-4 ml-2 object-contain group-hover:filter group-hover:brightness-0 group-hover:invert"
+                    className="w-4 h-4 ml-2 object-contain icon-primary-filter primary-icon"
                   />
                   <span className="font-medium text-base truncate group-hover:text-white transition-colors duration-200">
                     {service.name}

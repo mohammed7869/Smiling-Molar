@@ -238,7 +238,7 @@ export default function ServicesSection() {
                         <img
                           src={service.icon}
                           alt={service.iconAlt}
-                          className="w-5 h-5"
+                          className="w-5 h-5 primary-icon"
                         />
                         {service.title}
                       </h3>
@@ -294,7 +294,7 @@ export default function ServicesSection() {
                         <img
                           src={service.icon}
                           alt={service.iconAlt}
-                          className="w-8 h-8"
+                          className="w-8 h-8 primary-icon"
                         />
                         {service.title}
                       </h3>

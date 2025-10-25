@@ -393,7 +393,7 @@ export default function HomePage() {
                   alt={service.title}
                   width={64}
                   height={64}
-                  className="w-16 h-16 mb-4"
+                  className="w-16 h-16 mb-4 primary-icon"
                   loading="lazy"
                   quality={95} // High quality for icons
                 />

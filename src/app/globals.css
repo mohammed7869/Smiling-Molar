@@ -1523,3 +1523,26 @@ section.hero .location-box {
     border-radius: 30px 0px 30px 0px;
   }
 }
+
+/* Icon color filter for primary color (#1a5296) */
+.primary-icon {
+  filter: 
+    /* Convert the original blue (#0175e4) to our primary color (#1a5296) */ hue-rotate(
+      -15deg
+    )
+    saturate(0.8) brightness(0.7) contrast(1.2);
+}
+
+/* Alternative approach using CSS custom properties for more precise color control */
+.primary-icon-alt {
+  filter: 
+    /* More precise color conversion from #0175e4 to #1a5296 */ hue-rotate(
+      -12deg
+    )
+    saturate(0.85) brightness(0.75) contrast(1.15);
+}
+
+/* Make icon white on hover when inside a group */
+.group:hover .icon-primary-filter {
+  filter: brightness(0) invert(1);
+}

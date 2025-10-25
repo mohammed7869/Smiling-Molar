@@ -109,7 +109,7 @@ export default function ContactForm() {
         {/* Header */}
         <div className="relative z-10 mb-8">
           <div className="flex items-center gap-3 mb-2">
-            <div className="w-10 h-10 bg-[#0087CE] rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
               <MessageSquare className="w-5 h-5 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-gray-800">Get In Touch</h3>

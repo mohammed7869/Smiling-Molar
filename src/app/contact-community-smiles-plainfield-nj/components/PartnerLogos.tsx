@@ -39,7 +39,7 @@ export default function PartnerLogos() {
                   alt={partner.name}
                   width={40}
                   height={40}
-                  className="object-contain"
+                  className="object-contain primary-icon"
                 />
               </div>
               <h3 className="font-semibold text-foreground text-sm">

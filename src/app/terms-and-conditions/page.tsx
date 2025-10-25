@@ -213,7 +213,7 @@ export default function TermsAndConditions() {
               <div className="text-center mt-6 sm:mt-8">
                 <Button
                   asChild
-                  className="bg-[#0087CE] hover:bg-primary/90 text-sm sm:text-base px-4 sm:px-6 py-2 sm:py-3"
+                  className="bg-primary hover:bg-primary/90 text-sm sm:text-base px-4 sm:px-6 py-2 sm:py-3"
                 >
                   <a href="/contact-tulip-dental-maplewood-nj">Contact Us</a>
                 </Button>

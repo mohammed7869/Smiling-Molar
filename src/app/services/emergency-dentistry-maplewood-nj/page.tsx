@@ -194,7 +194,7 @@ export default function EmergencyDentistryPage() {
                     <img
                       src={service.icon}
                       alt={service.title}
-                      className="w-12 h-12 mb-2"
+                      className="w-12 h-12 mb-2 primary-icon"
                     />
                     <h3>{service.title}</h3>
                   </div>

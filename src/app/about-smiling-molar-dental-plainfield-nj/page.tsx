@@ -185,7 +185,7 @@ export default function AboutUsClient() {
                 <img
                   src={feature.icon}
                   alt={feature.title}
-                  className="w-8 h-8 sm:w-12 sm:h-12 mt-1 "
+                  className="w-8 h-8 sm:w-12 sm:h-12 mt-1 primary-icon"
                   loading="lazy"
                 />
 
