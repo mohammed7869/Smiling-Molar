@@ -163,7 +163,7 @@ export default function SportsDentistryPage() {
               {/* <Zoom cascade damping={0.3} duration={800}> */}
               <img
                 className="bdr-doctor-img"
-                src="/Images/top-reasons.webp"
+                src="/Images/about-hand.avif"
                 alt="Expert Dentist at Tulip Dental Maplewood"
               />
               {/* </Zoom> */}

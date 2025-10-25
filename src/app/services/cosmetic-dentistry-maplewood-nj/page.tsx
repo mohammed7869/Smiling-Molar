@@ -163,7 +163,7 @@ export default function CosmeticDentistryPage() {
               <Zoom cascade damping={0.3} duration={800}>
                 <img
                   className="bdr-doctor-img"
-                  src="/Images/top-reasons.webp"
+                  src="/Images/about-hand.avif"
                   alt="Expert Cosmetic Dentist at Smiling Molar Dental in Plainfield"
                 />
               </Zoom>
