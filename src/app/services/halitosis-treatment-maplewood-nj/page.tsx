@@ -159,7 +159,7 @@ export default function Page() {
               {/* <Zoom cascade damping={0.3} duration={800}> */}
               <img
                 className="bdr-doctor-img"
-                src="/Images/about-hand.avif"
+                src="/Images/about-hand.jpg"
                 alt="Expert Team at Smiling Molar Dental in Plainfield"
               />
               {/* </Zoom> */}

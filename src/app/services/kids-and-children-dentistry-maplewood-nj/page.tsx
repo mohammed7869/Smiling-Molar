@@ -167,7 +167,7 @@ export default function KidsAndChildrenPage() {
               {/* <Zoom cascade damping={0.3} duration={800}> */}
               <img
                 className="bdr-doctor-img"
-                src="/Images/about-hand.avif"
+                src="/Images/about-hand.jpg"
                 alt="Expert Dentist at Tulip Dental Maplewood"
               />
               {/* </Zoom> */}
